@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PENSight - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-screen flex flex-col bg-[radial-gradient(circle,_#3137cd_10%,_#f1eae7_100%)]">
+
+    <!-- Header -->
+    <header class="w-full p-4 bg-blue-900 text-white text-center font-bold text-lg shadow-md">
+        PENSight
+    </header>
+
+    <!-- Konten Utama -->
+    <div class="flex flex-col md:flex-row items-center justify-between w-11/12 md:w-3/4 mx-auto flex-grow">
+        <!-- Bagian Kiri (Teks dan Tombol) -->
+        <div class="text-left md:w-1/2">
+            <h1 class="text-8xl md:text-7xl font-bold text-black leading-snug">
+                #PENSight Tentukan <br> pilihan jurusan mu
+            </h1>
+            <a href="{% url 'next_page' %}">
+                <button class="mt-10 ml-6 bg-white text-blue-900 px-10 py-4 rounded-full text-xl font-extrabold shadow-md hover:bg-gray-200">
+                    START NOW
+                </button>
+            </a>
+        </div>
+
+        <!-- Bagian Kanan (Gambar Handphone) -->
+        <div class="mt-8 mb-20 md:w-1/2 h-auto flex justify-end">
+            <img src="UIUX.svg" alt="PENSight" class="scale-125">
+        </div>
+    </div>
+
+</body>
+</html>
