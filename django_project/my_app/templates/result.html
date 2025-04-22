@@ -1,0 +1,124 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PENSight - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="h-screen flex flex-col bg-[radial-gradient(circle,_#3137cd_10%,_#f1eae7_100%)]">
+    <!-- Header    -->
+    <header class="w-full p-8 bg-[#464bd0] font-bold text-lg shadow-md font-sans flex gap-3">
+        <img src="{% static 'icon_page.svg'%}" class="w-20 h-auto" alt="Icon"> 
+        <span class="text-3xl text-[#d9d9d9]">Hai Sobat PENSeek!!</span>
+    </header>    
+    
+    <p class="ml-20 mt-14 text-4xl font-medium font-[Alexandria] text-[#0a3d83]">Rekomendasi Jurusan</p>
+        
+    <!-- Card -->
+    <div class="mt-8 bg-white rounded-3xl shadow-lg border-2 border-blue-900 mx-auto w-2/3">
+        <button onclick="toggleDetail()" 
+            class="flex justify-between items-center w-full text-blue-900 font-bold text-4xl font-bold p-6 px-8">
+            Sains Data Terapan
+            <span id="icon">Lihat Detail ▼</span>
+        </button>
+
+            <!-- Detail (Hidden by Default) -->
+            <div id="detail" class="p-4 border-t-2 border-blue-900 hidden">
+                <h3 class="font-bold text-blue-900">Tentang Sains Data Terapan</h3>
+                <p class="text-sm text-blue-900">
+                    Sains Data Terapan adalah program studi yang nalbaladofanfnoefnodfnsodfnsdfj.
+                </p>
+
+                <h3 class="mt-2 font-bold text-blue-900">RPS</h3>
+                <ul class="text-sm text-blue-900 ml-4">
+                    <li>Semester - 1</li>
+                    <li>Semester - 2</li>
+                </ul>
+
+                <h3 class="mt-2 font-bold text-blue-900">Link Website</h3>
+                <a href="https://www.sainsdatapens.ac.id/" class="text-blue-600 underline">
+                    https://www.sainsdatapens.ac.id/
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="mt-8 bg-white rounded-3xl shadow-lg border-2 border-blue-900 mx-auto w-2/3">
+        <button onclick="toggleDetail()" 
+            class="flex justify-between items-center w-full text-blue-900 font-bold text-4xl font-bold p-6 px-8">
+            Teknik Informatika
+            <span id="icon">Lihat Detail ▼</span>
+        </button>
+
+            <!-- Detail (Hidden by Default) -->
+            <div id="detail" class="p-4 border-t-2 border-blue-900 hidden">
+                <h3 class="font-bold text-blue-900">Tentang Sains Data Terapan</h3>
+                <p class="text-sm text-blue-900">
+                    Sains Data Terapan adalah program studi yang nalbaladofanfnoefnodfnsodfnsdfj.
+                </p>
+
+                <h3 class="mt-2 font-bold text-blue-900">RPS</h3>
+                <ul class="text-sm text-blue-900 ml-4">
+                    <li>Semester - 1</li>
+                    <li>Semester - 2</li>
+                </ul>
+
+                <h3 class="mt-2 font-bold text-blue-900">Link Website</h3>
+                <a href="https://www.sainsdatapens.ac.id/" class="text-blue-600 underline">
+                    https://www.sainsdatapens.ac.id/
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-8 bg-white rounded-3xl shadow-lg border-2 border-blue-900 mx-auto w-2/3">
+        <button onclick="toggleDetail()" 
+            class="flex justify-between items-center w-full text-blue-900 font-bold text-4xl font-bold p-6 px-8">
+            Teknik Komputer
+            <span id="icon">Lihat Detail ▼</span>
+        </button>
+
+            <!-- Detail (Hidden by Default) -->
+            <div id="detail" class="p-4 border-t-2 border-blue-900 hidden">
+                <h3 class="font-bold text-blue-900">Tentang Sains Data Terapan</h3>
+                <p class="text-sm text-blue-900">
+                    Sains Data Terapan adalah program studi yang nalbaladofanfnoefnodfnsodfnsdfj.
+                </p>
+
+                <h3 class="mt-2 font-bold text-blue-900">RPS</h3>
+                <ul class="text-sm text-blue-900 ml-4">
+                    <li>Semester - 1</li>
+                    <li>Semester - 2</li>
+                </ul>
+
+                <h3 class="mt-2 font-bold text-blue-900">Link Website</h3>
+                <a href="https://www.sainsdatapens.ac.id/" class="text-blue-600 underline">
+                    https://www.sainsdatapens.ac.id/
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function toggleDetail() {
+            const detail = document.getElementById('detail');
+            const icon = document.getElementById('icon');
+
+            if (detail.classList.contains('hidden')) {
+                detail.classList.remove('hidden');
+                icon.textContent = 'Lihat Detail ▲';
+            } else {
+                detail.classList.add('hidden');
+                icon.textContent = 'Lihat Detail ▼';
+            }
+        }
+    </script>
+
+</body>
+</html>

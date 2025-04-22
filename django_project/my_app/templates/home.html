@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -10,7 +12,7 @@
 
     <!-- Header -->
     <header class="w-full p-8 bg-[#464bd0] font-bold text-lg shadow-md font-sans flex gap-3">
-        <img src="./icon_page.svg" class="w-16 h-auto" alt="Icon"> 
+        <img src="{% static 'icon_page.svg'%}" class="w-20 h-auto" alt="Icon"> 
         <span class="text-3xl text-[#d9d9d9]">Hai Sobat PENSeek!!</span>
     </header>    
 
@@ -22,17 +24,15 @@
             <h1 class="lg:text-7xl font-bold text-black leading-snug">
                 #PENSight Tentukan <br> pilihan jurusan mu
             </h1>
-                <button class="drop-shadow-[0px_10px_0px_rgba(0,0,0,0.5)] mt-10 bg-white text-blue-900 px-10 py-4 rounded-3xl text-2xl font-extrabold shadow-md hover:bg-gray-200">
-                    START NOW
+                <button type="button" class="drop-shadow-[0px_10px_0px_rgba(0,0,0,0.5)] mt-10 bg-white text-blue-900 px-10 py-4 rounded-3xl text-2xl font-extrabold shadow-md hover:bg-gray-200">
+                    <a href="{% url 'input_page' %}">START NOW</a>
                 </button>
-            <!-- </a> -->
         </div>
 
         <!-- Bagian Kanan (Gambar Handphone) -->
         <div class="flex-1 flex justify-end">
-            <img src="./UIUX.svg" alt="PENSight" class="w-full w-3/2 md:max-w-[700px] object-contain">
+            <img src="{% static 'UIUX.svg'%}"alt="PENSight" class="w-full w-3/2 md:max-w-[700px] object-contain">
         </div>
     </div>
-
 </body>
 </html>
