@@ -10,12 +10,12 @@
     <title>PENSight - Home</title>
 </head>
 
-<body class="h-screen flex flex-col bg-[radial-gradient(circle,_#3137cd_10%,_#f1eae7_100%)]"> 
+<body class="h-screen flex flex-col bg-[radial-gradient(circle,_#3137cd_10%,_#f1eae7_100%)]">
+
     <!-- Header -->
-    <header class="w-full p-8 bg-[#464bd0] font-bold font-alexandria text-lg shadow-md flex items-center justify-between">
+    <header class="w-full p-8 bg-[#464bd0] font-bold font-alexandria text-lg shadow-md font-sans flex items-center justify-between">
         <div class="flex items-center gap-3">
-            <img src="{% static 'icon_page.svg'%}" class="w-20 h-auto" alt="Icon"> 
-            <span class="text-3xl text-[#d9d9d9]">Hai Sobat PENSeek!!</span>
+            <span class="text-3xl text-[#d9d9d9]">KUOTA SNBT</span>
         </div>
 
         <div class="flex items-center gap-3">
@@ -45,25 +45,38 @@
             <li><a href="http://127.0.0.1:8000/input_page/" class="hover:text-yellow-300 font-semibold">Rekomendasi Prodi</a></li>
         </ul>
     </div>
-
-    <!-- Konten Utama -->
-    <div class="flex flex-col md:flex-row items-center justify-between  mx-auto flex-grow px-6">
-        <!-- Bagian Kiri (Teks dan Tombol) -->
-        <div class="w-32 flex-none"></div>
-        <div class="flex-1 ml-12 max-w-[100%] md:max-w-[110%] lg:max-w-[110%]">
-            <h1 class="lg:text-7xl font-bold text-black leading-snug">
-                #PENSight Tentukan <br> pilihan jurusan mu
-            </h1>
-                <button type="button" class="drop-shadow-[0px_10px_0px_rgba(0,0,0,0.5)] mt-10 bg-white text-blue-900 px-10 py-4 rounded-3xl text-2xl font-extrabold shadow-md hover:bg-gray-200">
-                    <a href="{% url 'input_page' %}">START NOW</a>
-                </button>
-        </div>
-
-        <!-- Bagian Kanan (Gambar Handphone) -->
-        <div class="flex-1 flex justify-end">
-            <img src="{% static 'UIUX.svg'%}"alt="PENSight" class="w-full w-3/2 md:max-w-[700px] object-contain">
+    
+    <div class="mx-24 space-y-12 mt-10"> 
+    <!-- S.Tr Section -->
+        <div>
+            <div class="grid grid-cols-5 gap-6 items-start">
+                <h2 class=" col-span-1 text-6xl font-bold text-center py-48">S.Tr</h2>
+                <!-- Kolom Kiri -->
+            <div class="col-span-2 flex justify-center">
+                <img src="{% static 'str_snbt.png' %}" alt="str_snbp" class="w-[928px] h-[auto]">
+            </div>
+            <!-- Kolom Kanan -->
+            <div class="col-span-2 flex justify-center">
+                <img src="{% static 'str_snbt(2).png' %}" alt="str_snbp" class="mt-6 w-[928px] h-auto">
+            </div>
         </div>
     </div>
+    
+    <!-- D-III Section -->
+    <div>
+        <div class="grid grid-cols-5 gap-6 items-start">
+            <h2 class="col-span-1 text-6xl font-bold text-center py-20">D-III</h2>
+            <!-- Kolom Kiri -->
+            <div class="col-span-2 flex justify-center">
+                <img src="{% static 'd3_snbt.png' %}" alt="d3_snbp" class="w-[928px] h-auto">
+            </div>
+            <!-- Kolom Kanan -->
+            <div class="col-span-2 flex justify-center">
+                <img src="{% static 'd3_snbt(2).png' %}" alt="d3_snbp" class="mt-4 w-[928px] h-auto">
+            </div>
+        </div>
+    </div>
+    
 </body>
 
 <script>

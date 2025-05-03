@@ -20,9 +20,14 @@ from my_app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls), 
-    path('home_page/', views.home_page, name='home_page'),
+    path('', views.home_page, name='home_page'),
+    path('about_page/', views.about_page, name='about_page'),
     path('input_page/', views.input_page, name='input_page'),
     path('result_page/', views.result_page, name='result_page'),
+    path('kuota_prodi/', views.prodi_page, name='prodi_page'),
+    path('kuota_snbt/', views.snbt_page, name='snbt_page'),
+    path('kuota_snbp/', views.snbp_page, name='snbp_page'),
+    path('kuota_mandiri/', views.mandiri_page, name='mandiri_page'),
 
 
     path('api/list_matkul/<int:id_prodi_id>', views.list_matkul, name='list_matkul'),
