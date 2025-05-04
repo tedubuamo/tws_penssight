@@ -26,11 +26,3 @@ def snbt_page(request):
 
 def mandiri_page(request):
     return render(request,'kuota_mandiri.html')
-
-def list_matkul(request, id_prodi_id):
-    list_matkul = Matkul.objects.filter(id_prodi_id=id_prodi_id).values()
-    return JsonResponse(list(list_matkul), safe=False)
-
-def prodi(request, id_prodi):
-    list_prodi = InfoProdi.objects.filter(id_prodi=id_prodi).values()
-    return JsonResponse(list(list_prodi), safe=False)
