@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/890998468795171279/73f686c243ea4cbb9162e755929da38a/artifacts
+end_time: 1747207047435
+entry_point_name: ''
+experiment_id: '890998468795171279'
+lifecycle_stage: active
+run_id: 73f686c243ea4cbb9162e755929da38a
+run_name: nebulous-cow-381
+run_uuid: 73f686c243ea4cbb9162e755929da38a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747207036100
+status: 3
+tags: []
+user_id: USER

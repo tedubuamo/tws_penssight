@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1747206834162
+current_stage: None
+description: ''
+last_updated_timestamp: 1747206834162
+name: DecisionTreeClassifierProgramStudi
+run_id: 5c754d9f37e34241b0ef0b7e216651e9
+run_link: ''
+source: mlflow-artifacts:/853228459412062912/5c754d9f37e34241b0ef0b7e216651e9/artifacts/decision_tree_model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/853228459412062912/5c754d9f37e34241b0ef0b7e216651e9/artifacts/decision_tree_model
+user_id: null
+version: 2

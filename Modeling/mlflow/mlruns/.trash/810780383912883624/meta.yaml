@@ -1,0 +1,7 @@
+artifact_location: mlflow-artifacts:/810780383912883624
+creation_time: 1747207252479
+experiment_id: '810780383912883624'
+last_update_time: 1747207404939
+lifecycle_stage: deleted
+name: Tuned_DecisionTree_ProgramStudi_Classification
+tags: {}

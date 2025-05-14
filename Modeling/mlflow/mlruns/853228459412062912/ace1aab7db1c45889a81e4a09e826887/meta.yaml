@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/853228459412062912/ace1aab7db1c45889a81e4a09e826887/artifacts
+end_time: 1747207415787
+entry_point_name: ''
+experiment_id: '853228459412062912'
+lifecycle_stage: active
+run_id: ace1aab7db1c45889a81e4a09e826887
+run_name: debonair-pug-756
+run_uuid: ace1aab7db1c45889a81e4a09e826887
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747207407675
+status: 3
+tags: []
+user_id: USER

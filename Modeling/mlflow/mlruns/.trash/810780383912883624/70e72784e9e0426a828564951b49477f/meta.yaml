@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/810780383912883624/70e72784e9e0426a828564951b49477f/artifacts
+deleted_time: 1747207404939
+end_time: 1747207268252
+entry_point_name: ''
+experiment_id: '810780383912883624'
+lifecycle_stage: deleted
+run_id: 70e72784e9e0426a828564951b49477f
+run_name: classy-worm-674
+run_uuid: 70e72784e9e0426a828564951b49477f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747207252544
+status: 3
+tags: []
+user_id: USER
