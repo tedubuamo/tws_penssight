@@ -1,0 +1,82 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>PENSight - Home</title>
+</head>
+
+<body class="h-screen flex flex-col bg-[radial-gradient(circle,_#3137cd_10%,_#f1eae7_100%)]">
+
+    <!-- Header -->
+    <header class="w-full p-8 bg-[#464bd0] font-bold font-alexandria text-lg shadow-md font-sans flex items-center justify-between">
+        <div class="flex items-center gap-3">
+            <img src="{% static 'icon_page.svg'%}" class="w-20 h-auto" alt="Icon"> 
+            <span class="text-3xl text-[#d9d9d9]">Hai Sobat PENSeek!!</span>
+        </div>
+
+        <div class="flex items-center gap-3">
+            <span class="text-white text-3xl font-bold font-alexandria">MENU</span>
+            <button onclick="toggleSidebar()" class="text-white hover:text-yellow-300 transition">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" 
+                    stroke="currentColor" class="w-10 h-10">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                        d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+    </header>    
+
+    <!-- Sidebar Menu -->
+    <div id="sidebar" class="fixed top-0 right-0 h-full w-72 bg-[#464bd0] text-white p-8 transform translate-x-full transition-transform duration-300 ease-in-out z-50">
+        <div class="flex justify-between items-center mb-8">
+            <h2 class="text-3xl font-bold font-alexandria">MENU</h2>
+            <button onclick="toggleSidebar()" class="text-white text-2xl font-bold hover:text-yellow-300">
+                &times;
+            </button>
+        </div>
+        <ul class="space-y-4 text-lg font-alexandria">
+            <li><a href="http://127.0.0.1:8000/" class="hover:text-yellow-300 font-semibold">Home</a></li>
+            <li><a href="http://127.0.0.1:8000/about_page/" class="hover:text-yellow-300 font-semibold">Tentang PENSight</a></li>
+            <li><a href="http://127.0.0.1:8000/kuota_prodi/" class="hover:text-yellow-300 font-semibold">Kuota Prodi</a></li>
+            <li><a href="http://127.0.0.1:8000/input_page/" class="hover:text-yellow-300 font-semibold">Rekomendasi Prodi</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <!-- Judul dan Subjudul -->
+        <h1 class="mt-20 ml-28 text-6xl font-poppins font-bold text-black mb-2">Kuota Prodi</h1>
+        <p class="ml-28 text-5xl text-black mb-10">Pilih jalur masuk!</p>
+    
+        <!-- Tombol Jalur Masuk -->
+        <div class="flex justify-center items-center">
+            <div class="flex flex-col items-center space-y-10">
+                <a href="{% url 'snbp_page' %}" class="block w-[500px] bg-white py-6 rounded-2xl shadow-md drop-shadow-[-12px_15px_0px_rgba(0,0,0,0.6)] text-3xl font-semibold text-center hover:bg-gray-200">
+                    SNBP
+                </a>
+                <a href="{% url 'snbt_page' %}" class="block w-[500px] bg-white py-6 rounded-2xl shadow-md drop-shadow-[-12px_15px_0px_rgba(0,0,0,0.5)] text-3xl font-semibold text-center hover:bg-gray-200">
+                    SNBT
+                </a>
+                <a href="{% url 'mandiri_page' %}" class="block w-[500px] bg-white py-6 rounded-2xl shadow-md drop-shadow-[-12px_15px_0px_rgba(0,0,0,0.5)] text-3xl font-semibold text-center hover:bg-gray-200">
+                    SIMANDIRI
+                </a>
+            </div>
+        </div>        
+    </div>
+    
+</body>
+
+<script>
+    function toggleSidebar() {
+        const sidebar = document.getElementById('sidebar');
+        sidebar.classList.toggle('translate-x-full');
+        sidebar.classList.toggle('translate-x-0');
+    }
+</script>
+
+</html>
