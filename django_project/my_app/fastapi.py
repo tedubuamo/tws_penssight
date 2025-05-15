@@ -8,7 +8,7 @@ import os
 import django
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "django_project.settings")
 django.setup()
-from .models import InfoProdi, UserForML, Matkul
+from .models import InfoProdi, Matkul, History_Rekomendasi
 
 app = FastAPI()
 
@@ -28,42 +28,56 @@ rekomendasi_cache = {}
 
 @app.post("/rekomendasi_prodi")
 async def rekomendasi(data_user: InputData):
-    model = joblib.load(model_path)
-    metadata = joblib.load(metadata_path)
+    try:
+        model = joblib.load(model_path)
+        metadata = joblib.load(metadata_path)
 
-    minat_bakat_columns = metadata['minat_bakat_columns']
-    X_columns = metadata['X_columns']
-    reverse_mapping = metadata['reverse_mapping']
+        minat_bakat_columns = metadata['minat_bakat_columns']
+        X_columns = metadata['X_columns']
+        reverse_mapping = metadata['reverse_mapping']
 
-    # Buat DataFrame dari input
-    data_df = pd.DataFrame([{
-        'Jenjang Pendidikan': data_user.Jenjang_Pendidikan,
-        'Minat dan Bakat': data_user.Minat_dan_Bakat,
-        'Jalur Pendaftaran PENS': data_user.Jalur_Pendaftaran_PENS,
-        'Rencana Karir': data_user.Rencana_Karir,
-        'Rata-rata Nilai Masuk PENS': data_user.Rata_rata_Nilai_Masuk_PENS
-    }])
+        # Buat DataFrame dari input
+        data_df = pd.DataFrame([{
+            'Jenjang Pendidikan': data_user.Jenjang_Pendidikan,
+            'Minat dan Bakat': data_user.Minat_dan_Bakat,
+            'Jalur Pendaftaran PENS': data_user.Jalur_Pendaftaran_PENS,
+            'Rencana Karir': data_user.Rencana_Karir,
+            'Rata-rata Nilai Masuk PENS': data_user.Rata_rata_Nilai_Masuk_PENS
+        }])
 
-    # Proses 'Minat dan Bakat'
-    minat_bakat_dummies = data_df['Minat dan Bakat'].str.get_dummies(sep=', ')
-    for col in minat_bakat_columns:
-        if col not in minat_bakat_dummies.columns:
-            minat_bakat_dummies[col] = 0
-    minat_bakat_dummies = minat_bakat_dummies[minat_bakat_columns]
+        # Proses 'Minat dan Bakat'
+        minat_bakat_dummies = data_df['Minat dan Bakat'].str.get_dummies(sep=', ')
+        for col in minat_bakat_columns:
+            if col not in minat_bakat_dummies.columns:
+                minat_bakat_dummies[col] = 0
+        minat_bakat_dummies = minat_bakat_dummies[minat_bakat_columns]
 
-    # Gabung dan urutkan kolom
-    data_baru_processed = data_df.drop('Minat dan Bakat', axis=1)
-    data_baru_final = pd.concat([data_baru_processed, minat_bakat_dummies], axis=1)
-    data_baru_final = data_baru_final[X_columns]
+        # Gabung dan urutkan kolom
+        data_baru_processed = data_df.drop('Minat dan Bakat', axis=1)
+        data_baru_final = pd.concat([data_baru_processed, minat_bakat_dummies], axis=1)
+        data_baru_final = data_baru_final[X_columns]
 
-    # Prediksi
-    prediksi = model.predict(data_baru_final)[0]
-    hasil = reverse_mapping[prediksi]
+        # Prediksi
+        prediksi = model.predict(data_baru_final)[0]
+        hasil = reverse_mapping[prediksi]
 
-    # Simpan ke dictionary sementara
-    rekomendasi_cache["hasil"] = hasil
+        # Simpan ke dictionary sementara
+        rekomendasi_cache["hasil"] = hasil
 
-    return {"Program Studi": hasil}
+        await sync_to_async(History_Rekomendasi.objects.create)(
+            jenjang_pendidikan=data_user.Jenjang_Pendidikan,
+            minat_dan_bakat=', '.join(data_user.Minat_dan_Bakat),
+            jalur_pendaftaran_pens=data_user.Jalur_Pendaftaran_PENS,
+            rencana_karir=data_user.Rencana_Karir,
+            rata_rata_nilai_masuk_pens=data_user.Rata_rata_Nilai_Masuk_PENS,
+            hasil_rekomendasi=hasil
+        )
+
+        return {"Program Studi": hasil}
+
+    except Exception as e:
+        print("Terjadi error:", str(e))
+        return {"error": str(e)}
 
 @app.get("/hasil_rekomendasi")
 async def hasil():
@@ -94,20 +108,20 @@ async def hasil():
     return {
         "prodi": nama_prodi,
         "deskripsi_singkat" : deskripsi_singkat,
-        "matkul_smt1_d3" : matkul.matkul_smt1_d3,
-        "matkul_smt2_d3" : matkul.matkul_smt2_d3,
-        "matkul_smt3_d3" : matkul.matkul_smt3_d3,
-        "matkul_smt4_d3" : matkul.matkul_smt4_d3,
-        "matkul_smt5_d3" : matkul.matkul_smt5_d3,
-        "matkul_smt6_d3" : matkul.matkul_smt6_d3,
-        "matkul_smt1_d4" : matkul.matkul_smt1_d4,
-        "matkul_smt2_d4" : matkul.matkul_smt2_d4,
-        "matkul_smt3_d4" : matkul.matkul_smt3_d4,
-        "matkul_smt4_d4" : matkul.matkul_smt4_d4,
-        "matkul_smt5_d4" : matkul.matkul_smt5_d4,
-        "matkul_smt6_d4" : matkul.matkul_smt6_d4,
-        "matkul_smt7_d4" : matkul.matkul_smt7_d4,
-        "matkul_smt8_d4" : matkul.matkul_smt8_d4,
-        "prospek_kerja" : matkul.prospek_kerja,
-        "link_website" : matkul.link_website,
+        "matkul_smt1_d3" : matkul_smt1_d3,
+        "matkul_smt2_d3" : matkul_smt2_d3,
+        "matkul_smt3_d3" : matkul_smt3_d3,
+        "matkul_smt4_d3" : matkul_smt4_d3,
+        "matkul_smt5_d3" : matkul_smt5_d3,
+        "matkul_smt6_d3" : matkul_smt6_d3,
+        "matkul_smt1_d4" : matkul_smt1_d4,
+        "matkul_smt2_d4" : matkul_smt2_d4,
+        "matkul_smt3_d4" : matkul_smt3_d4,
+        "matkul_smt4_d4" : matkul_smt4_d4,
+        "matkul_smt5_d4" : matkul_smt5_d4,
+        "matkul_smt6_d4" : matkul_smt6_d4,
+        "matkul_smt7_d4" : matkul_smt7_d4,
+        "matkul_smt8_d4" : matkul_smt8_d4,
+        "prospek_kerja" : prospek_kerja,
+        "link_website" : link_website,
     }

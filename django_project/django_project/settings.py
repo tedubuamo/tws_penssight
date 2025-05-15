@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'django_project.wsgi.application'
 DATABASES = {
     'default': { 
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'project_tws_2',
+        'NAME': 'PENSight_db',
         'USER': 'postgres',
-        'PASSWORD': 'ardiansyah29',
+        'PASSWORD': 'bismillah',
         'HOST': 'localhost',
         'PORT': '5432',
     }

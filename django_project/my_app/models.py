@@ -47,3 +47,16 @@ class UserForML(models.Model):
     class Meta:
         managed = False
         db_table = 'userforml'
+
+class History_Rekomendasi(models.Model):
+    id_prodi = models.AutoField(primary_key=True)
+    jenjang_pendidikan = models.CharField(max_length=100)
+    minat_dan_bakat = models.TextField()
+    jalur_pendaftaran_pens = models.CharField(max_length=100)
+    rencana_karir = models.CharField(max_length=100)
+    rata_rata_nilai_masuk_pens = models.FloatField()
+    hasil_rekomendasi = models.CharField(max_length=100)
+
+    class Meta:
+        managed = False
+        db_table = 'history_rekomendasi'
