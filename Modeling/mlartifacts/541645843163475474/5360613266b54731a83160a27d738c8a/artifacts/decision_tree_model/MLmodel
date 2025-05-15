@@ -1,0 +1,44 @@
+artifact_path: decision_tree_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.2
+is_signature_from_type_hint: false
+mlflow_version: 2.21.3
+model_size_bytes: 20907
+model_uuid: e53d8b700ce94c08a4ca4347023e6bad
+prompts: null
+run_id: 5360613266b54731a83160a27d738c8a
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "string", "name": "Jenjang Pendidikan", "required": true}, {"type":
+    "string", "name": "Jalur Pendaftaran PENS", "required": true}, {"type": "double",
+    "name": "Rata-rata Nilai Masuk PENS", "required": true}, {"type": "string", "name":
+    "Rencana Karir", "required": true}, {"type": "long", "name": "Desain Animasi",
+    "required": true}, {"type": "long", "name": "Desain Grafis", "required": true},
+    {"type": "long", "name": "Elektronika", "required": true}, {"type": "long", "name":
+    "Fisika", "required": true}, {"type": "long", "name": "Kimia", "required": true},
+    {"type": "long", "name": "Matematika", "required": true}, {"type": "long", "name":
+    "Multimedia", "required": true}, {"type": "long", "name": "Pemrograman", "required":
+    true}, {"type": "long", "name": "Statistika", "required": true}, {"type": "long",
+    "name": "Teknik Instalasi Tenaga Listrik (TITL)", "required": true}, {"type":
+    "long", "name": "Teknik Tenaga Listrik (TTL)", "required": true}, {"type": "long",
+    "name": "Teknologi Komputer Jaringan (TKJ)", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-05-14 07:49:52.031230'
