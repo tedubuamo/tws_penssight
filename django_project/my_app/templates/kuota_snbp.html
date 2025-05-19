@@ -17,11 +17,11 @@
 
 <body class="min-h-screen bg-gradient-to-br from-white via-blue-50 to-blue-200 text-blue-900 flex flex-col">
     <!-- Header -->
-    <header class="bg-white/80 backdrop-blur-md shadow-md px-6 py-4 flex justify-between items-center border-b border-blue-200">
-        <div class="flex items-center gap-3">
-            <img src="{% static 'icon_page.svg' %}" class="w-10 h-10" alt="Icon">
-            <span class="text-2xl font-bold">Kuota SNBP</span>
-        </div>
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md shadow-md px-6 py-4 flex justify-between items-center border-b border-blue-200">
+        <a href="/" class="flex items-center gap-3 hover:opacity-80 transition">
+            <img src="{% static 'icon_page.svg' %}" alt="Icon" class="w-10 h-10" />
+            <h1 class="text-2xl font-bold">Kuota SNBP</h1>
+        </a>
         <div class="flex items-center gap-4">
             <span class="text-lg font-semibold">Menu</span>
             <button onclick="toggleSidebar()" class="hover:text-blue-500 transition">

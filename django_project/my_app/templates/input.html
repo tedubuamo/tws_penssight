@@ -62,11 +62,11 @@
 <body class="min-h-screen bg-gradient-to-br from-white via-blue-50 to-blue-200 text-blue-900 flex flex-col">
 
     <!-- Header -->
-    <header class="bg-white/80 backdrop-blur-md shadow-md px-6 py-4 flex justify-between items-center border-b border-blue-200">
-        <div class="flex items-center gap-3">
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md shadow-md px-6 py-4 flex justify-between items-center border-b border-blue-200">
+        <a href="/" class="flex items-center gap-3 hover:opacity-80 transition">
             <img src="{% static 'icon_page.svg' %}" alt="Icon" class="w-10 h-10" />
             <h1 class="text-2xl font-bold">Hi, Sobat PENSeek!!</h1>
-        </div>
+        </a>
         <div class="flex items-center gap-4">
             <span class="text-lg font-semibold">Menu</span>
             <button onclick="toggleSidebar()" class="hover:text-blue-500 transition">
@@ -104,7 +104,11 @@
             <form onsubmit="return kirimData()" class="space-y-8 max-w-2xl mx-auto">
                 <!-- Minat & Bakat -->
                 <div>
-                    <label for="minatBakat" class="form-label">Minat dan Bakat</label>
+                    <label for="minatBakat" class="form-label">
+                        Minat dan Bakat 
+                        <span class="text-red-500 text-xs">*Maksimal 3</span>
+                    </label>
+                    <!-- <p class="text-sm text-gray-500 mb-2">Maksimal 3 pilihan</p> -->
                     <select id="minatBakat" name="minatBakat[]" multiple class="select-tags w-full text-2xl">
                         <option value="Desain Animasi">Desain Animasi</option>
                         <option value="Desain Grafis">Desain Grafis</option>
