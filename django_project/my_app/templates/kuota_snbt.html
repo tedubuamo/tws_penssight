@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;600;700&display=swap" rel="stylesheet">
-    <title>PENSight - Home</title>
+    <title>PENSight - SNBT</title>
     <style>
         body {
             font-family: 'Alexandria', sans-serif;
@@ -20,10 +20,11 @@
     <!-- Header -->
     <header class="bg-white/80 backdrop-blur-md shadow-md px-6 py-4 flex justify-between items-center border-b border-blue-200">
         <div class="flex items-center gap-3">
-            <span class="text-3xl">KUOTA SNBT</span>
+            <img src="{% static 'icon_page.svg' %}" class="w-10 h-10" alt="Icon">
+            <span class="text-2xl font-bold">Kuota SNBT</span>
         </div>
         <div class="flex items-center gap-4">
-            <span class="text-lg font-semibold">MENU</span>
+            <span class="text-lg font-semibold">Menu</span>
             <button onclick="toggleSidebar()" class="hover:text-blue-500 transition">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -35,7 +36,7 @@
     <!-- Sidebar -->
     <aside id="sidebar" class="fixed top-0 right-0 h-full w-72 bg-white text-blue-900 p-8 transform translate-x-full transition-transform duration-300 z-50 shadow-lg border-l border-blue-200">
         <div class="flex justify-between items-center mb-6">
-            <h2 class="text-2xl font-bold">MENU</h2>
+            <h2 class="text-2xl font-bold">Menu</h2>
             <button onclick="toggleSidebar()" class="text-2xl font-bold hover:text-blue-500">&times;</button>
         </div>
         <ul class="space-y-4 text-lg">
@@ -45,46 +46,40 @@
             <li><a href="/input_page/" class="hover:text-blue-500">Rekomendasi Prodi</a></li>
         </ul>
     </aside>
-    
-    <div class="mx-24 space-y-12 mt-10"> 
-    <!-- S.Tr Section -->
-        <div>
-            <div class="grid grid-cols-5 gap-6 items-start">
-                <h2 class=" col-span-1 text-6xl font-bold text-center py-48">S.Tr</h2>
-                <!-- Kolom Kiri -->
-            <div class="col-span-2 flex justify-center">
-                <img src="{% static 'str_snbt.png' %}" alt="str_snbp" class="w-[928px] h-[auto]">
+
+    <!-- Main Content -->
+    <main class="flex-grow flex flex-col items-center max-w-7xl mx-auto px-8 py-12 space-y-20">
+
+        <!-- S.Tr Section -->
+        <section class="w-full space-y-3">
+            <h2 class="text-3xl font-bold text-center">Program Sarjana Terapan (S.Tr)</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <img src="{% static 'str_snbt.png' %}" alt="S.Tr SNBT 1" class="w-full max-w-md">
+                <img src="{% static 'str_snbt(2).png' %}" alt="S.Tr SNBT 2" class="w-full max-w-md">
             </div>
-            <!-- Kolom Kanan -->
-            <div class="col-span-2 flex justify-center">
-                <img src="{% static 'str_snbt(2).png' %}" alt="str_snbp" class="mt-6 w-[928px] h-auto">
+        </section>
+
+        <!-- D-III Section -->
+        <section class="w-full space-y-3">
+            <h2 class="text-3xl font-bold text-center">Program Diploma 3 (D-III)</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <img src="{% static 'd3_snbt.png' %}" alt="D3 SNBT 1" class="w-full max-w-md">
+                <img src="{% static 'd3_snbt(2).png' %}" alt="D3 SNBT 2" class="w-full max-w-md">
             </div>
-        </div>
-    </div>
-    
-    <!-- D-III Section -->
-    <div>
-        <div class="grid grid-cols-5 gap-6 items-start">
-            <h2 class="col-span-1 text-6xl font-bold text-center py-20">D-III</h2>
-            <!-- Kolom Kiri -->
-            <div class="col-span-2 flex justify-center">
-                <img src="{% static 'd3_snbt.png' %}" alt="d3_snbp" class="w-[928px] h-auto">
-            </div>
-            <!-- Kolom Kanan -->
-            <div class="col-span-2 flex justify-center">
-                <img src="{% static 'd3_snbt(2).png' %}" alt="d3_snbp" class="mt-4 w-[928px] h-auto">
-            </div>
-        </div>
-    </div>
-    
+        </section>
+
+    </main>
+
+    <footer class="py-6 text-center text-blue-900 font-medium tracking-wide max-w-7xl mx-auto w-full flex-shrink-0">
+        © 2025 PENSight - DEALZ
+    </footer>
+
+    <script>
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('translate-x-full');
+            sidebar.classList.toggle('translate-x-0');
+        }
+    </script>
 </body>
-
-<script>
-    function toggleSidebar() {
-        const sidebar = document.getElementById('sidebar');
-        sidebar.classList.toggle('translate-x-full');
-        sidebar.classList.toggle('translate-x-0');
-    }
-</script>
-
 </html>

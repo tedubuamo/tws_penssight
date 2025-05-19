@@ -36,10 +36,10 @@
   <header class="bg-white/80 backdrop-blur-md shadow-md px-6 py-4 flex justify-between items-center z-10">
     <div class="flex items-center gap-3">
       <img src="{% static 'icon_page.svg' %}" class="w-10 h-10" alt="Icon">
-      <h1 class="text-2xl font-bold">Hai Sobat PENSeek!!</h1>
+      <h1 class="text-2xl font-bold">Hi, Sobat PENSeek!!</h1>
     </div>
     <div class="flex items-center gap-4">
-      <span class="text-lg font-semibold">MENU</span>
+      <span class="text-lg font-semibold">Menu</span>
       <button onclick="toggleSidebar()" class="hover:text-blue-500 transition">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -51,12 +51,12 @@
   <!-- Main Content -->
   <main class="relative z-10 flex-grow px-6 py-20 max-w-4xl mx-auto text-center space-y-12">
     <section class="space-y-4">
-      <h2 class="text-5xl font-extrabold text-blue-900">Rekomendasi Prodi</h2>
-      <p class="text-lg text-blue-700 font-medium">Berikut adalah program studi yang direkomendasikan untuk kamu berdasarkan hasil analisis.</p>
+      <h2 class="text-4xl font-extrabold text-blue-900">Rekomendasi Prodi</h2>
+      <p class="text-lg text-blue-700 font-medium">Berikut adalah program studi yang direkomendasikan.</p>
     </section>
 
     <!-- Card -->
-    <section id="rekomendasi-card" class="hidden bg-white rounded-3xl shadow-xl border-2 border-blue-200 overflow-hidden max-w-3xl mx-auto text-left transition-smooth">
+    <section id="rekomendasi-card" class="hidden bg-white rounded-2xl shadow-xl overflow-hidden max-w-3xl mx-auto text-left transition-smooth">
       <button onclick="toggleDetail()" class="flex justify-between items-center w-full text-blue-900 font-bold text-2xl p-6 hover:bg-blue-50 transition-smooth">
         <span id="prodi-name"></span>
         <span id="icon">Lihat Detail ▼</span>
@@ -80,7 +80,7 @@
   <!-- Sidebar Menu -->
   <aside id="sidebar" class="fixed top-0 right-0 h-full w-80 bg-white text-blue-900 p-8 transform translate-x-full transition-transform duration-300 z-50 shadow-xl border-l border-blue-300">
     <div class="flex justify-between items-center mb-6">
-      <h2 class="text-2xl font-bold tracking-wide">MENU</h2>
+      <h2 class="text-2xl font-bold tracking-wide">Menu</h2>
       <button onclick="toggleSidebar()" aria-label="Close Menu" class="text-3xl font-bold hover:text-blue-600">&times;</button>
     </div>
     <ul class="space-y-5 text-lg">

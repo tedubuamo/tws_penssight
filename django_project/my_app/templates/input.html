@@ -1,31 +1,74 @@
-{% load static %} 
+{% load static %}
 
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PENSight - Home</title>
+    <title>PENSight - Rekomendasi Prodi</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/tom-select@2.2.2/dist/css/tom-select.css" rel="stylesheet" />
     <style>
         body {
             font-family: 'Alexandria', sans-serif;
         }
+        .form-container {
+            max-width: 900px;
+            width: 90%;
+            margin: 2rem auto;
+        }
+        .sidebar-overlay {
+            background-color: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(4px);
+        }
+        .smooth-transition {
+            transition: all 0.3s ease;
+        }
+        .input-focus:focus {
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+            border-color: #3b82f6;
+        }
+        .select-tags .ts-wrapper {
+            padding: 0.75rem;
+            border-radius: 0.75rem;
+            border-width: 2px;
+            border-color: #e2e8f0;
+            min-height: 56px;
+        }
+        .select-tags .ts-wrapper:focus-within {
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+        }
+        .form-label {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #1e40af;
+            margin-bottom: 0.5rem;
+            display: block;
+            position: relative;
+            padding-left: 0.5rem;
+        }
+        .form-hint {
+            font-size: 0.875rem;
+            color: #3b82f6;
+            opacity: 0.8;
+            margin-top: 0.25rem;
+            margin-bottom: 0.5rem;
+        }
     </style>
 </head>
 
 <body class="min-h-screen bg-gradient-to-br from-white via-blue-50 to-blue-200 text-blue-900 flex flex-col">
+
     <!-- Header -->
-    <header class="bg-white/80 backdrop-blur-md shadow-md px-6 py-4 flex justify-between items-center border-b border-blue-200 text-blue-900">
+    <header class="bg-white/80 backdrop-blur-md shadow-md px-6 py-4 flex justify-between items-center border-b border-blue-200">
         <div class="flex items-center gap-3">
             <img src="{% static 'icon_page.svg' %}" alt="Icon" class="w-10 h-10" />
-            <h1 class="text-2xl font-bold">Hai Sobat PENSeek!!</h1>
+            <h1 class="text-2xl font-bold">Hi, Sobat PENSeek!!</h1>
         </div>
         <div class="flex items-center gap-4">
-            <span class="text-lg font-semibold">MENU</span>
+            <span class="text-lg font-semibold">Menu</span>
             <button onclick="toggleSidebar()" class="hover:text-blue-500 transition">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -34,61 +77,55 @@
         </div>
     </header>
 
+    <!-- Sidebar Overlay -->
+    <div id="sidebarOverlay" class="fixed inset-0 sidebar-overlay z-40 opacity-0 pointer-events-none smooth-transition" onclick="toggleSidebar()"></div>
+
     <!-- Sidebar -->
-    <aside id="sidebar" class="fixed top-0 right-0 h-full w-72 bg-white text-blue-900 p-8 transform translate-x-full transition-transform duration-300 z-50 shadow-lg border-l border-blue-200">
+    <aside id="sidebar" class="fixed top-0 right-0 h-full w-72 bg-white text-blue-900 p-8 transform translate-x-full smooth-transition z-50 shadow-lg border-l border-blue-200">
         <div class="flex justify-between items-center mb-6">
-            <h2 class="text-2xl font-bold">MENU</h2>
-            <button onclick="toggleSidebar()" class="text-2xl font-bold hover:text-blue-500">&times;</button>
+            <h2 class="text-2xl font-bold">Menu</h2>
+            <button onclick="toggleSidebar()" class="text-2xl font-bold hover:text-blue-500 smooth-transition">&times;</button>
         </div>
         <ul class="space-y-4 text-lg">
-            <li><a href="/" class="hover:text-blue-500">Home</a></li>
-            <li><a href="/about_page/" class="hover:text-blue-500">Tentang PENSight</a></li>
-            <li><a href="/kuota_prodi/" class="hover:text-blue-500">Kuota Prodi</a></li>
-            <li><a href="/input_page/" class="hover:text-blue-500">Rekomendasi Prodi</a></li>
+            <li><a href="/" class="hover:text-blue-500 smooth-transition">Home</a></li>
+            <li><a href="/about_page/" class="hover:text-blue-500 smooth-transition">Tentang PENSight</a></li>
+            <li><a href="/kuota_prodi/" class="hover:text-blue-500 smooth-transition">Kuota Prodi</a></li>
+            <li><a href="/input_page/" class="hover:text-blue-500 smooth-transition">Rekomendasi Prodi</a></li>
         </ul>
     </aside>
 
-    <div class="flex">
-        <div class="flex-1 mt-20 ml-12">
-            <!-- Minat dan Bakat -->
-            <div class="flex items-center mt-4 ml-12">
-                <span class="text-4xl font-[Alexandria] text-[#0a3d83]">Minat dan Bakat</span>
-            </div>    
-
-            <div class="flex gap-x-10 mt-10 ml-20">
-
-                <!-- Minat dan Bakat -->
-                <div class="relative w-1/2">
-                    <div class="h-20 px-6 rounded-3xl border-2 border-[#0a3d83] text-[#0a3d83] font-semibold bg-white shadow-md">
-                        <select id="minatBakat" name="minatBakat" multiple 
-                            class="py-3 w-full h-full appearance-none bg-transparent text-xl outline-none"
-                            placeholder="Pilih minat dan bakat"
-                        >
-                            <option value="Desain Animasi">Desain Animasi</option>
-                            <option value="Desain Grafis">Desain Grafis</option>
-                            <option value="Elektronika">Elektronika</option>
-                            <option value="Fisika">Fisika</option>
-                            <option value="Kimia">Kimia</option>
-                            <option value="Matematika">Matematika</option>
-                            <option value="Multimedia">Multimedia</option>
-                            <option value="Pemrograman">Pemrograman</option>
-                            <option value="Statistika">Statistika</option>
-                            <option value="Teknik Instalasi Tenaga Listrik (TITL)">Teknik Instalasi Tenaga Listrik (TITL)</option>
-                            <option value="Teknik Tenaga Listrik (TTL)">Teknik Tenaga Listrik (TTL)</option>
-                            <option value="Teknologi Komputer Jaringan (TKJ)">Teknologi Komputer Jaringan (TKJ)</option>
-                        </select>
-                    </div>
+    <!-- Main Content -->
+    <main class="flex-1 py-8 px-4">
+        <div class="form-container bg-white rounded-2xl shadow-xl p-10">
+            <div class="text-center mb-10">
+                <h1 class="text-3xl font-bold mb-3">Rekomendasi Program Studi PENS</h1>
+            </div>
+        
+            <form onsubmit="return kirimData()" class="space-y-8 max-w-2xl mx-auto">
+                <!-- Minat & Bakat -->
+                <div>
+                    <label for="minatBakat" class="form-label">Minat dan Bakat</label>
+                    <select id="minatBakat" name="minatBakat[]" multiple class="select-tags w-full text-2xl">
+                        <option value="Desain Animasi">Desain Animasi</option>
+                        <option value="Desain Grafis">Desain Grafis</option>
+                        <option value="Elektronika">Elektronika</option>
+                        <option value="Fisika">Fisika</option>
+                        <option value="Kimia">Kimia</option>
+                        <option value="Matematika">Matematika</option>
+                        <option value="Multimedia">Multimedia</option>
+                        <option value="Pemrograman">Pemrograman</option>
+                        <option value="Statistika">Statistika</option>
+                        <option value="Teknik Instalasi Tenaga Listrik (TITL)">Teknik Instalasi Tenaga Listrik (TITL)</option>
+                        <option value="Teknik Tenaga Listrik (TTL)">Teknik Tenaga Listrik (TTL)</option>
+                        <option value="Teknologi Komputer Jaringan (TKJ)">Teknologi Komputer Jaringan (TKJ)</option>
+                    </select>
                 </div>
 
                 <!-- Rencana Karir -->
-                <div class="relative w-1/2">
-                    <select id="pilihanKarir" 
-                        class="w-full h-20 text-xl px-6 py-2 rounded-3xl border-2 border-[#0a3d83] text-[#0a3d83] font-semibold bg-white shadow-md appearance-none focus:ring-2 focus:ring-[#0a3d83]"
-                        onfocus="document.getElementById('rencanaKarir').classList.add('rotate-180')"
-                        onblur="document.getElementById('rencanaKarir').classList.remove('rotate-180')"
-                        onchange="this.blur()"
-                    >
-                        <option selected disabled>Pilih Rencana Karir</option>
+                <div>
+                    <label for="rencanaKarir" class="form-label">Rencana Karir</label>
+                    <select id="rencanaKarir" name="rencanaKarir" class="w-full rounded-xl border-2 border-blue-100 bg-white py-3 px-2 input-focus focus:outline-none text-blue-900">
+                        <option value="" disabled selected hidden>Pilih Rencana Karir yang Sesuai</option>
                         <option value="3D Modeler">3D Modeler</option>
                         <option value="Automation Engineer">Automation Engineer</option>
                         <option value="Broadcast Engineer">Broadcast Engineer</option>
@@ -125,190 +162,145 @@
                         <option value="UI/UX Designer">UI/UX Designer</option>
                         <option value="Video Editor">Video Editor</option>
                     </select>
-
-                    <svg id="rencanaKarir" 
-                        class="absolute top-8 right-6 w-6 h-6 pointer-events-none text-[#0a3d83] transition-transform duration-300" 
-                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                    </svg>  
                 </div>
-            </div>
 
-            <!-- Jalur Masuk -->
-            <div class="flex items-center mt-12 ml-12">
-                <span class="text-4xl font-[Alexandria] text-[#0a3d83]">Jalur Masuk dan Jenjang Pendidikan</span>
-            </div>
-
-            <div class="flex gap-x-10 mt-10 ml-20">
-                <!-- Kolom Jalur Masuk -->
-                <div class="relative w-1/2">
-                    <select id="jalurMasukPens" 
-                        class="w-full h-20 text-xl px-6 py-2 rounded-3xl border-2 border-[#0a3d83] text-[#0a3d83] font-semibold bg-white shadow-md appearance-none focus:ring-2 focus:ring-[#0a3d83]"
-                        onfocus="document.getElementById('jalurMasuk').classList.add('rotate-180')"
-                        onblur="document.getElementById('jalurMasuk').classList.remove('rotate-180')"
-                        onchange="this.blur()"
-                    >
-                        <option selected disabled>Pilih Jalur Masuk</option>
+                <!-- Jalur Masuk -->
+                <div>
+                    <label for="jalurMasuk" class="form-label">Jalur Masuk PENS</label>
+                    <select id="jalurMasuk" name="jalurMasuk" class="w-full rounded-xl border-2 border-blue-100 bg-white py-3 px-4 input-focus focus:outline-none text-blue-900">
+                        <option value="" disabled selected hidden>Pilih Jalur Masuk yang Sesuai</option>
                         <option value="SBMPN">SBMPN</option>
                         <option value="SNMPN">SNMPN</option>
                         <option value="SNMPTN/SBMPN">SNMPTN/SNBP</option>
                         <option value="SBMPTN/SNBT">SBMPTN/SNBT</option>
                     </select>
-
-                    <svg id="jalurMasuk" 
-                        class="absolute top-8 right-6 w-6 h-6 pointer-events-none text-[#0a3d83] transition-transform duration-300" 
-                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                    </svg>
                 </div>
 
-                <!-- Kolom Jenjang Pendidikan -->
-                <div class="relative w-1/2">
-                    <select id="jenjangPendidikan" 
-                        class="w-full h-20 text-xl px-6 py-2 rounded-3xl border-2 border-[#0a3d83] text-[#0a3d83] font-semibold bg-white shadow-md appearance-none focus:ring-2 focus:ring-[#0a3d83]"
-                        onfocus="document.getElementById('jenjangArrow').classList.add('rotate-180')"
-                        onblur="document.getElementById('jenjangArrow').classList.remove('rotate-180')"
-                        onchange="this.blur()"
-                    >
-                        <option selected disabled>Pilih Jenjang</option>
+                <!-- Jenjang Pendidikan -->
+                <div>
+                    <label for="jenjangPendidikan" class="form-label">Jenjang Pendidikan</label>
+                    <select id="jenjangPendidikan" class="w-full rounded-xl border-2 border-blue-100 bg-white py-3 px-2 input-focus focus:outline-none text-blue-900">
+                        <option value="" disabled selected hidden>Pilih Jenjang Pendidikan</option>
                         <option value="D3">D3</option>
                         <option value="D4">D4</option>
                     </select>
-
-                    <svg id="jenjangArrow" 
-                        class="absolute top-8 right-6 w-6 h-6 pointer-events-none text-[#0a3d83] transition-transform duration-300" 
-                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                    </svg>
                 </div>
-            </div>
 
-            <!-- Rata-rata Nilai -->
-            <div class="flex items-center mt-12 ml-12">
-                <span class="text-4xl font-[Alexandria] text-[#0a3d83]">Rata-rata Nilai</span>
-            </div>
-            <div class="mt-10 ml-20 flex flex-wrap gap-4">
-                    <input
-                    id="nilaiInput" 
-                    type="number" 
-                    placeholder="Masukkan rata-rata nilai Anda" 
-                    min="0" max="1000" 
-                    class="w-full h-20 text-3xl px-6 pb-2 rounded-3xl border-2 border-[#0a3d83] text-[#0a3d83] font-semibold bg-white shadow-md placeholder-[#0a3d83] placeholder:font-semibold placeholder:text-xl focus:outline-none"
-                    />
-                    <p id="warningText" class="text-red-600 text-lg font-medium hidden">
-                        Nilai harus antara 0 hingga 1000
-                    </p>
-            </div>
-        </div>
+                <!-- Nilai -->
+                <div>
+                    <label for="nilai" class="form-label">Rata-rata Nilai</label>
+                    <div class="relative">
+                        <input type="number" id="nilai" name="nilai" class="w-full rounded-xl border-2 border-blue-100 bg-white py-3 px-4 input-focus focus:outline-none text-blue-900" min="80" max="1000" placeholder="Contoh: 88 (SNBP) / 750 (SNBT)" required />
+                    </div>
+                </div>
 
-        <div class="flex-1 mt-32 ml-36">
-            <div class="ml-4 flex justify-between items-center cursor-pointer text-[#0a3d83] text-4xl font-[Alexandria]" onclick="toggleSection(this)">
-                <span>Minat dan Bakat</span>
-                <svg class="mr-40 arrow w-6 h-6 transition-transform duration-300" viewBox="0 0 24 24">
-                    <path fill="currentColor" d="M7 10l5 5 5-5z"/>
-                </svg>
-            </div>
-            <hr class="border-t-4 border-[#0a3d83] w-5/6 mt-4"/>
-            <div class="w-5/6 hidden mt-4 text-2xl font-semibold text-justify">
-                Preferensi pribadi siswa terkait bidang yang disukai atau kuasai. Contoh: Pemrograman, Matematika, Fisika.
-            </div>
-            <div class="mt-20 ml-4 flex justify-between items-center cursor-pointer text-[#0a3d83] text-4xl font-[Alexandria]" onclick="toggleSection(this)">
-                <span>Jalur Masuk</span>
-                <svg class="mr-40 arrow w-6 h-6 transition-transform duration-300" viewBox="0 0 24 24">
-                    <path fill="currentColor" d="M7 10l5 5 5-5z"/>
-                </svg>
-            </div>
-            <hr class="border-t-4 border-[#0a3d83] w-5/6 mt-4"/>
-            <div class="w-5/6 hidden mt-4 text-2xl font-semibold text-justify">
-                Jalur masuk yang diambil siswa saat mendaftar ke PENS            </div>
-            <div class="mt-20 ml-4 flex justify-between items-center cursor-pointer text-[#0a3d83] text-4xl font-[Alexandria]" onclick="toggleSection(this)">
-                <span>Rata-rata Nilai</span>
-                <svg class="mr-40 arrow w-6 h-6 transition-transform duration-300" viewBox="0 0 24 24">
-                    <path fill="currentColor" d="M7 10l5 5 5-5z"/>
-                </svg>
-            </div>
-            <hr class="border-t-4 border-[#0a3d83] w-5/6 mt-4"/>
-            <div class="w-5/6 hidden mt-4 text-2xl font-semibold text-justify">
-                Nilai rata-rata yang diperoleh siswa saat seleksi untuk masuk PENS. Contoh: jika SNBP = 86 atau bisa juga jika SNBT = 664.            </div>
-            
-            <!-- Tombol Submit -->
-            <button onclick="kirimData()" id="rekomendasiBtn" class="ml-48 mt-20 bg-white mx-auto text-[Alexandria] text-[#0a3d83] px-8 py-4 rounded-full w-80 text-2xl font-bold outline outline-2 outline-[#0a3d83]] outline-offset-2 hover:bg-blue-700 hover:outline-blue-500">
-                <a href="{% url 'result_page' %}">BERI REKOMENDASI</a>
-            </button>
+                <!-- Tombol -->
+                <div class="pt-8">
+                    <button type="submit" class="w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white px-6 py-4 rounded-xl text-lg font-bold smooth-transition shadow-lg hover:shadow-xl transform hover:scale-[1.01] active:scale-100">
+                        Get It
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block ml-2 -mr-1" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </div>
+            </form>
         </div>
-    </div>
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/tom-select@2.2.2/dist/js/tom-select.complete.min.js"></script>
     <script>
-        function toggleSidebar() {
-            const sidebar = document.getElementById('sidebar');
-            sidebar.classList.toggle('translate-x-full');
-        }
-
-        function toggleSection(element) {
-            const content = element.nextElementSibling.nextElementSibling;
-            const arrow = element.querySelector('.arrow');
-            content.classList.toggle('hidden');
-            arrow.classList.toggle('rotate-180');
-        }
-
-        const input = document.getElementById("nilaiInput");
-        const warning = document.getElementById("warningText");
-
-        input.addEventListener("input", () => {
-            const val = parseInt(input.value);
-            if (val < 0 || val > 1000) {
-            warning.classList.remove("hidden");
-            } else {
-            warning.classList.add("hidden");
-            }
-        });
-
-        new TomSelect("#minatBakat", {
+        // Initialize TomSelect for multi-select
+        new TomSelect('#minatBakat', {
             plugins: ['remove_button'],
-            persist: false,
             create: false,
+            persist: false,
             maxItems: 3,
-            closeAfterSelect: false,
+            placeholder: 'Pilih Minat dan Bakat Anda',
             render: {
+                item: function(data, escape) {
+                    return '<div class="ts-item bg-blue-100 text-blue-800 rounded-full px-3 py-1 text-sm flex items-center mr-2 mb-2">' + 
+                           '<span class="mr-2">' + escape(data.value) + '</span>'
+                           '</div>';
+                },
                 option: function(data, escape) {
-                    return `<div>${escape(data.text)}</div>`;
+                    return '<div class="px-4 py-2 hover:bg-blue-50 cursor-pointer">' + escape(data.value) + '</div>';
+                },
+                no_results: function(data, escape) {
+                    return '<div class="px-4 py-2 text-gray-500">Tidak ditemukan</div>';
                 }
             }
         });
 
-        function kirimData() {
+        // Form validation
+        function validateForm() {
+            const nilai = parseFloat(document.getElementById('nilai').value);
+            if (isNaN(nilai)) {
+                alert('Harap masukkan nilai yang valid!');
+                return false;
+            }
+            if (nilai < 60 || nilai > 1000) {
+                alert('Nilai harus antara 80 dan 1000!');
+                return false;
+            }
+            return true;
+        }
 
-        const data = {
-            Jenjang_Pendidikan: document.getElementById("jenjangPendidikan").value,
-            Minat_dan_Bakat: Array.from(document.getElementById("minatBakat").selectedOptions).map(opt => opt.value),
-            Jalur_Pendaftaran_PENS: document.getElementById("jalurMasukPens").value,
-            Rencana_Karir: document.getElementById("pilihanKarir").value,
-            Rata_rata_Nilai_Masuk_PENS: parseFloat(document.getElementById("nilaiInput").value)
-        };
-
-        console.log("Contoh respon:", data);
-
-        fetch("http://127.0.0.1:8000/api/rekomendasi_prodi", {
-            method: "POST",
-            headers: {
-            "Content-Type": "application/json"
-            },
-            body: JSON.stringify(data)
-        })
-        .then(res => res.json())
-        .then(response => {
-            console.log("Respon dari API:", response);
-            // Tampilkan hasil ke user
-            // document.getElementById("hasilRekomendasi").innerText =
-            //     "Rekomendasi Program Studi: " + response["Program Studi"];
-        })
-        .catch(error => {
-            console.error("Error:", error);
-            document.getElementById("hasilRekomendasi").innerText = "Terjadi kesalahan saat mengambil rekomendasi.";
-        });
-    };
+        // Sidebar toggle
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.getElementById('sidebarOverlay');
+            
+            if (sidebar.classList.contains('translate-x-full')) {
+                sidebar.classList.remove('translate-x-full');
+                overlay.classList.remove('opacity-0', 'pointer-events-none');
+                overlay.classList.add('opacity-100', 'pointer-events-auto');
+                document.body.style.overflow = 'hidden';
+            } else {
+                sidebar.classList.add('translate-x-full');
+                overlay.classList.add('opacity-0', 'pointer-events-none');
+                overlay.classList.remove('opacity-100', 'pointer-events-auto');
+                document.body.style.overflow = 'auto';
+            }
+        }
     </script>
+
+<script>
+function kirimData() {
+    const data = {
+        Jenjang_Pendidikan: document.getElementById("jenjangPendidikan").value,
+        Minat_dan_Bakat: Array.from(document.getElementById("minatBakat").selectedOptions).map(opt => opt.value),
+        Jalur_Pendaftaran_PENS: document.getElementById("jalurMasuk").value,
+        Rencana_Karir: document.getElementById("rencanaKarir").value,
+        Rata_rata_Nilai_Masuk_PENS: parseFloat(document.getElementById("nilai").value)
+    };
+
+    fetch("http://127.0.0.1:8000/api/rekomendasi_prodi", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(data)
+    })
+    .then(res => res.json())
+    .then(response => {
+        // Simpan hasil ke localStorage
+        localStorage.setItem("hasilRekomendasi", JSON.stringify(response));
+        // Pindah ke halaman hasil
+        window.location.href = "/result_page/";
+    })
+    .catch(error => {
+        console.error("Error:", error);
+        alert("Terjadi kesalahan saat mengambil rekomendasi.");
+    });
+
+    return false; // Mencegah reload form
+}
+</script>
+
+
+    <footer class="py-6 text-center text-blue-900 font-medium tracking-wide max-w-7xl mx-auto w-full flex-shrink-0">
+        © 2025 PENSight - DEALZ
+    </footer>
+    
 </body>
 </html>
-

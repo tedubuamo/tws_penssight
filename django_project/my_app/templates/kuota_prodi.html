@@ -39,10 +39,10 @@
     <header class="bg-white/80 backdrop-blur-md shadow-md px-6 py-4 flex justify-between items-center flex-shrink-0">
         <div class="flex items-center gap-3">
             <img src="{% static 'icon_page.svg' %}" class="w-10 h-10" alt="Icon">
-            <h1 class="text-2xl font-bold">Hai Sobat PENSeek!!</h1>
+            <h1 class="text-2xl font-bold">Hi, Sobat PENSeek!!</h1>
         </div>
         <div class="flex items-center gap-4">
-            <span class="text-lg font-semibold">MENU</span>
+            <span class="text-lg font-semibold">Menu</span>
             <button onclick="toggleSidebar()" class="hover:text-blue-500 transition">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -58,7 +58,7 @@
 
         <!-- Judul & Deskripsi -->
         <section class="text-center max-w-3xl space-y-4">
-            <h2 class="text-6xl font-extrabold text-blue-900 tracking-tight">Kuota Prodi</h2>
+            <h2 class="text-4xl font-extrabold text-blue-900 tracking-tight">Kuota Prodi</h2>
             <p class="text-xl text-blue-800 font-medium max-w-lg mx-auto leading-relaxed">
                 Pilih jalur masuk yang sesuai dengan kamu. Kami menyediakan informasi lengkap kuota program studi berdasarkan jalur SNBP, SNBT, dan SIMANDIRI.
             </p>
@@ -70,7 +70,7 @@
             <!-- Card SNBP -->
             <a href="{% url 'snbp_page' %}" 
                class="group block bg-white rounded-3xl shadow-lg p-10 text-center cursor-pointer transform hover:-translate-y-2 hover:shadow-2xl transition-smooth">
-                <h3 class="text-4xl font-bold text-blue-700 mb-3 group-hover:text-blue-900">SNBP</h3>
+                <h3 class="text-3xl font-bold text-blue-700 mb-3 group-hover:text-blue-900">SNBP</h3>
                 <p class="text-blue-600 text-lg">Seleksi Nasional Berdasarkan Prestasi, jalur masuk favorit yang mengedepankan prestasi akademik.</p>
                 <div class="mt-6 inline-block bg-gradient-to-r from-blue-600 to-blue-400 text-white px-6 py-3 rounded-full font-semibold text-lg group-hover:from-blue-700 group-hover:to-blue-500 transition-smooth">
                     Lihat Kuota
@@ -80,7 +80,7 @@
             <!-- Card SNBT -->
             <a href="{% url 'snbt_page' %}" 
                class="group block bg-white rounded-3xl shadow-lg p-10 text-center cursor-pointer transform hover:-translate-y-2 hover:shadow-2xl transition-smooth">
-                <h3 class="text-4xl font-bold text-blue-700 mb-3 group-hover:text-blue-900">SNBT</h3>
+                <h3 class="text-3xl font-bold text-blue-700 mb-3 group-hover:text-blue-900">SNBT</h3>
                 <p class="text-blue-600 text-lg">Seleksi Nasional Berdasarkan Tes, jalur masuk yang mengutamakan kemampuan akademik melalui ujian.</p>
                 <div class="mt-6 inline-block bg-gradient-to-r from-blue-600 to-blue-400 text-white px-6 py-3 rounded-full font-semibold text-lg group-hover:from-blue-700 group-hover:to-blue-500 transition-smooth">
                     Lihat Kuota
@@ -90,7 +90,7 @@
             <!-- Card SIMANDIRI -->
             <a href="{% url 'mandiri_page' %}" 
                class="group block bg-white rounded-3xl shadow-lg p-10 text-center cursor-pointer transform hover:-translate-y-2 hover:shadow-2xl transition-smooth">
-                <h3 class="text-4xl font-bold text-blue-700 mb-3 group-hover:text-blue-900">SIMANDIRI</h3>
+                <h3 class="text-3xl font-bold text-blue-700 mb-3 group-hover:text-blue-900">SIMANDIRI</h3>
                 <p class="text-blue-600 text-lg">Seleksi Mandiri PENS, jalur masuk mandiri dengan proses seleksi yang fleksibel dan transparan.</p>
                 <div class="mt-6 inline-block bg-gradient-to-r from-blue-600 to-blue-400 text-white px-6 py-3 rounded-full font-semibold text-lg group-hover:from-blue-700 group-hover:to-blue-500 transition-smooth">
                     Lihat Kuota
@@ -104,7 +104,7 @@
     <!-- Sidebar Menu -->
     <aside id="sidebar" class="fixed top-0 right-0 h-full w-72 bg-white text-blue-900 p-8 transform translate-x-full transition-transform duration-300 z-50 shadow-lg border-l border-blue-200">
         <div class="flex justify-between items-center mb-6">
-            <h2 class="text-2xl font-bold">MENU</h2>
+            <h2 class="text-2xl font-bold">Menu</h2>
             <button onclick="toggleSidebar()" class="text-2xl font-bold hover:text-blue-500">&times;</button>
         </div>
         <ul class="space-y-4 text-lg">
