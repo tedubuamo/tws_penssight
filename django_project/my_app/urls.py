@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import home_page, about_page, input_page, result_page, prodi_page, snbp_page, snbt_page, mandiri_page
+from .views import home_page, about_page, input_page, result_page, prodi_page, snbp_page, snbt_page, mandiri_page, statistik_page
 
 urlpatterns = [
     path('', home_page, name='home_page'),
@@ -10,4 +10,5 @@ urlpatterns = [
     path('kuota_snbt/', snbt_page, name='snbt_page'),
     path('kuota_snbp/', snbp_page, name='snbp_page'),
     path('kuota_mandiri/', mandiri_page, name='mandiri_page'),
+    path('statistik_rekomendasi/', statistik_page, name='statistik_page'),
 ]

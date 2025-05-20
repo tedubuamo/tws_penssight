@@ -56,6 +56,7 @@ class History_Rekomendasi(models.Model):
     rencana_karir = models.CharField(max_length=100)
     rata_rata_nilai_masuk_pens = models.FloatField()
     hasil_rekomendasi = models.CharField(max_length=100)
+    tanggal = models.DateField()
 
     class Meta:
         managed = False

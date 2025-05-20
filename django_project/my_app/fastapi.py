@@ -1,6 +1,8 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Query
 from pydantic import BaseModel
 from asgiref.sync import sync_to_async
+from collections import defaultdict
+from typing import Optional
 import pandas as pd
 import joblib
 
@@ -125,3 +127,27 @@ async def hasil():
         "prospek_kerja" : prospek_kerja,
         "link_website" : link_website,
     }
+
+@app.get("/grafik_rekomendasi")
+async def grafik(day: Optional[str] = Query(None), month: Optional[str] = Query(None), year: Optional[str] = Query(None)):
+    queryset = await sync_to_async(list)(History_Rekomendasi.objects.values())
+
+    # Filter berdasarkan tanggal jika diberikan
+    if day and month and year:
+        try:
+            filter_date = f"{year.zfill(4)}-{month.zfill(2)}-{day.zfill(2)}"
+            queryset = [item for item in queryset if item['tanggal'].strftime('%Y-%m-%d') == filter_date]
+        except Exception as e:
+            return {"error": f"Format tanggal tidak valid: {e}"}
+
+    # Buat struktur {"2025-05-19": {"Sains Data Terapan": 2}, ...}
+    result = defaultdict(lambda: defaultdict(int))
+    for item in queryset:
+        tanggal_str = item['tanggal'].strftime('%Y-%m-%d')  # Ubah objek tanggal ke string
+        rekomendasi = item['hasil_rekomendasi']
+        result[tanggal_str][rekomendasi] += 1
+
+    # Konversi nested defaultdict ke dict biasa agar bisa diubah jadi JSON
+    final_result = {tanggal: dict(rekom) for tanggal, rekom in result.items()}
+
+    return final_result

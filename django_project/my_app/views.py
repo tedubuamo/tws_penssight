@@ -26,3 +26,6 @@ def snbt_page(request):
 
 def mandiri_page(request):
     return render(request,'kuota_mandiri.html')
+
+def statistik_page(request):
+    return render(request,'chart.html')
