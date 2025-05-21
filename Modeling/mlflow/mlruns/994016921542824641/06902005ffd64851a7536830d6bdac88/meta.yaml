@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/994016921542824641/06902005ffd64851a7536830d6bdac88/artifacts
+end_time: 1747842479669
+entry_point_name: ''
+experiment_id: '994016921542824641'
+lifecycle_stage: active
+run_id: 06902005ffd64851a7536830d6bdac88
+run_name: judicious-bat-835
+run_uuid: 06902005ffd64851a7536830d6bdac88
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747842470285
+status: 3
+tags: []
+user_id: USER

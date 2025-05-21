@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/897961536828343361/fdd1a73f51404a5c83afe8659392c679/artifacts
+end_time: 1747842460497
+entry_point_name: ''
+experiment_id: '897961536828343361'
+lifecycle_stage: active
+run_id: fdd1a73f51404a5c83afe8659392c679
+run_name: glamorous-jay-949
+run_uuid: fdd1a73f51404a5c83afe8659392c679
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747842452950
+status: 3
+tags: []
+user_id: USER
