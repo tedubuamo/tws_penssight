@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/273382460280728022/14ff6e0d6ee443cd8121d40ec7537d20/artifacts
+end_time: 1747845640301
+entry_point_name: ''
+experiment_id: '273382460280728022'
+lifecycle_stage: active
+run_id: 14ff6e0d6ee443cd8121d40ec7537d20
+run_name: funny-steed-128
+run_uuid: 14ff6e0d6ee443cd8121d40ec7537d20
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747845632776
+status: 3
+tags: []
+user_id: USER

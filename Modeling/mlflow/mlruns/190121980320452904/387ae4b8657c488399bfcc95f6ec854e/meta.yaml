@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/190121980320452904/387ae4b8657c488399bfcc95f6ec854e/artifacts
+end_time: 1747845648390
+entry_point_name: ''
+experiment_id: '190121980320452904'
+lifecycle_stage: active
+run_id: 387ae4b8657c488399bfcc95f6ec854e
+run_name: receptive-slug-139
+run_uuid: 387ae4b8657c488399bfcc95f6ec854e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747845640577
+status: 3
+tags: []
+user_id: USER
