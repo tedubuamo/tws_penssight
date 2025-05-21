@@ -49,7 +49,7 @@ class UserForML(models.Model):
         db_table = 'userforml'
 
 class History_Rekomendasi(models.Model):
-    id_prodi = models.AutoField(primary_key=True)
+    id = models.AutoField(primary_key=True)
     jenjang_pendidikan = models.CharField(max_length=100)
     minat_dan_bakat = models.TextField()
     jalur_pendaftaran_pens = models.CharField(max_length=100)
