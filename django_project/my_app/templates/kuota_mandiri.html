@@ -9,13 +9,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;600;700&display=swap" rel="stylesheet">
     <title>PENSight - Mandiri</title>
     <style>
-        body {
+         body {
             font-family: 'Alexandria', sans-serif;
+            background-image: url("{% static 'background_mandiri.png' %}");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
         }
     </style>
 </head>
 
-<body class="min-h-screen bg-white text-blue-900 flex flex-col">
+<body class="min-h-screen text-blue-900 flex flex-col">
 
     <!-- Header -->
     <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md shadow-md px-6 py-4 flex justify-between items-center border-b border-blue-200">

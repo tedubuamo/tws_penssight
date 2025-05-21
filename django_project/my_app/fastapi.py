@@ -63,9 +63,10 @@ async def rekomendasi(data_user: InputData):
         # Prediksi
         prediksi = model.predict(data_baru_final)[0]
         hasil = reverse_mapping[prediksi]
+        prodi = data_user.Jenjang_Pendidikan
 
         # Simpan ke dictionary sementara
-        rekomendasi_cache["hasil"] = hasil
+        rekomendasi_cache["hasil"], rekomendasi_cache["prodi"] = hasil, prodi
 
         await sync_to_async(History_Rekomendasi.objects.create)(
             jenjang_pendidikan=data_user.Jenjang_Pendidikan,
@@ -77,7 +78,7 @@ async def rekomendasi(data_user: InputData):
             tanggal=date.today() 
         )
 
-        return {"Program Studi": hasil}
+        return {"Program Studi": hasil, "Jenjang Pendidikan": prodi}
 
     except Exception as e:
         print("Terjadi error:", str(e))
@@ -86,6 +87,7 @@ async def rekomendasi(data_user: InputData):
 @app.get("/hasil_rekomendasi")
 async def hasil():
     hasil_prodi = rekomendasi_cache.get("hasil")
+    hasil_jenjang = rekomendasi_cache.get("prodi")
     prodi = await sync_to_async(InfoProdi.objects.get)(prodi=hasil_prodi)
     matkul = await sync_to_async(Matkul.objects.get)(id=prodi.id_prodi)
 
@@ -109,26 +111,35 @@ async def hasil():
     prospek_kerja = matkul.prospek_kerja
     link_website = matkul.link_website
 
-    return {
-        "prodi": nama_prodi,
-        "deskripsi_singkat" : deskripsi_singkat,
-        "matkul_smt1_d3" : matkul_smt1_d3,
-        "matkul_smt2_d3" : matkul_smt2_d3,
-        "matkul_smt3_d3" : matkul_smt3_d3,
-        "matkul_smt4_d3" : matkul_smt4_d3,
-        "matkul_smt5_d3" : matkul_smt5_d3,
-        "matkul_smt6_d3" : matkul_smt6_d3,
-        "matkul_smt1_d4" : matkul_smt1_d4,
-        "matkul_smt2_d4" : matkul_smt2_d4,
-        "matkul_smt3_d4" : matkul_smt3_d4,
-        "matkul_smt4_d4" : matkul_smt4_d4,
-        "matkul_smt5_d4" : matkul_smt5_d4,
-        "matkul_smt6_d4" : matkul_smt6_d4,
-        "matkul_smt7_d4" : matkul_smt7_d4,
-        "matkul_smt8_d4" : matkul_smt8_d4,
-        "prospek_kerja" : prospek_kerja,
-        "link_website" : link_website,
-    }
+    if hasil_jenjang == "D3":
+        return {
+            "prodi": nama_prodi,
+            "deskripsi_singkat" : deskripsi_singkat,
+            "matkul_smt1_d3" : matkul_smt1_d3,
+            "matkul_smt2_d3" : matkul_smt2_d3,
+            "matkul_smt3_d3" : matkul_smt3_d3,
+            "matkul_smt4_d3" : matkul_smt4_d3,
+            "matkul_smt5_d3" : matkul_smt5_d3,
+            "matkul_smt6_d3" : matkul_smt6_d3,
+            "prospek_kerja" : prospek_kerja,
+            "link_website" : link_website,
+        }
+    
+    if hasil_jenjang == "D4":
+        return {
+            "prodi": nama_prodi,
+            "deskripsi_singkat" : deskripsi_singkat,
+            "matkul_smt1_d4" : matkul_smt1_d4,
+            "matkul_smt2_d4" : matkul_smt2_d4,
+            "matkul_smt3_d4" : matkul_smt3_d4,
+            "matkul_smt4_d4" : matkul_smt4_d4,
+            "matkul_smt5_d4" : matkul_smt5_d4,
+            "matkul_smt6_d4" : matkul_smt6_d4,
+            "matkul_smt7_d4" : matkul_smt7_d4,
+            "matkul_smt8_d4" : matkul_smt8_d4,
+            "prospek_kerja" : prospek_kerja,
+            "link_website" : link_website,
+        }
 
 @app.get("/grafik_rekomendasi")
 async def grafik(day: Optional[str] = Query(None), month: Optional[str] = Query(None), year: Optional[str] = Query(None)):

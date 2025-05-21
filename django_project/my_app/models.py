@@ -37,12 +37,13 @@ class Matkul(models.Model):
 
 
 class UserForML(models.Model):
+    id = models.BigAutoField(primary_key=True)
     jenjang_pendidikan = models.CharField(max_length=50)
     minat_bakat = models.TextField()
     jalur_pendaftaran = models.TextField()
     rata_nilai = models.DecimalField(max_digits=65535, decimal_places=65535)
     rencana_karir = models.TextField()
-    prodi_rekomendasi = models.ForeignKey(InfoProdi, models.DO_NOTHING)
+    prodi_rekomendasi_id = models.ForeignKey(InfoProdi, models.DO_NOTHING)
 
     class Meta:
         managed = False

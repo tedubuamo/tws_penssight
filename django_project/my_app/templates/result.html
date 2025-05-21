@@ -10,8 +10,12 @@
   <title>PENSight - Rekomendasi Jurusan</title>
   <style>
     body {
-      font-family: 'Alexandria', sans-serif;
-    }
+            font-family: 'Alexandria', sans-serif;
+            background-image: url("{% static 'background_result.png' %}");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
     .bg-shape {
       position: absolute;
       top: -150px;
@@ -27,7 +31,7 @@
     }
   </style>
 </head>
-<body class="min-h-screen bg-white text-blue-900 flex flex-col">
+<body class="min-h-screen text-blue-900 flex flex-col">
 
   <!-- Background Shape -->
   <div class="bg-shape pointer-events-none"></div>
@@ -103,6 +107,7 @@
       fetch("http://127.0.0.1:8000/api/hasil_rekomendasi")
         .then(res => res.json())
         .then(data => {
+          console.log(data);
           document.getElementById("rekomendasi-card").classList.remove("hidden");
           document.getElementById("prodi-name").textContent = data.prodi || "Nama Prodi";
           document.getElementById("prodi-name-detail").textContent = data.prodi || "Nama Prodi";

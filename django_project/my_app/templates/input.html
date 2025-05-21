@@ -12,6 +12,10 @@
     <style>
         body {
             font-family: 'Alexandria', sans-serif;
+            background-image: url("{% static 'background_rekomendasi.png' %}");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
         }
         .form-container {
             max-width: 900px;
@@ -59,7 +63,7 @@
     </style>
 </head>
 
-<body class="min-h-screen bg-white text-blue-900 flex flex-col">
+<body class="min-h-screen text-blue-900 flex flex-col">
 
     <!-- Header -->
     <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md shadow-md px-6 py-4 flex justify-between items-center border-b border-blue-200">
@@ -174,10 +178,9 @@
                     <label for="jalurMasuk" class="form-label">Jalur Masuk PENS</label>
                     <select id="jalurMasuk" name="jalurMasuk" class="w-full rounded-xl border-2 border-blue-100 bg-white py-3 px-4 input-focus focus:outline-none text-blue-900">
                         <option value="" disabled selected hidden>Pilih Jalur Masuk</option>
-                        <option value="SBMPN">SBMPN</option>
-                        <option value="SNMPN">SNMPN</option>
-                        <option value="SNMPTN/SBMPN">SNMPTN/SNBP</option>
-                        <option value="SBMPTN/SNBT">SBMPTN/SNBT</option>
+                        <option value="Jalur Prestasi">Jalur Prestasi (SNBP)</option>
+                        <option value="Jalur Tes Tulis">Jalur Tes Tulis (SNBT)</option>
+                        <option value="SIMANDIRI">Jalur SIMANDIRI PENS</option>
                     </select>
                 </div>
 
@@ -237,18 +240,35 @@
         });
 
         // Form validation
-        function validateForm() {
-            const nilai = parseFloat(document.getElementById('nilai').value);
-            if (isNaN(nilai)) {
-                alert('Harap masukkan nilai yang valid!');
+    function validateForm() {
+        const nilai = parseFloat(document.getElementById('nilai').value);
+        const jalur = document.getElementById('jalurMasuk').value;
+
+        if (isNaN(nilai)) {
+            alert('Harap masukkan nilai yang valid!');
+            return false;
+        }
+
+        if (jalur === 'Jalur Prestasi') {
+            if (nilai < 80 || nilai > 100) {
+                alert('Untuk jalur SNMPN, nilai harus antara 80 dan 100!');
                 return false;
             }
-            if (nilai < 60 || nilai > 1000) {
+        } else if (jalur === 'Jalur Tes Tulis') {
+            if (nilai < 400 || nilai > 1000) {
+                alert('Untuk jalur SBMPN, nilai harus antara 400 dan 1000!');
+                return false;
+            }
+        } else {
+            // Validasi umum (missal SNMPTN/SBMPTN atau lainnya)
+            if (nilai < 80 || nilai > 1000) {
                 alert('Nilai harus antara 80 dan 1000!');
                 return false;
             }
-            return true;
         }
+
+        return true;
+    }
 
         // Sidebar toggle
         function toggleSidebar() {
@@ -271,6 +291,10 @@
 
 <script>
 function kirimData() {
+    if (!validateForm()) {
+        return false; // Batalkan pengiriman jika validasi gagal
+    }
+    
     const data = {
         Jenjang_Pendidikan: document.getElementById("jenjangPendidikan").value,
         Minat_dan_Bakat: Array.from(document.getElementById("minatBakat").selectedOptions).map(opt => opt.value),
