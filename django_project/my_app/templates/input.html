@@ -279,6 +279,8 @@ function kirimData() {
         Rata_rata_Nilai_Masuk_PENS: parseFloat(document.getElementById("nilai").value)
     };
 
+    console.log(data);
+
     fetch("http://127.0.0.1:8000/api/rekomendasi_prodi", {
         method: "POST",
         headers: {
@@ -288,6 +290,7 @@ function kirimData() {
     })
     .then(res => res.json())
     .then(response => {
+        console.log("Hasil dari backend:", response);
         // Simpan hasil ke localStorage
         localStorage.setItem("hasilRekomendasi", JSON.stringify(response));
         // Pindah ke halaman hasil

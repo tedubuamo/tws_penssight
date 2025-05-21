@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-+pq-e(#fv5ra6d=*pu&)hx_*ipxg!4t9@@j499#yujl4p4@2&9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'PENSight_db',
         'USER': 'postgres',
-        'PASSWORD': 'bismillah',
+        'PASSWORD': 'ardiansyah29',
         'HOST': 'localhost',
         'PORT': '5432',
     }

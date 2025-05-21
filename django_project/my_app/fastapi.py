@@ -1,8 +1,9 @@
 from fastapi import FastAPI, Query
 from pydantic import BaseModel
-from asgiref.sync import sync_to_async
+from asgiref.sync import sync_to_async # type: ignore
 from collections import defaultdict
 from typing import Optional
+from datetime import date
 import pandas as pd
 import joblib
 
@@ -40,11 +41,11 @@ async def rekomendasi(data_user: InputData):
 
         # Buat DataFrame dari input
         data_df = pd.DataFrame([{
+            'Jalur Pendaftaran PENS': data_user.Jalur_Pendaftaran_PENS,
             'Jenjang Pendidikan': data_user.Jenjang_Pendidikan,
             'Minat dan Bakat': data_user.Minat_dan_Bakat,
-            'Jalur Pendaftaran PENS': data_user.Jalur_Pendaftaran_PENS,
-            'Rencana Karir': data_user.Rencana_Karir,
-            'Rata-rata Nilai Masuk PENS': data_user.Rata_rata_Nilai_Masuk_PENS
+            'Rata-rata Nilai Masuk PENS': data_user.Rata_rata_Nilai_Masuk_PENS,
+            'Rencana Karir': data_user.Rencana_Karir
         }])
 
         # Proses 'Minat dan Bakat'
@@ -72,7 +73,8 @@ async def rekomendasi(data_user: InputData):
             jalur_pendaftaran_pens=data_user.Jalur_Pendaftaran_PENS,
             rencana_karir=data_user.Rencana_Karir,
             rata_rata_nilai_masuk_pens=data_user.Rata_rata_Nilai_Masuk_PENS,
-            hasil_rekomendasi=hasil
+            hasil_rekomendasi=hasil,
+            tanggal=date.today() 
         )
 
         return {"Program Studi": hasil}
