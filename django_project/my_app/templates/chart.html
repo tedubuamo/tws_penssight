@@ -1,3 +1,4 @@
+
 {% load static %}
 
 <!DOCTYPE html>
@@ -85,8 +86,8 @@
                 label: 'Jumlah Rekomendasi',
                 data: [],
                 backgroundColor: [],
-                borderRadius: 6,
-                barThickness: 20
+                borderRadius: 10,
+                barThickness: 26
             }]
         },
         options: {
@@ -99,11 +100,13 @@
             scales: {
                 x: {
                     beginAtZero: true,
-                    title: { display: true, text: 'Jumlah Rekomendasi' }
+                    title: { display: true, text: 'Jumlah Peminat' }
                 },
                 y: {
-                    title: { display: true, text: 'Program Studi' }
-                }
+                    title: { display: false, text: 'Program Studi' }
+                        },
+                    barPercentage: 0.8,
+                    categoryPercentage: 0.9
             }
         }
     });
@@ -126,13 +129,17 @@
             return;
         }
 
-        const url = `http://127.0.0.1:8000/grafik_rekomendasi?day=${day}&month=${month}&year=${year}`;
+        const url = `http://127.0.0.1:8000/api/grafik_rekomendasi?day=${day}&month=${month}&year=${year}`;
 
         fetch(url)
-            .then(response => response.json())
-            .then(result => {
+            .then(response => {
+                return response.text();
+            })
+            .then(text => {
+                console.log("Raw response:", text); 
+                const result = JSON.parse(text); 
                 const dateKey = `${year}-${month}-${day}`;
-                const rekomendasiData = result[dateKey];
+                const rekomendasiData = result[dateKey]; 
 
                 if (!rekomendasiData || Object.keys(rekomendasiData).length === 0) {
                     alert("Data tidak ditemukan untuk tanggal tersebut.");
