@@ -71,11 +71,14 @@ async def rekomendasi(data_user: InputData):
         # Prediksi
         prediksi = model.predict(data_baru_final)[0]
 
-        # Validasi hasil prediksi
-        if not isinstance(prediksi, (int, float)):
-            raise ValueError("Hasil prediksi model tidak valid (bukan numerik)")
+        # Tentukan hasil prediksi akhir dalam bentuk nama prodi
+        if isinstance(prediksi, str):
+            hasil = prediksi  # model sudah hasilkan nama prodi
+        elif isinstance(prediksi, (int, float)):
+            hasil = reverse_mapping.get(prediksi, "Tidak Diketahui")
+        else:
+            raise ValueError("Hasil prediksi model tidak valid (bukan numerik atau string)")
 
-        hasil = reverse_mapping.get(prediksi, "Tidak Diketahui")
         prodi = data_user.Jenjang_Pendidikan
 
         # Cache jika dibutuhkan
@@ -100,6 +103,7 @@ async def rekomendasi(data_user: InputData):
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             content={"error": str(e)}
         )
+
 
 @app.get("/hasil_rekomendasi")
 async def hasil():
