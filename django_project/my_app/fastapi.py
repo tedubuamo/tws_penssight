@@ -1,4 +1,5 @@
-from fastapi import FastAPI, Query
+from fastapi import FastAPI, Query, status
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from asgiref.sync import sync_to_async # type: ignore
 from collections import defaultdict
@@ -12,9 +13,12 @@ import django
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "django_project.settings")
 django.setup()
 from .models import InfoProdi, Matkul, History_Rekomendasi
+import logging
 
+# Inisialisasi logger
 app = FastAPI()
 
+logging.basicConfig(level=logging.INFO)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 model_path = os.path.join(BASE_DIR, "model.pkl")
 metadata_path = os.path.join(BASE_DIR, "metadata.pkl")
@@ -32,6 +36,7 @@ rekomendasi_cache = {}
 @app.post("/rekomendasi_prodi")
 async def rekomendasi(data_user: InputData):
     try:
+        # Load model dan metadata
         model = joblib.load(model_path)
         metadata = joblib.load(metadata_path)
 
@@ -41,48 +46,60 @@ async def rekomendasi(data_user: InputData):
 
         # Buat DataFrame dari input
         data_df = pd.DataFrame([{
-            'Jalur Pendaftaran PENS': data_user.Jalur_Pendaftaran_PENS,
-            'Jenjang Pendidikan': data_user.Jenjang_Pendidikan,
-            'Minat dan Bakat': data_user.Minat_dan_Bakat,
-            'Rata-rata Nilai Masuk PENS': data_user.Rata_rata_Nilai_Masuk_PENS,
-            'Rencana Karir': data_user.Rencana_Karir
+            'jalur_pendaftaran': data_user.Jalur_Pendaftaran_PENS,
+            'jenjang_pendidikan': data_user.Jenjang_Pendidikan,
+            'minat_bakat': ', '.join(data_user.Minat_dan_Bakat or []),
+            'rata_nilai': data_user.Rata_rata_Nilai_Masuk_PENS,
+            'rencana_karir': data_user.Rencana_Karir
         }])
 
-        # Proses 'Minat dan Bakat'
-        minat_bakat_dummies = data_df['Minat dan Bakat'].str.get_dummies(sep=', ')
+        # Cegah error jika minat kosong
+        data_df['minat_bakat'] = data_df['minat_bakat'].fillna('')
+
+        # Proses minat dan bakat (one-hot encoding)
+        minat_bakat_dummies = data_df['minat_bakat'].str.get_dummies(sep=', ')
         for col in minat_bakat_columns:
             if col not in minat_bakat_dummies.columns:
                 minat_bakat_dummies[col] = 0
         minat_bakat_dummies = minat_bakat_dummies[minat_bakat_columns]
 
-        # Gabung dan urutkan kolom
-        data_baru_processed = data_df.drop('Minat dan Bakat', axis=1)
+        # Gabung dan sesuaikan urutan kolom
+        data_baru_processed = data_df.drop('minat_bakat', axis=1)
         data_baru_final = pd.concat([data_baru_processed, minat_bakat_dummies], axis=1)
-        data_baru_final = data_baru_final[X_columns]
+        data_baru_final = data_baru_final.reindex(columns=X_columns, fill_value=0)
 
         # Prediksi
         prediksi = model.predict(data_baru_final)[0]
-        hasil = reverse_mapping[prediksi]
+
+        # Validasi hasil prediksi
+        if not isinstance(prediksi, (int, float)):
+            raise ValueError("Hasil prediksi model tidak valid (bukan numerik)")
+
+        hasil = reverse_mapping.get(prediksi, "Tidak Diketahui")
         prodi = data_user.Jenjang_Pendidikan
 
-        # Simpan ke dictionary sementara
+        # Cache jika dibutuhkan
         rekomendasi_cache["hasil"], rekomendasi_cache["prodi"] = hasil, prodi
 
+        # Simpan ke database
         await sync_to_async(History_Rekomendasi.objects.create)(
             jenjang_pendidikan=data_user.Jenjang_Pendidikan,
-            minat_dan_bakat=', '.join(data_user.Minat_dan_Bakat),
+            minat_dan_bakat=', '.join(data_user.Minat_dan_Bakat or []),
             jalur_pendaftaran_pens=data_user.Jalur_Pendaftaran_PENS,
             rencana_karir=data_user.Rencana_Karir,
             rata_rata_nilai_masuk_pens=data_user.Rata_rata_Nilai_Masuk_PENS,
             hasil_rekomendasi=hasil,
-            tanggal=date.today() 
+            tanggal=date.today()
         )
 
         return {"Program Studi": hasil, "Jenjang Pendidikan": prodi}
 
     except Exception as e:
-        print("Terjadi error:", str(e))
-        return {"error": str(e)}
+        logging.error(f"Terjadi error saat prediksi program studi: {e}")
+        return JSONResponse(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            content={"error": str(e)}
+        )
 
 @app.get("/hasil_rekomendasi")
 async def hasil():
