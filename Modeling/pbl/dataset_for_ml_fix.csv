@@ -1,1001 +1,1001 @@
-,Jenjang Pendidikan,Program Studi,Minat dan Bakat,Jalur Pendaftaran PENS,Rata-rata Nilai Masuk PENS,Rencana Karir
-1,D3,2,"Fisika, Teknik Tenaga Listrik (TTL)",Jalur Tes Tulis,474.0,Network Engineer
-2,D3,7,"Kimia, Teknologi Komputer Jaringan (TKJ)",Jalur Prestasi,77.4,Broadcast Engineer
-3,D4,12,"Pemrograman, Statistika, Teknologi Komputer Jaringan (TKJ), Desain Animasi",Jalur Prestasi,631.0,Machine Learning Engineer
-4,D4,9,"Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ), Elektronika, Desain Animasi",Jalur Prestasi,86.1,Game Designer
-5,D4,11,"Fisika, Matematika, Desain Animasi",Jalur Test Tulis,86.5,Digital Content Creator
-6,D4,12,"Teknik Tenaga Listrik (TTL), Matematika, Multimedia",Jalur Prestasi,744.0,Machine Learning Engineer
-7,D4,5,"Desain Animasi, Teknologi Komputer Jaringan (TKJ), Statistika, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Test Tulis,708.0,Automation Engineer
-8,D4,11,"Desain Grafis, Pemrograman, Fisika",Jalur Test Tulis,500.0,UI/UX Designer
-9,D4,6,Kimia,Jalur Tes Tulis,524.0,Computer Engineer
-10,D4,11,"Desain Grafis, Kimia",Jalur Test Tulis,654.0,Digital Content Creator
-11,D4,10,Desain Grafis,Jalur Prestasi,703.0,Cloud Engineer
-12,D4,3,Elektronika,Jalur Test Tulis,558.0,Automation Engineer
-13,D4,12,"Desain Animasi, Kimia, Statistika",SIMANDIRI,572.0,Business Intelligence Analyst
-14,D4,2,Statistika,Jalur Test Tulis,625.0,RF Engineer
-15,D4,1,Matematika,Jalur Prestasi,88.9,Embedded Systems Engineer
-16,D4,6,"Desain Grafis, Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ), Multimedia",Jalur Test Tulis,81.8,IT Support Specialist
-17,D4,10,"Multimedia, Desain Grafis, Desain Animasi",Jalur Prestasi,548.0,Network Security Specialist
-18,D4,1,"Kimia, Desain Animasi, Desain Grafis, Teknik Tenaga Listrik (TTL)",Jalur Test Tulis,77.9,Electrical Engineer
-19,D4,4,Fisika,Jalur Prestasi,65.8,Cybersecurity Analyst
-20,D3,4,"Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL), Pemrograman",Jalur Prestasi,688.0,Full Stack Developer
-21,D4,6,"Teknik Tenaga Listrik (TTL), Fisika, Teknik Instalasi Tenaga Listrik (TITL), Elektronika",Jalur Prestasi,496.0,IT Support Specialist
-22,D4,5,"Kimia, Teknologi Komputer Jaringan (TKJ), Elektronika",Jalur Prestasi,556.0,Mechatronics Specialist
-23,D4,1,"Multimedia, Teknologi Komputer Jaringan (TKJ), Kimia",Jalur Prestasi,86.4,Embedded Systems Engineer
-24,D4,5,"Statistika, Pemrograman, Multimedia",Jalur Prestasi,88.4,Mechatronics Specialist
-25,D4,9,"Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ), Matematika, Pemrograman",Jalur Prestasi,742.0,Game Designer
-26,D4,11,"Kimia, Desain Grafis",Jalur Test Tulis,80.5,Motion Graphics Artist
-27,D3,2,Kimia,Jalur Tes Tulis,509.0,Network Engineer
-28,D4,10,"Teknik Instalasi Tenaga Listrik (TITL), Desain Animasi",Jalur Test Tulis,73.9,Cloud Engineer
-29,D4,9,"Fisika, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,538.0,3D Modeler
-30,D4,11,"Elektronika, Multimedia, Desain Grafis",Jalur Tes Tulis,670.0,UI/UX Designer
-31,D4,6,"Desain Grafis, Teknologi Komputer Jaringan (TKJ), Statistika",Jalur Tes Tulis,750.0,System Administrator
-32,D4,12,"Statistika, Matematika",Jalur Prestasi,659.0,Business Intelligence Analyst
-33,D4,9,"Desain Grafis, Pemrograman",SIMANDIRI,544.0,3D Modeler
-34,D3,4,Fisika,Jalur Prestasi,80.7,Full Stack Developer
-35,D4,4,"Desain Animasi, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,85.0,Cybersecurity Analyst
-36,D4,8,"Teknik Instalasi Tenaga Listrik (TITL), Elektronika, Matematika, Statistika",Jalur Prestasi,517.0,Energy Analyst
-37,D4,4,"Statistika, Teknologi Komputer Jaringan (TKJ)",Jalur Prestasi,81.2,Full Stack Developer
-38,D3,2,"Teknik Tenaga Listrik (TTL), Matematika, Teknologi Komputer Jaringan (TKJ)",Jalur Prestasi,72.3,Telecommunications Specialist
-39,D4,5,Elektronika,Jalur Prestasi,73.2,Mechatronics Specialist
-40,D4,3,"Desain Grafis, Multimedia, Teknik Instalasi Tenaga Listrik (TITL), Kimia",Jalur Prestasi,708.0,Automation Engineer
-41,D4,2,Teknik Tenaga Listrik (TTL),Jalur Prestasi,642.0,Telecommunications Specialist
-42,D4,5,Elektronika,Jalur Prestasi,469.0,Automation Engineer
-43,D4,3,"Fisika, Pemrograman, Statistika",Jalur Prestasi,69.7,Control Systems Engineer
-44,D4,11,"Elektronika, Multimedia, Pemrograman",Jalur Prestasi,643.0,Digital Content Creator
-45,D4,6,"Desain Animasi, Kimia, Multimedia",Jalur Prestasi,76.3,System Administrator
-46,D4,6,"Statistika, Elektronika",Jalur Test Tulis,67.3,IT Support Specialist
-47,D4,3,"Multimedia, Elektronika, Desain Grafis",SIMANDIRI,528.0,Control Systems Engineer
-48,D3,2,"Fisika, Elektronika, Teknik Tenaga Listrik (TTL), Multimedia",Jalur Test Tulis,71.3,Network Engineer
-49,D4,4,"Desain Grafis, Fisika, Kimia",Jalur Prestasi,75.0,Software Engineer
-50,D4,3,"Fisika, Statistika, Desain Grafis, Teknik Tenaga Listrik (TTL)",Jalur Test Tulis,73.4,Control Systems Engineer
-51,D4,2,Teknik Instalasi Tenaga Listrik (TITL),Jalur Prestasi,747.0,RF Engineer
-52,D4,6,"Teknologi Komputer Jaringan (TKJ), Pemrograman, Teknik Instalasi Tenaga Listrik (TITL), Multimedia",Jalur Tes Tulis,549.0,IT Support Specialist
-53,D3,7,Fisika,SIMANDIRI,69.4,Broadcast Engineer
-54,D4,9,"Elektronika, Multimedia",SIMANDIRI,566.0,3D Modeler
-55,D4,8,"Multimedia, Matematika, Teknologi Komputer Jaringan (TKJ), Teknik Tenaga Listrik (TTL)",Jalur Tes Tulis,553.0,Energy Analyst
-56,D4,11,Statistika,Jalur Test Tulis,76.6,Motion Graphics Artist
-57,D4,6,"Multimedia, Matematika",Jalur Test Tulis,587.0,Computer Engineer
-58,D4,11,"Fisika, Matematika, Desain Animasi",Jalur Tes Tulis,487.0,Digital Content Creator
-59,D3,7,"Kimia, Pemrograman, Desain Grafis, Desain Animasi",Jalur Test Tulis,620.0,Video Editor
-60,D3,7,"Kimia, Multimedia",Jalur Test Tulis,69.7,Video Editor
-61,D4,9,"Teknik Tenaga Listrik (TTL), Statistika, Matematika, Desain Animasi",Jalur Prestasi,65.1,3D Modeler
-62,D4,10,Elektronika,Jalur Test Tulis,83.4,DevOps Engineer
-63,D4,5,"Elektronika, Kimia",Jalur Prestasi,511.0,Automation Engineer
-64,D4,10,"Fisika, Desain Animasi, Matematika, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,75.0,Network Security Specialist
-65,D4,9,"Pemrograman, Statistika, Teknologi Komputer Jaringan (TKJ)",Jalur Test Tulis,590.0,Game Designer
-66,D4,6,"Desain Animasi, Fisika, Multimedia, Statistika",Jalur Tes Tulis,69.7,Computer Engineer
-67,D4,8,"Pemrograman, Teknik Instalasi Tenaga Listrik (TITL), Matematika",Jalur Tes Tulis,82.9,Renewable Energy Engineer
-68,D4,12,"Elektronika, Pemrograman",Jalur Prestasi,77.2,Data Scientist
-69,D4,8,Fisika,Jalur Test Tulis,79.7,Power Plant Operator
-70,D4,8,Teknologi Komputer Jaringan (TKJ),Jalur Test Tulis,617.0,Power Plant Operator
-71,D3,7,"Desain Animasi, Teknologi Komputer Jaringan (TKJ), Desain Grafis",Jalur Tes Tulis,519.0,Video Editor
-72,D4,8,"Teknik Tenaga Listrik (TTL), Desain Grafis",Jalur Prestasi,505.0,Power Plant Operator
-73,D3,2,"Teknik Tenaga Listrik (TTL), Matematika",SIMANDIRI,75.4,Telecommunications Specialist
-74,D4,4,"Statistika, Desain Animasi, Teknologi Komputer Jaringan (TKJ), Elektronika",Jalur Prestasi,725.0,Software Engineer
-75,D4,1,"Teknik Instalasi Tenaga Listrik (TITL), Desain Grafis, Kimia, Teknik Tenaga Listrik (TTL)",SIMANDIRI,718.0,Embedded Systems Engineer
-76,D4,1,Teknik Tenaga Listrik (TTL),Jalur Prestasi,80.6,Electronics Technician
-77,D4,11,"Teknik Tenaga Listrik (TTL), Multimedia, Kimia",Jalur Prestasi,519.0,Digital Content Creator
-78,D4,11,"Statistika, Desain Animasi, Pemrograman, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Prestasi,92.1,UI/UX Designer
-79,D4,11,"Multimedia, Statistika, Teknologi Komputer Jaringan (TKJ)",Jalur Test Tulis,69.8,UI/UX Designer
-80,D4,6,"Statistika, Desain Grafis, Multimedia, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Prestasi,83.7,System Administrator
-81,D4,10,"Fisika, Pemrograman, Kimia",SIMANDIRI,460.0,Cloud Engineer
-82,D4,10,"Teknik Instalasi Tenaga Listrik (TITL), Desain Grafis",Jalur Tes Tulis,89.2,Cloud Engineer
-83,D4,4,"Fisika, Desain Grafis, Teknik Tenaga Listrik (TTL)",Jalur Test Tulis,489.0,Cybersecurity Analyst
-84,D4,10,"Statistika, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,85.7,Cloud Engineer
-85,D4,1,Pemrograman,Jalur Prestasi,69.8,Electrical Engineer
-86,D4,2,"Statistika, Matematika, Teknologi Komputer Jaringan (TKJ)",Jalur Tes Tulis,691.0,Network Engineer
-87,D4,11,"Teknik Instalasi Tenaga Listrik (TITL), Matematika, Pemrograman, Teknologi Komputer Jaringan (TKJ)",Jalur Prestasi,604.0,Motion Graphics Artist
-88,D3,7,Matematika,Jalur Test Tulis,79.2,Multimedia Designer
-89,D4,3,"Fisika, Elektronika",Jalur Prestasi,90.5,Industrial Electrician
-90,D4,3,"Matematika, Desain Grafis, Teknik Tenaga Listrik (TTL)",Jalur Test Tulis,88.6,Automation Engineer
-91,D4,6,"Multimedia, Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL)",Jalur Prestasi,619.0,Computer Engineer
-92,D4,5,"Teknik Tenaga Listrik (TTL), Desain Animasi, Matematika",Jalur Prestasi,605.0,Automation Engineer
-93,D4,9,"Teknik Tenaga Listrik (TTL), Matematika, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Test Tulis,67.7,Game Designer
-94,D4,5,Multimedia,Jalur Test Tulis,77.0,Mechatronics Specialist
-95,D4,5,Pemrograman,Jalur Test Tulis,72.9,Mechatronics Specialist
-96,D4,10,"Teknologi Komputer Jaringan (TKJ), Pemrograman, Desain Grafis, Matematika",Jalur Test Tulis,643.0,Network Security Specialist
-97,D4,8,"Statistika, Teknik Instalasi Tenaga Listrik (TITL), Matematika",Jalur Tes Tulis,474.0,Energy Analyst
-98,D3,7,"Matematika, Pemrograman",Jalur Test Tulis,728.0,Video Editor
-99,D4,6,"Teknik Instalasi Tenaga Listrik (TITL), Elektronika, Kimia",Jalur Prestasi,70.0,IT Support Specialist
-100,D4,9,"Elektronika, Desain Animasi, Teknik Instalasi Tenaga Listrik (TITL), Fisika",Jalur Test Tulis,86.3,3D Modeler
-101,D4,2,"Elektronika, Multimedia, Pemrograman",Jalur Test Tulis,639.0,Telecommunications Specialist
-102,D4,4,"Multimedia, Kimia, Fisika, Matematika",Jalur Prestasi,75.1,Software Engineer
-103,D3,7,"Matematika, Pemrograman, Statistika, Teknologi Komputer Jaringan (TKJ)",Jalur Test Tulis,90.4,Video Editor
-104,D4,6,"Pemrograman, Elektronika, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Test Tulis,82.1,Computer Engineer
-105,D4,12,"Teknologi Komputer Jaringan (TKJ), Desain Grafis",Jalur Prestasi,88.1,Machine Learning Engineer
-106,D4,9,"Elektronika, Teknik Instalasi Tenaga Listrik (TITL), Teknik Tenaga Listrik (TTL), Desain Animasi",Jalur Tes Tulis,723.0,Game Developer
-107,D4,8,Teknik Tenaga Listrik (TTL),Jalur Prestasi,79.8,Power Plant Operator
-108,D4,6,Desain Grafis,Jalur Tes Tulis,611.0,IT Support Specialist
-109,D4,9,Desain Animasi,Jalur Test Tulis,472.0,Game Developer
-110,D3,1,"Elektronika, Statistika",Jalur Prestasi,680.0,Electrical Engineer
-111,D4,12,"Fisika, Pemrograman",Jalur Test Tulis,87.9,Data Scientist
-112,D4,5,"Statistika, Elektronika, Teknik Instalasi Tenaga Listrik (TITL), Matematika",Jalur Prestasi,568.0,Robotics Engineer
-113,D4,9,"Teknologi Komputer Jaringan (TKJ), Teknik Instalasi Tenaga Listrik (TITL)",Jalur Test Tulis,542.0,Game Designer
-114,D4,5,"Multimedia, Fisika, Pemrograman",Jalur Tes Tulis,602.0,Robotics Engineer
-115,D4,9,"Teknik Tenaga Listrik (TTL), Elektronika",Jalur Test Tulis,80.7,Game Designer
-116,D4,11,"Teknik Tenaga Listrik (TTL), Statistika, Matematika",Jalur Test Tulis,66.0,Motion Graphics Artist
-117,D4,12,"Teknik Tenaga Listrik (TTL), Multimedia, Desain Grafis",Jalur Tes Tulis,83.1,Machine Learning Engineer
-118,D3,7,"Teknologi Komputer Jaringan (TKJ), Desain Grafis, Pemrograman, Matematika",Jalur Prestasi,517.0,Broadcast Engineer
-119,D4,8,"Teknologi Komputer Jaringan (TKJ), Statistika",Jalur Prestasi,88.9,Renewable Energy Engineer
-120,D3,7,"Teknologi Komputer Jaringan (TKJ), Elektronika",Jalur Test Tulis,78.2,Multimedia Designer
-121,D4,11,"Desain Grafis, Kimia",Jalur Prestasi,80.0,UI/UX Designer
-122,D3,1,"Desain Grafis, Elektronika, Teknologi Komputer Jaringan (TKJ)",Jalur Prestasi,80.5,Electrical Engineer
-123,D4,2,"Fisika, Kimia, Multimedia, Pemrograman",SIMANDIRI,88.1,Network Engineer
-124,D4,9,"Elektronika, Fisika, Desain Animasi, Teknologi Komputer Jaringan (TKJ)",Jalur Tes Tulis,643.0,3D Modeler
-125,D4,6,"Multimedia, Elektronika",Jalur Test Tulis,644.0,System Administrator
-126,D3,1,"Teknik Tenaga Listrik (TTL), Matematika, Desain Animasi, Elektronika",Jalur Prestasi,94.2,Electronics Technician
-127,D4,12,"Desain Grafis, Teknologi Komputer Jaringan (TKJ), Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL)",Jalur Tes Tulis,89.0,Data Scientist
-128,D3,3,Teknik Instalasi Tenaga Listrik (TITL),Jalur Prestasi,76.1,Control Systems Engineer
-129,D4,5,Matematika,Jalur Test Tulis,686.0,Automation Engineer
-130,D3,4,"Teknologi Komputer Jaringan (TKJ), Fisika, Matematika, Elektronika",Jalur Tes Tulis,81.4,Full Stack Developer
-131,D4,3,"Desain Animasi, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,724.0,Automation Engineer
-132,D4,11,"Teknik Tenaga Listrik (TTL), Kimia",Jalur Prestasi,701.0,Digital Content Creator
-133,D4,12,"Statistika, Elektronika, Fisika",Jalur Prestasi,75.0,Data Scientist
-134,D4,9,"Pemrograman, Fisika, Desain Grafis, Multimedia",Jalur Prestasi,642.0,Game Developer
-135,D4,3,"Desain Animasi, Statistika, Teknik Instalasi Tenaga Listrik (TITL), Desain Grafis",Jalur Tes Tulis,82.3,Automation Engineer
-136,D4,12,"Teknologi Komputer Jaringan (TKJ), Desain Animasi, Multimedia",Jalur Prestasi,750.0,Business Intelligence Analyst
-137,D4,8,Matematika,Jalur Test Tulis,544.0,Renewable Energy Engineer
-138,D3,4,Elektronika,Jalur Tes Tulis,85.1,Full Stack Developer
-139,D4,10,"Desain Grafis, Matematika",Jalur Test Tulis,67.0,Network Security Specialist
-140,D3,7,Statistika,Jalur Test Tulis,472.0,Video Editor
-141,D4,9,Matematika,Jalur Tes Tulis,77.4,Game Designer
-142,D4,9,Pemrograman,Jalur Prestasi,564.0,Game Designer
-143,D4,6,Statistika,Jalur Prestasi,84.7,System Administrator
-144,D3,1,Teknik Instalasi Tenaga Listrik (TITL),Jalur Test Tulis,94.3,Electrical Engineer
-145,D3,7,"Desain Animasi, Teknologi Komputer Jaringan (TKJ), Multimedia, Matematika",Jalur Prestasi,65.2,Multimedia Designer
-146,D4,9,"Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ), Matematika, Desain Animasi",Jalur Tes Tulis,87.0,3D Modeler
-147,D4,5,"Elektronika, Teknologi Komputer Jaringan (TKJ), Pemrograman, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Prestasi,70.4,Robotics Engineer
-148,D4,8,Matematika,Jalur Prestasi,89.7,Power Plant Operator
-149,D3,7,"Teknik Instalasi Tenaga Listrik (TITL), Statistika, Elektronika",Jalur Test Tulis,648.0,Broadcast Engineer
-150,D4,6,Teknik Tenaga Listrik (TTL),Jalur Prestasi,85.9,Computer Engineer
-151,D3,2,"Elektronika, Teknik Tenaga Listrik (TTL), Multimedia, Teknologi Komputer Jaringan (TKJ)",Jalur Tes Tulis,68.0,Telecommunications Specialist
-152,D4,10,"Desain Grafis, Multimedia",SIMANDIRI,94.2,Cloud Engineer
-153,D3,4,Kimia,Jalur Test Tulis,678.0,Cybersecurity Analyst
-154,D3,7,"Kimia, Fisika, Teknologi Komputer Jaringan (TKJ)",SIMANDIRI,741.0,Video Editor
-155,D4,10,"Desain Animasi, Teknik Tenaga Listrik (TTL)",Jalur Tes Tulis,686.0,DevOps Engineer
-156,D4,8,"Teknik Instalasi Tenaga Listrik (TITL), Pemrograman, Fisika, Desain Grafis",Jalur Prestasi,495.0,Renewable Energy Engineer
-157,D4,5,"Teknik Tenaga Listrik (TTL), Pemrograman, Desain Animasi",Jalur Prestasi,584.0,Robotics Engineer
-158,D4,10,Kimia,Jalur Prestasi,459.0,Cloud Engineer
-159,D3,3,Teknik Instalasi Tenaga Listrik (TITL),SIMANDIRI,65.0,Industrial Electrician
-160,D4,8,"Teknik Instalasi Tenaga Listrik (TITL), Desain Grafis",Jalur Tes Tulis,66.3,Energy Analyst
-161,D4,5,"Desain Animasi, Kimia, Teknologi Komputer Jaringan (TKJ), Elektronika",Jalur Tes Tulis,674.0,Automation Engineer
-162,D4,9,"Kimia, Matematika, Desain Animasi, Teknik Tenaga Listrik (TTL)",Jalur Test Tulis,93.5,3D Modeler
-163,D3,4,Teknologi Komputer Jaringan (TKJ),Jalur Test Tulis,69.8,Full Stack Developer
-164,D4,10,"Fisika, Elektronika, Desain Grafis, Matematika",Jalur Test Tulis,470.0,DevOps Engineer
-165,D4,6,"Teknologi Komputer Jaringan (TKJ), Multimedia, Pemrograman, Desain Grafis",Jalur Prestasi,74.2,Computer Engineer
-166,D3,3,Fisika,Jalur Tes Tulis,730.0,Industrial Electrician
-167,D4,11,"Desain Grafis, Matematika, Pemrograman",Jalur Tes Tulis,72.9,UI/UX Designer
-168,D4,1,Elektronika,Jalur Test Tulis,92.2,Electronics Technician
-169,D4,4,"Teknik Instalasi Tenaga Listrik (TITL), Statistika, Teknologi Komputer Jaringan (TKJ), Matematika",SIMANDIRI,94.2,Cybersecurity Analyst
-170,D4,11,"Pemrograman, Matematika, Kimia, Desain Animasi",SIMANDIRI,79.6,UI/UX Designer
-171,D4,10,"Teknologi Komputer Jaringan (TKJ), Multimedia, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Prestasi,635.0,DevOps Engineer
-172,D4,10,"Kimia, Fisika, Multimedia",Jalur Prestasi,455.0,Cloud Engineer
-173,D4,11,"Elektronika, Desain Grafis, Fisika, Matematika",Jalur Test Tulis,454.0,Digital Content Creator
-174,D4,12,"Desain Animasi, Pemrograman, Teknologi Komputer Jaringan (TKJ)",Jalur Test Tulis,745.0,Machine Learning Engineer
-175,D3,3,"Teknik Tenaga Listrik (TTL), Kimia",Jalur Prestasi,90.3,Control Systems Engineer
-176,D4,1,"Elektronika, Teknik Tenaga Listrik (TTL), Desain Grafis, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Tes Tulis,645.0,Electronics Technician
-177,D4,1,"Desain Animasi, Kimia, Desain Grafis",Jalur Test Tulis,71.2,Embedded Systems Engineer
-178,D4,10,"Statistika, Matematika, Desain Grafis",Jalur Tes Tulis,602.0,DevOps Engineer
-179,D4,8,"Desain Grafis, Teknik Tenaga Listrik (TTL)",Jalur Test Tulis,70.6,Power Plant Operator
-180,D4,5,"Pemrograman, Fisika",Jalur Prestasi,733.0,Robotics Engineer
-181,D4,12,Multimedia,Jalur Prestasi,93.7,Machine Learning Engineer
-182,D3,7,"Teknologi Komputer Jaringan (TKJ), Elektronika",Jalur Tes Tulis,725.0,Multimedia Designer
-183,D4,9,Desain Grafis,Jalur Test Tulis,71.9,Game Developer
-184,D4,3,Kimia,Jalur Test Tulis,657.0,Automation Engineer
-185,D4,5,"Desain Animasi, Matematika, Multimedia, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,577.0,Mechatronics Specialist
-186,D4,12,"Statistika, Teknik Tenaga Listrik (TTL), Matematika, Kimia",Jalur Prestasi,70.6,Machine Learning Engineer
-187,D4,8,"Teknik Instalasi Tenaga Listrik (TITL), Desain Grafis, Kimia, Multimedia",Jalur Prestasi,530.0,Renewable Energy Engineer
-188,D4,6,"Matematika, Teknik Tenaga Listrik (TTL), Statistika",Jalur Prestasi,648.0,IT Support Specialist
-189,D4,8,"Desain Animasi, Statistika",SIMANDIRI,89.8,Power Plant Operator
-190,D3,3,"Pemrograman, Matematika, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Prestasi,75.9,Industrial Electrician
-191,D4,6,"Statistika, Desain Grafis",Jalur Prestasi,69.3,IT Support Specialist
-192,D3,1,"Kimia, Pemrograman, Teknik Tenaga Listrik (TTL)",Jalur Test Tulis,496.0,Electronics Technician
-193,D3,7,"Desain Grafis, Statistika, Elektronika, Matematika",Jalur Prestasi,607.0,Video Editor
-194,D4,12,"Teknologi Komputer Jaringan (TKJ), Matematika, Desain Animasi, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,72.5,Business Intelligence Analyst
-195,D3,3,Multimedia,Jalur Tes Tulis,557.0,Control Systems Engineer
-196,D4,10,"Kimia, Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL)",Jalur Test Tulis,81.6,Cloud Engineer
-197,D4,11,Fisika,Jalur Test Tulis,651.0,Motion Graphics Artist
-198,D4,11,"Teknik Tenaga Listrik (TTL), Matematika, Fisika",Jalur Test Tulis,460.0,Motion Graphics Artist
-199,D4,8,Teknik Tenaga Listrik (TTL),Jalur Prestasi,77.6,Renewable Energy Engineer
-200,D4,2,Teknik Instalasi Tenaga Listrik (TITL),Jalur Prestasi,75.3,Network Engineer
-201,D3,1,Teknologi Komputer Jaringan (TKJ),Jalur Prestasi,93.5,Electronics Technician
-202,D4,3,Desain Animasi,Jalur Prestasi,548.0,Industrial Electrician
-203,D3,7,"Kimia, Fisika, Statistika, Multimedia",Jalur Tes Tulis,78.2,Video Editor
-204,D4,3,"Multimedia, Teknik Tenaga Listrik (TTL), Kimia",Jalur Tes Tulis,706.0,Automation Engineer
-205,D4,11,"Desain Grafis, Elektronika, Pemrograman",SIMANDIRI,67.8,Motion Graphics Artist
-206,D4,8,"Statistika, Matematika, Kimia",Jalur Tes Tulis,461.0,Renewable Energy Engineer
-207,D4,2,"Elektronika, Kimia",Jalur Prestasi,93.2,Telecommunications Specialist
-208,D3,7,"Desain Grafis, Statistika, Desain Animasi, Elektronika",Jalur Test Tulis,482.0,Multimedia Designer
-209,D4,6,"Teknik Instalasi Tenaga Listrik (TITL), Pemrograman",Jalur Tes Tulis,92.2,IT Support Specialist
-210,D4,11,"Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ), Elektronika",Jalur Test Tulis,704.0,UI/UX Designer
-211,D4,4,Desain Animasi,Jalur Test Tulis,709.0,Cybersecurity Analyst
-212,D4,6,"Multimedia, Kimia, Teknologi Komputer Jaringan (TKJ), Matematika",Jalur Test Tulis,67.1,IT Support Specialist
-213,D3,4,"Fisika, Teknologi Komputer Jaringan (TKJ), Pemrograman, Desain Grafis",Jalur Tes Tulis,594.0,Full Stack Developer
-214,D4,8,Matematika,Jalur Prestasi,82.1,Power Plant Operator
-215,D3,7,"Kimia, Multimedia, Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL)",Jalur Test Tulis,690.0,Broadcast Engineer
-216,D4,9,Pemrograman,Jalur Prestasi,77.7,3D Modeler
-217,D3,7,Pemrograman,Jalur Tes Tulis,93.6,Video Editor
-218,D4,8,"Pemrograman, Desain Animasi, Matematika",Jalur Tes Tulis,574.0,Renewable Energy Engineer
-219,D4,5,"Desain Animasi, Elektronika, Statistika",Jalur Tes Tulis,72.9,Robotics Engineer
-220,D3,1,"Desain Grafis, Fisika, Teknik Tenaga Listrik (TTL), Pemrograman",Jalur Tes Tulis,665.0,Embedded Systems Engineer
-221,D4,5,"Pemrograman, Kimia, Statistika",Jalur Prestasi,618.0,Mechatronics Specialist
-222,D4,5,"Fisika, Desain Grafis, Matematika",Jalur Prestasi,68.3,Mechatronics Specialist
-223,D4,3,"Teknologi Komputer Jaringan (TKJ), Matematika, Pemrograman, Kimia",Jalur Test Tulis,68.3,Control Systems Engineer
-224,D3,7,"Desain Animasi, Teknologi Komputer Jaringan (TKJ)",Jalur Prestasi,570.0,Broadcast Engineer
-225,D4,9,Teknologi Komputer Jaringan (TKJ),Jalur Tes Tulis,668.0,Game Designer
-226,D4,2,"Multimedia, Pemrograman, Desain Grafis",SIMANDIRI,91.4,Telecommunications Specialist
-227,D4,9,"Desain Grafis, Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL), Kimia",Jalur Prestasi,93.1,Game Developer
-228,D4,9,"Teknik Instalasi Tenaga Listrik (TITL), Pemrograman, Teknik Tenaga Listrik (TTL), Fisika",Jalur Prestasi,576.0,Game Designer
-229,D4,9,"Pemrograman, Desain Grafis, Desain Animasi, Multimedia",Jalur Test Tulis,551.0,Game Designer
-230,D4,12,"Elektronika, Desain Animasi",Jalur Tes Tulis,643.0,Machine Learning Engineer
-231,D4,2,Teknik Tenaga Listrik (TTL),Jalur Prestasi,74.7,Telecommunications Specialist
-232,D3,2,"Desain Grafis, Matematika, Multimedia, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Prestasi,676.0,RF Engineer
-233,D4,6,"Pemrograman, Fisika, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Test Tulis,557.0,System Administrator
-234,D3,7,"Teknik Tenaga Listrik (TTL), Desain Animasi, Kimia",Jalur Prestasi,71.7,Video Editor
-235,D3,3,"Fisika, Desain Grafis, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Prestasi,633.0,Industrial Electrician
-236,D4,11,Teknik Instalasi Tenaga Listrik (TITL),Jalur Prestasi,70.3,Motion Graphics Artist
-237,D4,2,Statistika,Jalur Test Tulis,80.8,Network Engineer
-238,D4,8,Elektronika,Jalur Test Tulis,609.0,Energy Analyst
-239,D4,6,"Teknik Tenaga Listrik (TTL), Multimedia, Pemrograman",Jalur Prestasi,508.0,Computer Engineer
-240,D4,5,Matematika,SIMANDIRI,659.0,Automation Engineer
-241,D4,6,Teknik Tenaga Listrik (TTL),Jalur Prestasi,81.6,IT Support Specialist
-242,D4,9,"Fisika, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,518.0,Game Developer
-243,D4,6,Elektronika,Jalur Prestasi,633.0,System Administrator
-244,D4,3,"Teknik Instalasi Tenaga Listrik (TITL), Multimedia",Jalur Test Tulis,88.6,Automation Engineer
-245,D4,4,"Kimia, Elektronika",Jalur Test Tulis,67.9,Software Engineer
-246,D4,11,"Pemrograman, Fisika, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Prestasi,87.8,Digital Content Creator
-247,D4,9,"Desain Animasi, Statistika, Fisika",Jalur Prestasi,93.7,3D Modeler
-248,D4,3,"Multimedia, Teknik Instalasi Tenaga Listrik (TITL), Desain Animasi",Jalur Tes Tulis,649.0,Automation Engineer
-249,D4,1,"Matematika, Multimedia, Fisika, Desain Animasi",Jalur Tes Tulis,86.0,Electrical Engineer
-250,D3,2,"Teknik Instalasi Tenaga Listrik (TITL), Kimia, Matematika",SIMANDIRI,74.2,RF Engineer
-251,D4,5,"Fisika, Teknologi Komputer Jaringan (TKJ)",Jalur Tes Tulis,591.0,Automation Engineer
-252,D3,1,"Statistika, Fisika, Multimedia, Kimia",Jalur Tes Tulis,86.1,Electrical Engineer
-253,D3,7,"Elektronika, Teknik Tenaga Listrik (TTL), Pemrograman",Jalur Prestasi,92.1,Multimedia Designer
-254,D4,8,"Multimedia, Statistika, Teknik Tenaga Listrik (TTL)",SIMANDIRI,68.3,Renewable Energy Engineer
-255,D4,9,Multimedia,Jalur Tes Tulis,596.0,Game Developer
-256,D4,2,Teknologi Komputer Jaringan (TKJ),SIMANDIRI,727.0,Network Engineer
-257,D4,2,"Fisika, Desain Grafis, Pemrograman",Jalur Tes Tulis,624.0,Telecommunications Specialist
-258,D3,2,Teknologi Komputer Jaringan (TKJ),Jalur Prestasi,80.4,RF Engineer
-259,D4,11,Fisika,Jalur Tes Tulis,89.2,Digital Content Creator
-260,D4,3,Matematika,Jalur Prestasi,595.0,Industrial Electrician
-261,D4,1,"Desain Grafis, Multimedia, Pemrograman",Jalur Prestasi,569.0,Electrical Engineer
-262,D4,10,"Fisika, Desain Grafis, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Prestasi,91.7,DevOps Engineer
-263,D4,8,"Matematika, Elektronika",Jalur Tes Tulis,494.0,Energy Analyst
-264,D3,2,Matematika,SIMANDIRI,69.3,Network Engineer
-265,D3,1,"Statistika, Matematika, Desain Animasi, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Test Tulis,635.0,Electrical Engineer
-266,D4,12,Multimedia,Jalur Test Tulis,83.6,Machine Learning Engineer
-267,D4,1,"Teknologi Komputer Jaringan (TKJ), Multimedia",Jalur Prestasi,78.4,Embedded Systems Engineer
-268,D4,1,"Statistika, Kimia, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Tes Tulis,79.3,Electrical Engineer
-269,D4,8,"Fisika, Pemrograman, Teknologi Komputer Jaringan (TKJ)",Jalur Prestasi,71.7,Energy Analyst
-270,D4,5,Pemrograman,Jalur Test Tulis,456.0,Automation Engineer
-271,D3,3,"Statistika, Fisika",Jalur Test Tulis,89.4,Industrial Electrician
-272,D4,3,"Multimedia, Desain Animasi, Teknik Tenaga Listrik (TTL), Fisika",Jalur Tes Tulis,493.0,Control Systems Engineer
-273,D3,4,Kimia,Jalur Tes Tulis,88.2,Cybersecurity Analyst
-274,D4,12,"Matematika, Teknik Instalasi Tenaga Listrik (TITL), Statistika, Teknik Tenaga Listrik (TTL)",Jalur Tes Tulis,661.0,Data Scientist
-275,D3,4,"Multimedia, Desain Grafis",Jalur Prestasi,82.7,Full Stack Developer
-276,D4,11,"Multimedia, Teknologi Komputer Jaringan (TKJ)",Jalur Prestasi,74.1,Motion Graphics Artist
-277,D3,7,"Teknik Instalasi Tenaga Listrik (TITL), Desain Animasi, Matematika, Statistika",Jalur Tes Tulis,93.2,Video Editor
-278,D4,12,Kimia,Jalur Test Tulis,81.3,Data Scientist
-279,D4,2,"Kimia, Multimedia",Jalur Prestasi,453.0,Telecommunications Specialist
-280,D4,12,"Matematika, Teknik Tenaga Listrik (TTL), Elektronika",Jalur Prestasi,505.0,Data Scientist
-281,D4,1,"Statistika, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,67.3,Embedded Systems Engineer
-282,D4,10,"Desain Animasi, Teknik Instalasi Tenaga Listrik (TITL), Matematika, Desain Grafis",Jalur Test Tulis,94.8,Network Security Specialist
-283,D4,10,"Teknologi Komputer Jaringan (TKJ), Desain Grafis",SIMANDIRI,89.3,DevOps Engineer
-284,D4,10,"Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ), Statistika",Jalur Prestasi,708.0,Cloud Engineer
-285,D3,3,"Pemrograman, Elektronika, Desain Animasi",Jalur Test Tulis,87.6,Industrial Electrician
-286,D4,11,"Fisika, Pemrograman, Teknik Tenaga Listrik (TTL)",Jalur Test Tulis,76.0,Motion Graphics Artist
-287,D4,8,Desain Grafis,Jalur Prestasi,83.0,Renewable Energy Engineer
-288,D4,10,"Desain Animasi, Teknik Tenaga Listrik (TTL), Kimia",Jalur Test Tulis,586.0,Cloud Engineer
-289,D4,5,"Statistika, Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ), Kimia",Jalur Test Tulis,81.3,Robotics Engineer
-290,D4,2,Teknik Instalasi Tenaga Listrik (TITL),SIMANDIRI,505.0,RF Engineer
-291,D3,7,"Fisika, Statistika, Desain Animasi, Matematika",Jalur Test Tulis,74.4,Video Editor
-292,D4,6,"Matematika, Pemrograman",Jalur Prestasi,465.0,Computer Engineer
-293,D4,11,"Teknik Instalasi Tenaga Listrik (TITL), Matematika, Teknologi Komputer Jaringan (TKJ)",Jalur Test Tulis,680.0,Digital Content Creator
-294,D4,6,"Desain Animasi, Kimia, Desain Grafis, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Prestasi,72.7,Computer Engineer
-295,D4,2,"Elektronika, Fisika, Pemrograman",Jalur Prestasi,632.0,RF Engineer
-296,D3,1,"Pemrograman, Fisika, Teknologi Komputer Jaringan (TKJ), Desain Grafis",Jalur Tes Tulis,92.9,Electronics Technician
-297,D4,9,Statistika,Jalur Prestasi,661.0,3D Modeler
-298,D3,7,"Statistika, Multimedia, Elektronika, Teknologi Komputer Jaringan (TKJ)",Jalur Prestasi,681.0,Multimedia Designer
-299,D3,3,"Multimedia, Desain Grafis, Matematika",Jalur Test Tulis,88.6,Automation Engineer
-300,D4,10,"Pemrograman, Kimia",Jalur Test Tulis,74.7,Network Security Specialist
-301,D4,2,"Pemrograman, Statistika, Kimia, Elektronika",Jalur Test Tulis,734.0,RF Engineer
-302,D3,1,"Elektronika, Multimedia",SIMANDIRI,579.0,Electronics Technician
-303,D3,7,Teknologi Komputer Jaringan (TKJ),Jalur Test Tulis,486.0,Multimedia Designer
-304,D4,11,Matematika,SIMANDIRI,74.5,UI/UX Designer
-305,D4,10,"Matematika, Statistika, Teknik Instalasi Tenaga Listrik (TITL)",SIMANDIRI,89.9,Network Security Specialist
-306,D4,5,"Pemrograman, Elektronika, Matematika",Jalur Prestasi,747.0,Robotics Engineer
-307,D3,3,"Teknologi Komputer Jaringan (TKJ), Statistika",SIMANDIRI,712.0,Industrial Electrician
-308,D4,12,"Teknik Instalasi Tenaga Listrik (TITL), Multimedia, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,80.6,Business Intelligence Analyst
-309,D4,9,Fisika,Jalur Prestasi,93.1,Game Developer
-310,D4,9,"Desain Animasi, Teknik Tenaga Listrik (TTL), Fisika, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Prestasi,92.4,3D Modeler
-311,D4,5,"Teknik Tenaga Listrik (TTL), Statistika, Desain Animasi",Jalur Tes Tulis,75.8,Robotics Engineer
-312,D4,5,"Fisika, Desain Animasi, Statistika, Kimia",Jalur Prestasi,90.4,Automation Engineer
-313,D3,7,"Desain Animasi, Elektronika, Kimia",Jalur Prestasi,735.0,Broadcast Engineer
-314,D4,11,"Pemrograman, Desain Grafis, Statistika",Jalur Tes Tulis,523.0,Digital Content Creator
-315,D4,12,Teknik Tenaga Listrik (TTL),Jalur Prestasi,72.1,Business Intelligence Analyst
-316,D4,4,"Matematika, Elektronika",Jalur Test Tulis,598.0,Cybersecurity Analyst
-317,D4,12,"Desain Animasi, Teknik Tenaga Listrik (TTL), Statistika",Jalur Test Tulis,543.0,Machine Learning Engineer
-318,D4,6,"Teknologi Komputer Jaringan (TKJ), Teknik Tenaga Listrik (TTL)",Jalur Tes Tulis,66.2,Computer Engineer
-319,D4,11,Pemrograman,Jalur Tes Tulis,557.0,Digital Content Creator
-320,D4,12,"Teknologi Komputer Jaringan (TKJ), Elektronika",Jalur Prestasi,91.6,Data Scientist
-321,D4,10,"Teknik Tenaga Listrik (TTL), Fisika, Elektronika, Matematika",Jalur Prestasi,71.3,DevOps Engineer
-322,D4,6,Pemrograman,Jalur Test Tulis,504.0,IT Support Specialist
-323,D4,10,"Statistika, Desain Grafis, Pemrograman, Teknologi Komputer Jaringan (TKJ)",Jalur Test Tulis,458.0,Cloud Engineer
-324,D4,9,"Teknik Tenaga Listrik (TTL), Desain Grafis, Kimia",Jalur Tes Tulis,524.0,Game Designer
-325,D4,6,Kimia,Jalur Prestasi,77.6,IT Support Specialist
-326,D3,1,Desain Animasi,Jalur Test Tulis,725.0,Electronics Technician
-327,D4,10,Desain Grafis,Jalur Test Tulis,745.0,DevOps Engineer
-328,D4,3,"Desain Grafis, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,71.5,Control Systems Engineer
-329,D4,10,Matematika,Jalur Test Tulis,71.2,Network Security Specialist
-330,D3,3,"Desain Grafis, Statistika",Jalur Prestasi,620.0,Automation Engineer
-331,D4,8,"Desain Animasi, Teknik Tenaga Listrik (TTL)",Jalur Test Tulis,85.0,Renewable Energy Engineer
-332,D3,4,"Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ), Desain Animasi, Teknik Tenaga Listrik (TTL)",Jalur Tes Tulis,595.0,Full Stack Developer
-333,D4,9,Pemrograman,Jalur Prestasi,90.1,3D Modeler
-334,D4,5,"Desain Animasi, Multimedia, Elektronika",Jalur Tes Tulis,70.5,Robotics Engineer
-335,D4,11,"Teknologi Komputer Jaringan (TKJ), Desain Grafis, Elektronika",Jalur Prestasi,65.2,Digital Content Creator
-336,D4,9,Multimedia,Jalur Prestasi,94.7,Game Developer
-337,D4,9,"Fisika, Pemrograman, Desain Animasi, Multimedia",Jalur Test Tulis,453.0,Game Designer
-338,D4,8,Teknik Tenaga Listrik (TTL),Jalur Prestasi,91.2,Power Plant Operator
-339,D4,10,"Statistika, Fisika, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Test Tulis,89.0,Cloud Engineer
-340,D4,1,"Fisika, Teknik Tenaga Listrik (TTL)",Jalur Test Tulis,88.9,Electrical Engineer
-341,D4,11,"Desain Grafis, Matematika",Jalur Prestasi,85.3,UI/UX Designer
-342,D4,4,"Desain Grafis, Teknologi Komputer Jaringan (TKJ), Fisika, Matematika",Jalur Prestasi,601.0,Full Stack Developer
-343,D3,1,"Pemrograman, Teknik Tenaga Listrik (TTL), Kimia",Jalur Prestasi,66.2,Embedded Systems Engineer
-344,D4,11,"Elektronika, Teknik Instalasi Tenaga Listrik (TITL), Desain Animasi",Jalur Prestasi,77.8,Digital Content Creator
-345,D3,3,"Teknik Tenaga Listrik (TTL), Pemrograman, Elektronika, Teknologi Komputer Jaringan (TKJ)",Jalur Test Tulis,479.0,Industrial Electrician
-346,D4,11,"Teknik Tenaga Listrik (TTL), Multimedia",Jalur Prestasi,460.0,Motion Graphics Artist
-347,D3,7,"Kimia, Statistika",SIMANDIRI,85.5,Broadcast Engineer
-348,D4,3,"Teknik Tenaga Listrik (TTL), Kimia",Jalur Prestasi,90.9,Automation Engineer
-349,D4,2,"Elektronika, Desain Grafis, Fisika, Multimedia",SIMANDIRI,566.0,Network Engineer
-350,D3,2,"Desain Grafis, Teknologi Komputer Jaringan (TKJ), Elektronika",Jalur Test Tulis,722.0,Telecommunications Specialist
-351,D3,4,"Matematika, Multimedia, Kimia",Jalur Prestasi,86.5,Full Stack Developer
-352,D3,7,"Multimedia, Kimia, Pemrograman",Jalur Test Tulis,660.0,Broadcast Engineer
-353,D4,9,Multimedia,Jalur Prestasi,741.0,Game Developer
-354,D4,8,"Elektronika, Multimedia, Teknologi Komputer Jaringan (TKJ), Desain Animasi",Jalur Tes Tulis,454.0,Energy Analyst
-355,D4,9,Desain Animasi,Jalur Tes Tulis,716.0,Game Designer
-356,D4,12,"Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL)",Jalur Test Tulis,93.8,Business Intelligence Analyst
-357,D4,8,"Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL), Statistika",Jalur Test Tulis,505.0,Power Plant Operator
-358,D4,1,Multimedia,Jalur Tes Tulis,84.6,Electrical Engineer
-359,D4,3,"Matematika, Teknik Tenaga Listrik (TTL), Fisika",Jalur Prestasi,93.2,Control Systems Engineer
-360,D4,1,"Teknik Instalasi Tenaga Listrik (TITL), Multimedia, Desain Grafis",Jalur Prestasi,611.0,Embedded Systems Engineer
-361,D4,5,"Desain Grafis, Teknik Tenaga Listrik (TTL)",Jalur Tes Tulis,667.0,Robotics Engineer
-362,D3,4,"Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ), Elektronika",Jalur Prestasi,84.0,Full Stack Developer
-363,D4,11,"Desain Animasi, Fisika, Teknologi Komputer Jaringan (TKJ), Multimedia",Jalur Prestasi,620.0,Digital Content Creator
-364,D4,1,Teknologi Komputer Jaringan (TKJ),Jalur Tes Tulis,93.5,Embedded Systems Engineer
-365,D4,9,"Matematika, Desain Animasi",Jalur Prestasi,635.0,Game Developer
-366,D4,12,"Teknik Instalasi Tenaga Listrik (TITL), Multimedia, Desain Animasi",Jalur Prestasi,691.0,Business Intelligence Analyst
-367,D4,12,"Desain Animasi, Kimia",Jalur Prestasi,79.7,Business Intelligence Analyst
-368,D4,3,"Multimedia, Teknik Instalasi Tenaga Listrik (TITL), Fisika",Jalur Tes Tulis,676.0,Control Systems Engineer
-369,D3,4,"Fisika, Multimedia, Desain Grafis, Kimia",SIMANDIRI,92.0,Full Stack Developer
-370,D4,11,"Fisika, Pemrograman",Jalur Tes Tulis,67.0,Digital Content Creator
-371,D4,11,Kimia,Jalur Prestasi,65.3,Motion Graphics Artist
-372,D4,9,"Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ)",Jalur Tes Tulis,90.2,3D Modeler
-373,D3,1,"Multimedia, Fisika, Teknologi Komputer Jaringan (TKJ)",Jalur Test Tulis,719.0,Embedded Systems Engineer
-374,D4,8,"Statistika, Multimedia, Pemrograman, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Test Tulis,94.0,Energy Analyst
-375,D4,9,Elektronika,Jalur Tes Tulis,596.0,Game Developer
-376,D3,3,"Statistika, Multimedia, Teknik Instalasi Tenaga Listrik (TITL), Pemrograman",Jalur Tes Tulis,88.2,Automation Engineer
-377,D4,3,"Kimia, Fisika, Multimedia",SIMANDIRI,745.0,Automation Engineer
-378,D3,2,"Multimedia, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Prestasi,82.3,RF Engineer
-379,D4,6,"Teknik Instalasi Tenaga Listrik (TITL), Desain Animasi",Jalur Prestasi,83.0,Computer Engineer
-380,D4,12,Multimedia,Jalur Prestasi,84.2,Machine Learning Engineer
-381,D4,10,"Statistika, Fisika, Teknologi Komputer Jaringan (TKJ), Teknik Tenaga Listrik (TTL)",Jalur Prestasi,85.8,Network Security Specialist
-382,D4,12,"Pemrograman, Teknik Instalasi Tenaga Listrik (TITL), Fisika, Teknologi Komputer Jaringan (TKJ)",Jalur Test Tulis,89.4,Machine Learning Engineer
-383,D4,1,"Fisika, Teknologi Komputer Jaringan (TKJ), Teknik Instalasi Tenaga Listrik (TITL), Kimia",Jalur Tes Tulis,667.0,Embedded Systems Engineer
-384,D4,5,"Pemrograman, Fisika",Jalur Tes Tulis,714.0,Robotics Engineer
-385,D4,11,"Statistika, Kimia",Jalur Prestasi,83.5,UI/UX Designer
-386,D4,6,Fisika,Jalur Prestasi,565.0,Computer Engineer
-387,D3,2,"Teknik Tenaga Listrik (TTL), Desain Animasi",SIMANDIRI,91.7,RF Engineer
-388,D3,3,"Fisika, Elektronika",Jalur Tes Tulis,651.0,Automation Engineer
-389,D3,3,Statistika,Jalur Tes Tulis,91.1,Automation Engineer
-390,D4,12,"Statistika, Multimedia, Teknologi Komputer Jaringan (TKJ)",Jalur Tes Tulis,728.0,Business Intelligence Analyst
-391,D4,8,"Fisika, Multimedia, Desain Animasi",Jalur Test Tulis,743.0,Power Plant Operator
-392,D4,12,"Teknik Instalasi Tenaga Listrik (TITL), Matematika",Jalur Prestasi,486.0,Data Scientist
-393,D3,2,"Elektronika, Teknik Tenaga Listrik (TTL)",Jalur Test Tulis,667.0,RF Engineer
-394,D4,8,Teknik Instalasi Tenaga Listrik (TITL),Jalur Test Tulis,526.0,Power Plant Operator
-395,D4,3,"Teknologi Komputer Jaringan (TKJ), Kimia, Statistika, Pemrograman",Jalur Prestasi,680.0,Control Systems Engineer
-396,D4,10,Desain Animasi,Jalur Prestasi,722.0,Network Security Specialist
-397,D4,11,"Desain Grafis, Teknologi Komputer Jaringan (TKJ)",SIMANDIRI,65.7,UI/UX Designer
-398,D4,9,"Multimedia, Statistika, Matematika, Elektronika",Jalur Prestasi,66.2,Game Developer
-399,D4,4,Fisika,Jalur Prestasi,590.0,Cybersecurity Analyst
-400,D3,3,"Desain Grafis, Multimedia",Jalur Test Tulis,600.0,Control Systems Engineer
-401,D4,8,Kimia,Jalur Tes Tulis,65.3,Power Plant Operator
-402,D4,9,"Fisika, Matematika, Desain Grafis",Jalur Prestasi,92.3,3D Modeler
-403,D4,2,"Desain Animasi, Elektronika",Jalur Prestasi,74.8,Network Engineer
-404,D4,4,"Elektronika, Pemrograman, Matematika",Jalur Tes Tulis,90.1,Full Stack Developer
-405,D4,8,Matematika,Jalur Prestasi,80.3,Renewable Energy Engineer
-406,D4,1,Elektronika,Jalur Prestasi,711.0,Electrical Engineer
-407,D3,1,Desain Animasi,Jalur Prestasi,639.0,Embedded Systems Engineer
-408,D3,3,"Matematika, Pemrograman, Elektronika, Fisika",Jalur Prestasi,72.4,Industrial Electrician
-409,D4,9,"Matematika, Teknologi Komputer Jaringan (TKJ), Fisika",Jalur Prestasi,70.9,Game Designer
-410,D4,12,Pemrograman,Jalur Prestasi,83.5,Data Scientist
-411,D3,7,"Desain Grafis, Teknologi Komputer Jaringan (TKJ), Kimia, Pemrograman",Jalur Tes Tulis,593.0,Multimedia Designer
-412,D4,4,"Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ), Teknik Instalasi Tenaga Listrik (TITL)",Jalur Test Tulis,94.1,Software Engineer
-413,D4,11,"Teknik Instalasi Tenaga Listrik (TITL), Fisika",Jalur Prestasi,561.0,Motion Graphics Artist
-414,D4,5,"Kimia, Teknologi Komputer Jaringan (TKJ), Teknik Tenaga Listrik (TTL), Desain Animasi",Jalur Prestasi,553.0,Automation Engineer
-415,D4,6,"Desain Animasi, Multimedia, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,629.0,System Administrator
-416,D4,6,"Desain Grafis, Pemrograman, Statistika, Fisika",Jalur Prestasi,69.4,IT Support Specialist
-417,D4,10,"Desain Grafis, Pemrograman",Jalur Prestasi,484.0,Cloud Engineer
-418,D4,10,"Teknologi Komputer Jaringan (TKJ), Multimedia",Jalur Prestasi,85.2,Cloud Engineer
-419,D4,4,"Teknik Tenaga Listrik (TTL), Fisika, Desain Animasi",Jalur Test Tulis,457.0,Software Engineer
-420,D4,10,"Elektronika, Desain Animasi",Jalur Prestasi,494.0,DevOps Engineer
-421,D3,7,"Statistika, Teknologi Komputer Jaringan (TKJ), Elektronika",Jalur Test Tulis,515.0,Video Editor
-422,D4,6,"Desain Animasi, Teknologi Komputer Jaringan (TKJ), Kimia",SIMANDIRI,505.0,Computer Engineer
-423,D3,7,"Desain Grafis, Statistika, Pemrograman",Jalur Test Tulis,85.2,Video Editor
-424,D4,10,"Teknologi Komputer Jaringan (TKJ), Elektronika",Jalur Test Tulis,545.0,Cloud Engineer
-425,D4,11,"Matematika, Teknologi Komputer Jaringan (TKJ), Fisika",Jalur Tes Tulis,94.3,Digital Content Creator
-426,D4,8,"Pemrograman, Desain Animasi, Teknik Tenaga Listrik (TTL)",Jalur Tes Tulis,79.6,Renewable Energy Engineer
-427,D4,6,"Multimedia, Pemrograman, Teknologi Komputer Jaringan (TKJ), Desain Animasi",Jalur Prestasi,79.6,IT Support Specialist
-428,D3,4,"Teknik Instalasi Tenaga Listrik (TITL), Multimedia, Teknologi Komputer Jaringan (TKJ)",Jalur Test Tulis,517.0,Cybersecurity Analyst
-429,D4,5,"Teknik Tenaga Listrik (TTL), Multimedia, Desain Grafis, Statistika",Jalur Prestasi,85.5,Automation Engineer
-430,D4,11,"Matematika, Multimedia, Teknik Tenaga Listrik (TTL), Desain Grafis",Jalur Prestasi,78.3,Motion Graphics Artist
-431,D4,4,Matematika,Jalur Test Tulis,526.0,Software Engineer
-432,D4,5,Desain Grafis,Jalur Tes Tulis,518.0,Automation Engineer
-433,D3,7,"Teknik Tenaga Listrik (TTL), Fisika, Kimia, Multimedia",Jalur Test Tulis,91.3,Broadcast Engineer
-434,D4,3,"Kimia, Desain Grafis, Desain Animasi, Statistika",Jalur Prestasi,66.3,Automation Engineer
-435,D4,5,"Teknik Tenaga Listrik (TTL), Elektronika",Jalur Tes Tulis,643.0,Automation Engineer
-436,D4,10,"Kimia, Multimedia",Jalur Prestasi,73.6,Network Security Specialist
-437,D3,2,"Teknologi Komputer Jaringan (TKJ), Teknik Instalasi Tenaga Listrik (TITL), Teknik Tenaga Listrik (TTL), Pemrograman",Jalur Prestasi,76.4,RF Engineer
-438,D3,7,"Kimia, Desain Grafis, Fisika",Jalur Tes Tulis,83.1,Multimedia Designer
-439,D4,2,"Matematika, Elektronika",Jalur Tes Tulis,463.0,Network Engineer
-440,D4,1,"Desain Animasi, Statistika, Teknik Instalasi Tenaga Listrik (TITL), Teknik Tenaga Listrik (TTL)",Jalur Test Tulis,496.0,Embedded Systems Engineer
-441,D4,2,"Desain Grafis, Matematika, Elektronika",Jalur Test Tulis,711.0,Telecommunications Specialist
-442,D4,3,"Fisika, Teknik Instalasi Tenaga Listrik (TITL), Desain Grafis, Matematika",Jalur Prestasi,93.9,Industrial Electrician
-443,D4,8,"Desain Grafis, Teknologi Komputer Jaringan (TKJ)",Jalur Tes Tulis,92.1,Energy Analyst
-444,D4,10,"Multimedia, Pemrograman",Jalur Prestasi,77.9,DevOps Engineer
-445,D4,8,"Desain Grafis, Fisika, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Tes Tulis,513.0,Energy Analyst
-446,D3,4,"Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ)",Jalur Prestasi,80.2,Software Engineer
-447,D4,10,Teknik Instalasi Tenaga Listrik (TITL),SIMANDIRI,89.2,DevOps Engineer
-448,D4,9,"Teknik Tenaga Listrik (TTL), Desain Animasi, Multimedia",Jalur Prestasi,73.9,Game Designer
-449,D4,11,"Pemrograman, Elektronika, Matematika, Fisika",Jalur Prestasi,538.0,Motion Graphics Artist
-450,D4,9,"Desain Grafis, Pemrograman, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,712.0,Game Developer
-451,D4,8,"Multimedia, Elektronika, Matematika, Desain Animasi",Jalur Test Tulis,538.0,Renewable Energy Engineer
-452,D4,6,"Matematika, Fisika, Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL)",Jalur Prestasi,73.6,System Administrator
-453,D4,8,Desain Animasi,Jalur Tes Tulis,628.0,Power Plant Operator
-454,D4,12,"Multimedia, Kimia, Matematika",Jalur Tes Tulis,66.5,Business Intelligence Analyst
-455,D4,11,Matematika,Jalur Test Tulis,549.0,Digital Content Creator
-456,D4,9,Teknik Instalasi Tenaga Listrik (TITL),Jalur Prestasi,650.0,Game Designer
-457,D4,2,"Matematika, Statistika, Teknik Instalasi Tenaga Listrik (TITL), Multimedia",Jalur Prestasi,81.9,RF Engineer
-458,D4,2,Teknik Tenaga Listrik (TTL),Jalur Prestasi,69.2,RF Engineer
-459,D4,10,"Multimedia, Fisika, Teknologi Komputer Jaringan (TKJ), Desain Grafis",Jalur Tes Tulis,705.0,Cloud Engineer
-460,D4,8,"Matematika, Elektronika, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,69.2,Power Plant Operator
-461,D4,4,"Teknik Tenaga Listrik (TTL), Matematika, Pemrograman, Elektronika",Jalur Test Tulis,85.5,Full Stack Developer
-462,D4,11,"Desain Grafis, Fisika",Jalur Prestasi,71.5,UI/UX Designer
-463,D4,9,Fisika,Jalur Prestasi,720.0,Game Designer
-464,D4,9,"Statistika, Pemrograman, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Test Tulis,85.0,Game Designer
-465,D4,5,Elektronika,Jalur Prestasi,695.0,Robotics Engineer
-466,D4,4,"Teknik Tenaga Listrik (TTL), Matematika, Fisika",Jalur Tes Tulis,470.0,Software Engineer
-467,D3,7,"Multimedia, Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ)",Jalur Test Tulis,82.5,Video Editor
-468,D4,3,Matematika,Jalur Test Tulis,502.0,Control Systems Engineer
-469,D4,11,"Desain Animasi, Matematika",Jalur Prestasi,74.1,Motion Graphics Artist
-470,D4,11,"Statistika, Multimedia",Jalur Prestasi,479.0,Digital Content Creator
-471,D4,3,"Kimia, Desain Animasi, Teknik Tenaga Listrik (TTL), Multimedia",Jalur Prestasi,592.0,Control Systems Engineer
-472,D4,6,"Multimedia, Matematika",Jalur Prestasi,632.0,IT Support Specialist
-473,D4,2,"Teknik Instalasi Tenaga Listrik (TITL), Multimedia, Statistika, Desain Grafis",Jalur Prestasi,477.0,Network Engineer
-474,D3,7,"Teknologi Komputer Jaringan (TKJ), Statistika, Multimedia",Jalur Tes Tulis,625.0,Video Editor
-475,D4,5,"Matematika, Desain Animasi",Jalur Tes Tulis,602.0,Robotics Engineer
-476,D4,2,Desain Grafis,Jalur Prestasi,67.8,RF Engineer
-477,D3,7,"Multimedia, Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ), Elektronika",Jalur Prestasi,628.0,Multimedia Designer
-478,D4,8,Elektronika,Jalur Test Tulis,642.0,Power Plant Operator
-479,D4,12,"Statistika, Multimedia",Jalur Prestasi,67.8,Business Intelligence Analyst
-480,D4,4,"Teknologi Komputer Jaringan (TKJ), Elektronika, Pemrograman",Jalur Tes Tulis,504.0,Software Engineer
-481,D4,9,Statistika,SIMANDIRI,65.0,3D Modeler
-482,D4,3,"Statistika, Pemrograman, Elektronika, Teknologi Komputer Jaringan (TKJ)",Jalur Prestasi,492.0,Automation Engineer
-483,D3,3,"Teknik Tenaga Listrik (TTL), Pemrograman",Jalur Test Tulis,75.5,Control Systems Engineer
-484,D3,7,"Statistika, Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ), Pemrograman",Jalur Tes Tulis,490.0,Broadcast Engineer
-485,D4,2,Matematika,Jalur Tes Tulis,585.0,Telecommunications Specialist
-486,D4,9,Teknik Tenaga Listrik (TTL),Jalur Test Tulis,79.6,Game Designer
-487,D4,3,"Fisika, Kimia, Teknologi Komputer Jaringan (TKJ)",Jalur Prestasi,506.0,Control Systems Engineer
-488,D4,4,Teknologi Komputer Jaringan (TKJ),Jalur Prestasi,70.1,Software Engineer
-489,D3,7,"Multimedia, Desain Grafis, Teknologi Komputer Jaringan (TKJ)",Jalur Test Tulis,469.0,Multimedia Designer
-490,D4,12,"Multimedia, Matematika",SIMANDIRI,69.6,Machine Learning Engineer
-491,D4,10,Matematika,Jalur Test Tulis,464.0,Cloud Engineer
-492,D4,8,"Matematika, Teknologi Komputer Jaringan (TKJ), Teknik Tenaga Listrik (TTL)",Jalur Prestasi,616.0,Energy Analyst
-493,D4,9,Kimia,Jalur Prestasi,91.5,Game Developer
-494,D4,10,"Teknik Tenaga Listrik (TTL), Elektronika, Teknik Instalasi Tenaga Listrik (TITL), Matematika",Jalur Prestasi,574.0,Network Security Specialist
-495,D3,1,"Teknik Tenaga Listrik (TTL), Multimedia, Matematika",Jalur Prestasi,75.1,Electrical Engineer
-496,D4,5,"Kimia, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,562.0,Robotics Engineer
-497,D4,3,Pemrograman,Jalur Tes Tulis,536.0,Automation Engineer
-498,D3,4,"Elektronika, Fisika, Matematika",Jalur Prestasi,464.0,Software Engineer
-499,D4,10,"Matematika, Kimia, Desain Animasi, Teknologi Komputer Jaringan (TKJ)",Jalur Prestasi,84.2,Network Security Specialist
-500,D4,12,"Teknologi Komputer Jaringan (TKJ), Desain Grafis, Kimia, Matematika",Jalur Prestasi,71.7,Business Intelligence Analyst
-501,D4,8,"Teknik Instalasi Tenaga Listrik (TITL), Fisika, Teknologi Komputer Jaringan (TKJ), Multimedia",Jalur Test Tulis,91.8,Energy Analyst
-502,D4,11,"Pemrograman, Teknik Instalasi Tenaga Listrik (TITL), Fisika, Statistika",SIMANDIRI,550.0,Motion Graphics Artist
-503,D4,10,"Teknologi Komputer Jaringan (TKJ), Multimedia, Matematika",Jalur Test Tulis,91.2,Network Security Specialist
-504,D4,2,Multimedia,Jalur Tes Tulis,72.4,RF Engineer
-505,D4,12,"Multimedia, Kimia, Teknologi Komputer Jaringan (TKJ), Desain Grafis",Jalur Test Tulis,484.0,Business Intelligence Analyst
-506,D3,7,"Kimia, Teknologi Komputer Jaringan (TKJ)",Jalur Tes Tulis,89.1,Broadcast Engineer
-507,D3,7,"Pemrograman, Kimia",Jalur Tes Tulis,523.0,Multimedia Designer
-508,D4,3,"Desain Grafis, Kimia, Multimedia",Jalur Prestasi,494.0,Industrial Electrician
-509,D4,9,"Statistika, Matematika, Kimia, Fisika",Jalur Prestasi,80.9,Game Developer
-510,D4,11,"Multimedia, Desain Grafis, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,557.0,UI/UX Designer
-511,D4,10,"Statistika, Matematika, Pemrograman",Jalur Prestasi,85.2,Network Security Specialist
-512,D4,9,"Multimedia, Matematika, Elektronika, Desain Grafis",Jalur Tes Tulis,517.0,Game Developer
-513,D3,3,"Multimedia, Kimia, Teknik Instalasi Tenaga Listrik (TITL), Desain Grafis",Jalur Test Tulis,508.0,Industrial Electrician
-514,D4,4,"Desain Grafis, Teknik Tenaga Listrik (TTL), Multimedia",SIMANDIRI,80.7,Cybersecurity Analyst
-515,D4,3,"Kimia, Multimedia, Teknologi Komputer Jaringan (TKJ), Statistika",Jalur Test Tulis,84.8,Control Systems Engineer
-516,D4,9,"Fisika, Pemrograman, Teknologi Komputer Jaringan (TKJ)",Jalur Prestasi,82.1,Game Developer
-517,D4,5,"Teknik Instalasi Tenaga Listrik (TITL), Statistika",Jalur Prestasi,93.3,Automation Engineer
-518,D4,11,"Kimia, Matematika, Desain Animasi, Statistika",Jalur Test Tulis,519.0,Digital Content Creator
-519,D4,8,"Multimedia, Matematika",Jalur Test Tulis,580.0,Renewable Energy Engineer
-520,D4,3,"Desain Animasi, Pemrograman, Desain Grafis",Jalur Prestasi,89.4,Industrial Electrician
-521,D3,3,Desain Animasi,Jalur Prestasi,71.0,Industrial Electrician
-522,D4,8,"Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ)",Jalur Prestasi,89.6,Renewable Energy Engineer
-523,D3,2,Matematika,Jalur Test Tulis,65.8,RF Engineer
-524,D3,3,"Elektronika, Desain Grafis, Teknologi Komputer Jaringan (TKJ)",Jalur Tes Tulis,80.3,Industrial Electrician
-525,D4,8,"Kimia, Teknologi Komputer Jaringan (TKJ)",SIMANDIRI,90.3,Power Plant Operator
-526,D4,11,"Teknologi Komputer Jaringan (TKJ), Matematika",Jalur Prestasi,699.0,Motion Graphics Artist
-527,D4,4,"Multimedia, Matematika, Elektronika",Jalur Test Tulis,536.0,Cybersecurity Analyst
-528,D4,8,"Teknik Instalasi Tenaga Listrik (TITL), Matematika, Teknik Tenaga Listrik (TTL), Desain Animasi",Jalur Tes Tulis,67.1,Energy Analyst
-529,D4,2,Teknik Instalasi Tenaga Listrik (TITL),Jalur Prestasi,724.0,Network Engineer
-530,D3,3,"Matematika, Statistika, Pemrograman",Jalur Prestasi,627.0,Control Systems Engineer
-531,D4,11,"Teknik Instalasi Tenaga Listrik (TITL), Teknik Tenaga Listrik (TTL)",Jalur Prestasi,568.0,Motion Graphics Artist
-532,D4,5,"Fisika, Elektronika, Matematika, Teknologi Komputer Jaringan (TKJ)",Jalur Prestasi,88.8,Automation Engineer
-533,D3,4,"Fisika, Multimedia, Elektronika",Jalur Prestasi,77.1,Software Engineer
-534,D4,8,Matematika,Jalur Prestasi,722.0,Power Plant Operator
-535,D4,9,"Fisika, Desain Animasi",SIMANDIRI,74.3,Game Developer
-536,D4,10,"Desain Animasi, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Prestasi,522.0,Network Security Specialist
-537,D3,4,"Statistika, Matematika, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,721.0,Full Stack Developer
-538,D4,5,"Elektronika, Fisika, Statistika, Desain Animasi",Jalur Tes Tulis,691.0,Robotics Engineer
-539,D4,5,"Elektronika, Kimia, Teknik Instalasi Tenaga Listrik (TITL), Statistika",Jalur Prestasi,84.7,Mechatronics Specialist
-540,D4,1,Statistika,SIMANDIRI,75.9,Electrical Engineer
-541,D4,5,"Kimia, Fisika, Pemrograman, Desain Animasi",Jalur Tes Tulis,607.0,Robotics Engineer
-542,D4,9,"Desain Grafis, Matematika",Jalur Prestasi,67.5,3D Modeler
-543,D4,11,"Multimedia, Desain Grafis, Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ)",Jalur Test Tulis,607.0,UI/UX Designer
-544,D3,3,"Matematika, Desain Animasi, Pemrograman, Statistika",Jalur Prestasi,562.0,Industrial Electrician
-545,D4,4,"Elektronika, Desain Animasi",Jalur Prestasi,75.4,Software Engineer
-546,D3,1,"Teknik Instalasi Tenaga Listrik (TITL), Matematika",Jalur Tes Tulis,593.0,Electrical Engineer
-547,D4,12,"Elektronika, Desain Grafis",SIMANDIRI,69.3,Data Scientist
-548,D4,9,"Kimia, Teknik Tenaga Listrik (TTL)",Jalur Test Tulis,75.1,Game Developer
-549,D4,5,"Fisika, Matematika",Jalur Prestasi,90.6,Automation Engineer
-550,D4,6,Fisika,Jalur Prestasi,68.2,Computer Engineer
-551,D4,9,"Statistika, Fisika, Matematika, Desain Animasi",Jalur Test Tulis,726.0,3D Modeler
-552,D4,4,"Teknologi Komputer Jaringan (TKJ), Multimedia",SIMANDIRI,602.0,Software Engineer
-553,D4,8,"Matematika, Pemrograman",Jalur Prestasi,85.7,Power Plant Operator
-554,D4,6,"Desain Animasi, Multimedia",Jalur Test Tulis,74.3,Computer Engineer
-555,D3,3,"Teknologi Komputer Jaringan (TKJ), Kimia, Desain Animasi, Statistika",Jalur Tes Tulis,90.0,Control Systems Engineer
-556,D4,6,"Pemrograman, Fisika, Teknik Tenaga Listrik (TTL)",Jalur Test Tulis,510.0,IT Support Specialist
-557,D3,7,"Teknik Instalasi Tenaga Listrik (TITL), Multimedia",Jalur Prestasi,723.0,Multimedia Designer
-558,D4,2,"Multimedia, Desain Grafis",Jalur Prestasi,699.0,Telecommunications Specialist
-559,D4,8,"Statistika, Matematika",Jalur Tes Tulis,480.0,Power Plant Operator
-560,D3,7,Pemrograman,Jalur Tes Tulis,734.0,Multimedia Designer
-561,D3,4,"Desain Grafis, Pemrograman, Desain Animasi",Jalur Prestasi,576.0,Software Engineer
-562,D4,9,"Pemrograman, Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL)",Jalur Prestasi,574.0,Game Designer
-563,D3,7,"Fisika, Matematika",Jalur Prestasi,87.4,Video Editor
-564,D4,4,"Matematika, Multimedia, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Tes Tulis,583.0,Full Stack Developer
-565,D4,12,"Desain Animasi, Kimia",SIMANDIRI,94.7,Machine Learning Engineer
-566,D4,6,"Elektronika, Pemrograman, Teknik Instalasi Tenaga Listrik (TITL), Multimedia",Jalur Prestasi,92.3,System Administrator
-567,D4,4,"Statistika, Desain Animasi, Kimia",Jalur Tes Tulis,76.3,Full Stack Developer
-568,D4,12,Pemrograman,Jalur Prestasi,552.0,Data Scientist
-569,D4,9,Desain Animasi,Jalur Prestasi,484.0,3D Modeler
-570,D3,1,"Desain Grafis, Teknologi Komputer Jaringan (TKJ), Desain Animasi",Jalur Prestasi,516.0,Embedded Systems Engineer
-571,D4,9,Kimia,Jalur Prestasi,65.2,Game Designer
-572,D3,7,Teknologi Komputer Jaringan (TKJ),SIMANDIRI,76.7,Multimedia Designer
-573,D4,11,Teknik Tenaga Listrik (TTL),Jalur Tes Tulis,580.0,UI/UX Designer
-574,D3,7,"Teknik Tenaga Listrik (TTL), Elektronika, Desain Animasi",Jalur Prestasi,82.0,Broadcast Engineer
-575,D4,10,"Desain Grafis, Multimedia, Desain Animasi, Statistika",Jalur Prestasi,475.0,Network Security Specialist
-576,D4,5,Matematika,Jalur Prestasi,750.0,Robotics Engineer
-577,D4,12,Teknik Instalasi Tenaga Listrik (TITL),Jalur Tes Tulis,580.0,Data Scientist
-578,D4,8,"Desain Animasi, Teknik Instalasi Tenaga Listrik (TITL), Pemrograman",Jalur Tes Tulis,453.0,Power Plant Operator
-579,D4,9,Teknologi Komputer Jaringan (TKJ),Jalur Tes Tulis,72.1,Game Developer
-580,D3,3,"Teknik Instalasi Tenaga Listrik (TITL), Elektronika, Statistika, Matematika",Jalur Tes Tulis,502.0,Control Systems Engineer
-581,D3,1,Teknologi Komputer Jaringan (TKJ),Jalur Prestasi,82.6,Embedded Systems Engineer
-582,D4,9,"Teknik Instalasi Tenaga Listrik (TITL), Fisika, Matematika, Teknik Tenaga Listrik (TTL)",Jalur Test Tulis,84.2,3D Modeler
-583,D3,1,Desain Grafis,Jalur Prestasi,69.0,Embedded Systems Engineer
-584,D4,12,"Multimedia, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,480.0,Machine Learning Engineer
-585,D4,5,Matematika,Jalur Prestasi,72.3,Mechatronics Specialist
-586,D4,3,"Teknologi Komputer Jaringan (TKJ), Teknik Tenaga Listrik (TTL), Kimia",Jalur Prestasi,87.4,Control Systems Engineer
-587,D4,8,"Teknik Instalasi Tenaga Listrik (TITL), Desain Animasi, Teknik Tenaga Listrik (TTL)",Jalur Test Tulis,70.8,Energy Analyst
-588,D4,12,"Matematika, Pemrograman, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Prestasi,616.0,Data Scientist
-589,D4,9,Fisika,Jalur Test Tulis,68.8,Game Developer
-590,D3,7,Elektronika,Jalur Tes Tulis,92.1,Multimedia Designer
-591,D4,12,Teknologi Komputer Jaringan (TKJ),Jalur Tes Tulis,546.0,Machine Learning Engineer
-592,D4,12,"Teknik Instalasi Tenaga Listrik (TITL), Elektronika, Teknik Tenaga Listrik (TTL)",Jalur Test Tulis,68.7,Business Intelligence Analyst
-593,D4,1,"Desain Animasi, Kimia, Fisika",Jalur Test Tulis,454.0,Embedded Systems Engineer
-594,D3,7,"Elektronika, Fisika, Pemrograman",Jalur Prestasi,74.4,Broadcast Engineer
-595,D4,11,"Kimia, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Prestasi,713.0,UI/UX Designer
-596,D4,10,"Multimedia, Teknik Instalasi Tenaga Listrik (TITL), Pemrograman",Jalur Prestasi,76.0,Cloud Engineer
-597,D3,3,Teknologi Komputer Jaringan (TKJ),Jalur Test Tulis,695.0,Control Systems Engineer
-598,D4,1,"Teknik Tenaga Listrik (TTL), Matematika",Jalur Prestasi,600.0,Embedded Systems Engineer
-599,D3,1,"Kimia, Statistika",Jalur Prestasi,75.0,Electronics Technician
-600,D4,9,"Desain Animasi, Kimia, Teknologi Komputer Jaringan (TKJ)",Jalur Prestasi,87.7,Game Developer
-601,D4,5,"Desain Animasi, Matematika",Jalur Prestasi,535.0,Automation Engineer
-602,D4,4,"Teknologi Komputer Jaringan (TKJ), Fisika, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,550.0,Full Stack Developer
-603,D4,1,"Matematika, Teknik Tenaga Listrik (TTL)",Jalur Test Tulis,691.0,Electrical Engineer
-604,D3,2,"Statistika, Desain Animasi",Jalur Test Tulis,93.6,Telecommunications Specialist
-605,D4,12,"Matematika, Teknik Instalasi Tenaga Listrik (TITL), Multimedia, Desain Animasi",Jalur Prestasi,83.3,Machine Learning Engineer
-606,D3,3,"Matematika, Fisika",Jalur Prestasi,87.8,Industrial Electrician
-607,D4,6,"Teknik Instalasi Tenaga Listrik (TITL), Teknik Tenaga Listrik (TTL), Fisika, Multimedia",Jalur Prestasi,658.0,IT Support Specialist
-608,D4,8,"Desain Animasi, Kimia",Jalur Prestasi,508.0,Power Plant Operator
-609,D4,4,Teknik Instalasi Tenaga Listrik (TITL),Jalur Prestasi,473.0,Full Stack Developer
-610,D3,7,Kimia,Jalur Test Tulis,70.8,Multimedia Designer
-611,D4,6,"Matematika, Kimia, Fisika, Elektronika",SIMANDIRI,88.9,System Administrator
-612,D3,4,"Fisika, Teknologi Komputer Jaringan (TKJ), Teknik Instalasi Tenaga Listrik (TITL), Desain Animasi",SIMANDIRI,508.0,Full Stack Developer
-613,D4,8,Matematika,Jalur Test Tulis,560.0,Renewable Energy Engineer
-614,D4,8,"Teknik Instalasi Tenaga Listrik (TITL), Statistika, Desain Animasi",Jalur Prestasi,93.0,Renewable Energy Engineer
-615,D4,1,Kimia,Jalur Prestasi,700.0,Embedded Systems Engineer
-616,D4,10,"Desain Grafis, Elektronika",Jalur Test Tulis,93.2,Cloud Engineer
-617,D4,8,"Pemrograman, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,85.2,Power Plant Operator
-618,D3,3,"Pemrograman, Teknologi Komputer Jaringan (TKJ), Desain Animasi, Statistika",Jalur Test Tulis,75.9,Control Systems Engineer
-619,D4,6,Matematika,Jalur Test Tulis,92.5,Computer Engineer
-620,D4,11,"Teknik Instalasi Tenaga Listrik (TITL), Statistika, Elektronika",Jalur Tes Tulis,651.0,Motion Graphics Artist
-621,D4,6,"Fisika, Teknik Instalasi Tenaga Listrik (TITL), Matematika",Jalur Prestasi,86.3,Computer Engineer
-622,D4,9,"Teknologi Komputer Jaringan (TKJ), Pemrograman, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Test Tulis,88.2,3D Modeler
-623,D4,11,"Pemrograman, Multimedia, Teknologi Komputer Jaringan (TKJ)",Jalur Test Tulis,82.6,Motion Graphics Artist
-624,D4,11,Fisika,Jalur Tes Tulis,82.2,Motion Graphics Artist
-625,D4,11,"Desain Animasi, Statistika, Fisika",SIMANDIRI,531.0,Digital Content Creator
-626,D4,4,Teknik Instalasi Tenaga Listrik (TITL),Jalur Prestasi,516.0,Software Engineer
-627,D4,1,"Teknik Tenaga Listrik (TTL), Fisika, Statistika",SIMANDIRI,687.0,Electrical Engineer
-628,D4,3,"Pemrograman, Desain Grafis",Jalur Prestasi,487.0,Industrial Electrician
-629,D3,2,"Desain Animasi, Teknologi Komputer Jaringan (TKJ), Fisika",Jalur Prestasi,79.7,RF Engineer
-630,D4,6,"Statistika, Desain Animasi",Jalur Prestasi,80.1,IT Support Specialist
-631,D3,1,Statistika,Jalur Prestasi,606.0,Electronics Technician
-632,D4,4,Teknik Tenaga Listrik (TTL),Jalur Test Tulis,77.4,Full Stack Developer
-633,D4,11,"Pemrograman, Statistika, Teknik Instalasi Tenaga Listrik (TITL)",SIMANDIRI,85.1,Motion Graphics Artist
-634,D4,10,Desain Animasi,Jalur Test Tulis,681.0,DevOps Engineer
-635,D4,9,"Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL), Matematika, Pemrograman",Jalur Tes Tulis,572.0,Game Designer
-636,D4,6,"Elektronika, Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ), Fisika",Jalur Prestasi,664.0,System Administrator
-637,D4,9,Kimia,Jalur Prestasi,72.1,Game Developer
-638,D4,2,"Teknik Instalasi Tenaga Listrik (TITL), Fisika",Jalur Prestasi,77.6,Telecommunications Specialist
-639,D3,1,"Desain Grafis, Statistika, Matematika",Jalur Tes Tulis,88.2,Embedded Systems Engineer
-640,D3,2,"Desain Grafis, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,577.0,Network Engineer
-641,D4,10,"Desain Animasi, Statistika, Pemrograman",SIMANDIRI,80.3,Cloud Engineer
-642,D4,12,"Multimedia, Pemrograman",Jalur Test Tulis,744.0,Business Intelligence Analyst
-643,D4,2,Pemrograman,Jalur Tes Tulis,82.7,RF Engineer
-644,D4,11,Statistika,Jalur Test Tulis,730.0,Digital Content Creator
-645,D4,10,"Teknik Tenaga Listrik (TTL), Desain Animasi, Desain Grafis, Teknologi Komputer Jaringan (TKJ)",Jalur Tes Tulis,75.2,Cloud Engineer
-646,D4,2,"Kimia, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Prestasi,525.0,Telecommunications Specialist
-647,D4,11,"Desain Grafis, Pemrograman",Jalur Tes Tulis,725.0,Digital Content Creator
-648,D4,4,Multimedia,Jalur Tes Tulis,524.0,Cybersecurity Analyst
-649,D4,5,"Desain Animasi, Pemrograman",Jalur Prestasi,658.0,Mechatronics Specialist
-650,D3,4,Fisika,Jalur Prestasi,85.2,Software Engineer
-651,D4,4,"Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL), Pemrograman, Kimia",Jalur Test Tulis,694.0,Full Stack Developer
-652,D4,3,"Elektronika, Fisika, Desain Grafis",Jalur Test Tulis,70.5,Control Systems Engineer
-653,D3,7,"Teknologi Komputer Jaringan (TKJ), Fisika",Jalur Test Tulis,662.0,Broadcast Engineer
-654,D4,2,Statistika,Jalur Tes Tulis,678.0,RF Engineer
-655,D4,8,Teknologi Komputer Jaringan (TKJ),Jalur Prestasi,76.4,Renewable Energy Engineer
-656,D4,12,"Teknologi Komputer Jaringan (TKJ), Kimia, Desain Grafis",Jalur Test Tulis,606.0,Machine Learning Engineer
-657,D4,9,"Matematika, Pemrograman",Jalur Tes Tulis,87.7,Game Developer
-658,D3,7,Matematika,Jalur Tes Tulis,82.6,Video Editor
-659,D4,10,"Pemrograman, Desain Grafis",Jalur Prestasi,89.9,Cloud Engineer
-660,D4,2,"Pemrograman, Desain Animasi, Fisika",Jalur Tes Tulis,80.2,RF Engineer
-661,D3,4,Fisika,Jalur Prestasi,477.0,Cybersecurity Analyst
-662,D4,5,"Desain Animasi, Desain Grafis",Jalur Prestasi,745.0,Robotics Engineer
-663,D3,4,"Matematika, Elektronika, Desain Animasi, Teknologi Komputer Jaringan (TKJ)",Jalur Prestasi,481.0,Full Stack Developer
-664,D4,9,"Teknologi Komputer Jaringan (TKJ), Teknik Instalasi Tenaga Listrik (TITL), Pemrograman, Fisika",Jalur Prestasi,78.4,Game Designer
-665,D4,8,"Kimia, Multimedia, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Prestasi,455.0,Renewable Energy Engineer
-666,D4,1,"Multimedia, Pemrograman, Matematika",Jalur Prestasi,82.5,Electronics Technician
-667,D3,2,Multimedia,Jalur Prestasi,85.5,Telecommunications Specialist
-668,D4,2,Matematika,Jalur Prestasi,69.5,RF Engineer
-669,D3,7,"Matematika, Elektronika, Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ)",Jalur Test Tulis,739.0,Broadcast Engineer
-670,D3,7,"Teknik Instalasi Tenaga Listrik (TITL), Elektronika",Jalur Prestasi,80.4,Video Editor
-671,D4,2,"Kimia, Elektronika",Jalur Test Tulis,73.6,Network Engineer
-672,D3,7,"Desain Grafis, Pemrograman, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,66.0,Multimedia Designer
-673,D4,8,"Teknik Tenaga Listrik (TTL), Desain Grafis",Jalur Test Tulis,649.0,Power Plant Operator
-674,D4,9,Teknik Tenaga Listrik (TTL),Jalur Tes Tulis,92.6,Game Designer
-675,D4,3,"Multimedia, Desain Grafis, Teknik Tenaga Listrik (TTL), Kimia",Jalur Prestasi,667.0,Automation Engineer
-676,D3,3,"Teknik Instalasi Tenaga Listrik (TITL), Fisika, Teknologi Komputer Jaringan (TKJ)",SIMANDIRI,90.8,Automation Engineer
-677,D4,8,"Matematika, Teknologi Komputer Jaringan (TKJ), Fisika, Elektronika",Jalur Prestasi,746.0,Energy Analyst
-678,D4,3,"Kimia, Teknologi Komputer Jaringan (TKJ)",Jalur Tes Tulis,83.7,Industrial Electrician
-679,D4,8,Teknologi Komputer Jaringan (TKJ),Jalur Test Tulis,552.0,Energy Analyst
-680,D4,10,Teknik Tenaga Listrik (TTL),SIMANDIRI,69.3,Cloud Engineer
-681,D4,6,"Multimedia, Elektronika",Jalur Tes Tulis,86.3,System Administrator
-682,D4,3,Teknik Instalasi Tenaga Listrik (TITL),Jalur Prestasi,73.2,Automation Engineer
-683,D3,7,"Desain Animasi, Elektronika",Jalur Prestasi,599.0,Broadcast Engineer
-684,D4,8,"Kimia, Teknik Tenaga Listrik (TTL)",Jalur Test Tulis,74.9,Renewable Energy Engineer
-685,D4,5,"Teknologi Komputer Jaringan (TKJ), Statistika",Jalur Prestasi,554.0,Robotics Engineer
-686,D3,1,"Teknologi Komputer Jaringan (TKJ), Teknik Instalasi Tenaga Listrik (TITL)",Jalur Test Tulis,562.0,Electrical Engineer
-687,D4,11,"Desain Animasi, Teknologi Komputer Jaringan (TKJ)",Jalur Prestasi,478.0,Digital Content Creator
-688,D4,10,"Kimia, Elektronika",Jalur Prestasi,717.0,Network Security Specialist
-689,D4,5,"Pemrograman, Teknologi Komputer Jaringan (TKJ)",Jalur Prestasi,685.0,Robotics Engineer
-690,D4,2,"Pemrograman, Teknik Instalasi Tenaga Listrik (TITL), Teknik Tenaga Listrik (TTL)",Jalur Test Tulis,65.8,Network Engineer
-691,D4,8,"Teknologi Komputer Jaringan (TKJ), Desain Animasi",Jalur Prestasi,73.7,Energy Analyst
-692,D4,12,"Multimedia, Teknik Tenaga Listrik (TTL), Statistika, Fisika",Jalur Prestasi,89.1,Data Scientist
-693,D4,9,"Desain Animasi, Matematika, Kimia",Jalur Test Tulis,487.0,Game Designer
-694,D4,9,Desain Grafis,Jalur Test Tulis,90.9,Game Designer
-695,D4,10,"Statistika, Matematika, Pemrograman",Jalur Prestasi,605.0,Cloud Engineer
-696,D4,8,"Pemrograman, Fisika",Jalur Test Tulis,90.3,Renewable Energy Engineer
-697,D4,9,"Statistika, Matematika",SIMANDIRI,79.9,Game Designer
-698,D4,8,"Statistika, Matematika",SIMANDIRI,86.6,Power Plant Operator
-699,D3,4,Fisika,Jalur Test Tulis,667.0,Full Stack Developer
-700,D4,5,"Pemrograman, Desain Grafis, Teknik Instalasi Tenaga Listrik (TITL)",SIMANDIRI,586.0,Automation Engineer
-701,D4,10,"Teknik Instalasi Tenaga Listrik (TITL), Multimedia, Teknik Tenaga Listrik (TTL), Kimia",Jalur Test Tulis,89.6,Network Security Specialist
-702,D4,8,"Elektronika, Matematika, Pemrograman, Statistika",Jalur Prestasi,596.0,Power Plant Operator
-703,D4,12,"Teknik Tenaga Listrik (TTL), Kimia",Jalur Prestasi,65.6,Business Intelligence Analyst
-704,D4,8,Multimedia,Jalur Test Tulis,649.0,Energy Analyst
-705,D4,8,"Teknik Instalasi Tenaga Listrik (TITL), Kimia, Desain Animasi",Jalur Test Tulis,635.0,Power Plant Operator
-706,D4,8,"Teknologi Komputer Jaringan (TKJ), Desain Animasi, Statistika",Jalur Tes Tulis,718.0,Energy Analyst
-707,D4,11,"Multimedia, Desain Animasi, Elektronika",Jalur Prestasi,84.3,Digital Content Creator
-708,D4,9,Fisika,Jalur Test Tulis,86.5,3D Modeler
-709,D4,5,"Teknik Tenaga Listrik (TTL), Kimia, Teknik Instalasi Tenaga Listrik (TITL), Pemrograman",Jalur Prestasi,611.0,Mechatronics Specialist
-710,D4,1,"Teknologi Komputer Jaringan (TKJ), Teknik Tenaga Listrik (TTL), Desain Animasi, Desain Grafis",SIMANDIRI,476.0,Electrical Engineer
-711,D3,2,Kimia,Jalur Test Tulis,94.5,RF Engineer
-712,D4,8,"Matematika, Pemrograman, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Tes Tulis,654.0,Renewable Energy Engineer
-713,D4,9,Teknik Tenaga Listrik (TTL),SIMANDIRI,68.2,Game Designer
-714,D4,10,"Desain Grafis, Multimedia",Jalur Prestasi,67.0,DevOps Engineer
-715,D3,7,Desain Grafis,Jalur Tes Tulis,708.0,Video Editor
-716,D4,12,"Teknologi Komputer Jaringan (TKJ), Multimedia",Jalur Prestasi,67.3,Machine Learning Engineer
-717,D4,4,Kimia,SIMANDIRI,73.0,Cybersecurity Analyst
-718,D4,8,"Statistika, Teknologi Komputer Jaringan (TKJ), Elektronika",Jalur Test Tulis,509.0,Power Plant Operator
-719,D4,3,Statistika,Jalur Prestasi,692.0,Control Systems Engineer
-720,D4,9,"Fisika, Kimia",Jalur Test Tulis,65.3,Game Developer
-721,D4,8,Kimia,Jalur Prestasi,675.0,Renewable Energy Engineer
-722,D4,8,Matematika,Jalur Tes Tulis,500.0,Power Plant Operator
-723,D4,5,Fisika,Jalur Prestasi,470.0,Mechatronics Specialist
-724,D4,6,Teknik Tenaga Listrik (TTL),Jalur Test Tulis,80.0,IT Support Specialist
-725,D4,1,Teknik Tenaga Listrik (TTL),Jalur Prestasi,732.0,Embedded Systems Engineer
-726,D4,9,"Desain Grafis, Kimia, Statistika",Jalur Prestasi,79.1,Game Designer
-727,D4,9,"Fisika, Desain Animasi, Teknik Tenaga Listrik (TTL), Desain Grafis",Jalur Prestasi,502.0,Game Developer
-728,D4,12,"Desain Grafis, Multimedia, Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ)",Jalur Test Tulis,92.6,Machine Learning Engineer
-729,D4,1,"Teknik Tenaga Listrik (TTL), Fisika, Teknologi Komputer Jaringan (TKJ)",Jalur Test Tulis,70.5,Embedded Systems Engineer
-730,D3,7,"Multimedia, Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ), Matematika",Jalur Prestasi,467.0,Broadcast Engineer
-731,D4,1,"Fisika, Desain Grafis, Teknik Tenaga Listrik (TTL), Kimia",Jalur Prestasi,84.2,Electrical Engineer
-732,D3,1,"Statistika, Matematika",SIMANDIRI,92.8,Electrical Engineer
-733,D4,6,"Statistika, Teknologi Komputer Jaringan (TKJ), Teknik Tenaga Listrik (TTL), Kimia",SIMANDIRI,81.4,System Administrator
-734,D4,12,"Desain Grafis, Teknologi Komputer Jaringan (TKJ), Multimedia",Jalur Prestasi,623.0,Machine Learning Engineer
-735,D4,11,"Teknik Instalasi Tenaga Listrik (TITL), Desain Grafis, Kimia, Teknologi Komputer Jaringan (TKJ)",Jalur Prestasi,717.0,Digital Content Creator
-736,D4,8,"Teknologi Komputer Jaringan (TKJ), Desain Grafis, Multimedia",Jalur Prestasi,93.0,Power Plant Operator
-737,D3,3,"Teknik Tenaga Listrik (TTL), Pemrograman, Teknologi Komputer Jaringan (TKJ), Matematika",Jalur Prestasi,693.0,Control Systems Engineer
-738,D4,9,Statistika,Jalur Prestasi,617.0,Game Developer
-739,D3,3,Elektronika,Jalur Tes Tulis,79.4,Industrial Electrician
-740,D3,7,"Pemrograman, Teknik Instalasi Tenaga Listrik (TITL), Matematika",Jalur Test Tulis,706.0,Video Editor
-741,D3,7,Statistika,Jalur Prestasi,88.3,Broadcast Engineer
-742,D4,6,"Multimedia, Matematika",Jalur Prestasi,664.0,System Administrator
-743,D3,7,"Desain Animasi, Matematika, Multimedia",Jalur Prestasi,505.0,Video Editor
-744,D4,10,"Teknik Tenaga Listrik (TTL), Pemrograman, Statistika, Matematika",SIMANDIRI,598.0,DevOps Engineer
-745,D4,2,"Elektronika, Matematika, Pemrograman, Fisika",Jalur Test Tulis,497.0,RF Engineer
-746,D3,7,"Fisika, Desain Animasi, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Test Tulis,77.6,Video Editor
-747,D4,12,"Multimedia, Desain Animasi, Teknologi Komputer Jaringan (TKJ)",Jalur Test Tulis,613.0,Data Scientist
-748,D4,6,"Desain Animasi, Kimia",Jalur Prestasi,717.0,Computer Engineer
-749,D4,1,"Desain Animasi, Multimedia, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,66.0,Embedded Systems Engineer
-750,D4,4,"Matematika, Elektronika",SIMANDIRI,700.0,Cybersecurity Analyst
-751,D3,3,Elektronika,Jalur Test Tulis,66.3,Automation Engineer
-752,D4,11,"Teknik Tenaga Listrik (TTL), Multimedia, Pemrograman",Jalur Test Tulis,72.7,Motion Graphics Artist
-753,D4,6,"Desain Animasi, Fisika, Multimedia, Matematika",Jalur Prestasi,551.0,IT Support Specialist
-754,D4,9,"Desain Animasi, Teknologi Komputer Jaringan (TKJ), Statistika, Pemrograman",Jalur Test Tulis,80.7,3D Modeler
-755,D4,5,"Elektronika, Teknik Instalasi Tenaga Listrik (TITL), Pemrograman, Fisika",Jalur Prestasi,741.0,Automation Engineer
-756,D4,10,"Desain Grafis, Fisika, Multimedia, Pemrograman",Jalur Prestasi,73.7,Network Security Specialist
-757,D4,8,"Fisika, Pemrograman",Jalur Prestasi,90.5,Energy Analyst
-758,D4,11,"Statistika, Desain Grafis, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,545.0,Digital Content Creator
-759,D4,2,"Pemrograman, Teknik Tenaga Listrik (TTL), Desain Grafis, Matematika",Jalur Test Tulis,603.0,Telecommunications Specialist
-760,D3,2,"Desain Animasi, Teknik Instalasi Tenaga Listrik (TITL), Pemrograman",Jalur Prestasi,77.9,Telecommunications Specialist
-761,D4,11,Matematika,Jalur Test Tulis,579.0,Motion Graphics Artist
-762,D3,3,Desain Grafis,Jalur Tes Tulis,488.0,Automation Engineer
-763,D4,11,"Matematika, Teknologi Komputer Jaringan (TKJ), Multimedia, Pemrograman",Jalur Tes Tulis,71.5,Digital Content Creator
-764,D4,9,"Elektronika, Desain Animasi",Jalur Prestasi,512.0,Game Developer
-765,D4,11,"Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ), Elektronika, Desain Animasi",Jalur Tes Tulis,721.0,UI/UX Designer
-766,D4,12,"Elektronika, Teknik Instalasi Tenaga Listrik (TITL), Kimia",Jalur Prestasi,74.7,Business Intelligence Analyst
-767,D4,2,"Statistika, Elektronika, Teknologi Komputer Jaringan (TKJ)",Jalur Tes Tulis,663.0,Network Engineer
-768,D4,8,"Teknik Instalasi Tenaga Listrik (TITL), Kimia, Multimedia",Jalur Test Tulis,69.0,Renewable Energy Engineer
-769,D4,9,Fisika,Jalur Prestasi,679.0,Game Developer
-770,D4,12,"Desain Grafis, Fisika, Kimia, Statistika",Jalur Prestasi,67.4,Machine Learning Engineer
-771,D4,10,Multimedia,Jalur Prestasi,502.0,Cloud Engineer
-772,D4,11,Kimia,SIMANDIRI,72.3,Digital Content Creator
-773,D4,5,"Elektronika, Matematika",Jalur Prestasi,611.0,Automation Engineer
-774,D4,10,"Desain Animasi, Multimedia, Elektronika",Jalur Prestasi,708.0,Network Security Specialist
-775,D4,11,"Kimia, Elektronika",Jalur Test Tulis,642.0,Motion Graphics Artist
-776,D4,10,Teknik Tenaga Listrik (TTL),SIMANDIRI,69.7,Network Security Specialist
-777,D4,5,Fisika,Jalur Test Tulis,475.0,Mechatronics Specialist
-778,D4,11,"Kimia, Elektronika, Matematika, Pemrograman",Jalur Test Tulis,76.6,Digital Content Creator
-779,D4,9,"Statistika, Multimedia",Jalur Test Tulis,524.0,Game Developer
-780,D4,9,"Kimia, Statistika, Teknik Tenaga Listrik (TTL)",Jalur Tes Tulis,715.0,Game Developer
-781,D4,8,"Fisika, Pemrograman, Teknologi Komputer Jaringan (TKJ), Desain Grafis",Jalur Tes Tulis,572.0,Energy Analyst
-782,D4,8,"Statistika, Desain Animasi",Jalur Test Tulis,690.0,Power Plant Operator
-783,D4,1,Matematika,Jalur Tes Tulis,84.7,Electronics Technician
-784,D4,11,"Desain Animasi, Pemrograman, Statistika",Jalur Test Tulis,749.0,UI/UX Designer
-785,D3,4,"Teknologi Komputer Jaringan (TKJ), Multimedia, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Test Tulis,534.0,Software Engineer
-786,D4,6,"Fisika, Multimedia, Matematika, Desain Grafis",Jalur Prestasi,84.8,Computer Engineer
-787,D4,5,"Fisika, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Test Tulis,523.0,Automation Engineer
-788,D4,8,"Teknologi Komputer Jaringan (TKJ), Teknik Instalasi Tenaga Listrik (TITL), Multimedia",Jalur Test Tulis,68.2,Power Plant Operator
-789,D3,4,"Statistika, Pemrograman, Fisika",Jalur Test Tulis,704.0,Cybersecurity Analyst
-790,D4,11,"Multimedia, Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ), Elektronika",Jalur Prestasi,696.0,UI/UX Designer
-791,D4,5,"Teknik Tenaga Listrik (TTL), Elektronika, Pemrograman",Jalur Prestasi,567.0,Robotics Engineer
-792,D4,5,"Statistika, Teknologi Komputer Jaringan (TKJ)",Jalur Test Tulis,92.1,Mechatronics Specialist
-793,D4,8,"Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ)",SIMANDIRI,712.0,Renewable Energy Engineer
-794,D4,3,"Fisika, Desain Grafis, Matematika, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Test Tulis,89.0,Control Systems Engineer
-795,D3,4,"Teknik Tenaga Listrik (TTL), Statistika",Jalur Test Tulis,88.0,Software Engineer
-796,D3,2,Kimia,Jalur Prestasi,76.8,RF Engineer
-797,D4,5,"Multimedia, Teknik Tenaga Listrik (TTL), Statistika",Jalur Prestasi,499.0,Automation Engineer
-798,D4,11,"Multimedia, Teknologi Komputer Jaringan (TKJ), Fisika",SIMANDIRI,707.0,Motion Graphics Artist
-799,D3,7,"Matematika, Kimia",Jalur Tes Tulis,568.0,Video Editor
-800,D4,3,"Kimia, Matematika, Statistika",Jalur Tes Tulis,81.1,Control Systems Engineer
-801,D4,9,"Statistika, Matematika, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Prestasi,78.3,Game Designer
-802,D3,1,"Fisika, Teknik Instalasi Tenaga Listrik (TITL), Desain Grafis, Pemrograman",SIMANDIRI,636.0,Embedded Systems Engineer
-803,D4,6,"Kimia, Desain Animasi, Fisika",Jalur Tes Tulis,76.0,System Administrator
-804,D4,2,"Kimia, Fisika, Matematika, Elektronika",SIMANDIRI,523.0,Telecommunications Specialist
-805,D4,9,"Elektronika, Pemrograman, Teknik Tenaga Listrik (TTL)",SIMANDIRI,560.0,Game Developer
-806,D3,7,"Kimia, Pemrograman, Statistika, Desain Animasi",Jalur Test Tulis,661.0,Broadcast Engineer
-807,D4,10,"Desain Animasi, Kimia, Desain Grafis",SIMANDIRI,75.8,Network Security Specialist
-808,D4,6,"Multimedia, Statistika",Jalur Prestasi,91.4,Computer Engineer
-809,D4,11,Desain Grafis,Jalur Tes Tulis,713.0,UI/UX Designer
-810,D4,10,"Desain Animasi, Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ), Statistika",Jalur Prestasi,652.0,DevOps Engineer
-811,D4,5,Elektronika,Jalur Prestasi,715.0,Mechatronics Specialist
-812,D4,2,"Kimia, Desain Grafis",Jalur Prestasi,83.0,RF Engineer
-813,D4,4,Kimia,Jalur Tes Tulis,518.0,Full Stack Developer
-814,D3,3,"Matematika, Pemrograman",Jalur Test Tulis,507.0,Control Systems Engineer
-815,D3,4,"Multimedia, Desain Grafis, Pemrograman, Kimia",Jalur Tes Tulis,67.9,Cybersecurity Analyst
-816,D4,2,"Pemrograman, Matematika, Multimedia, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Test Tulis,80.4,Network Engineer
-817,D4,12,"Fisika, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Tes Tulis,739.0,Machine Learning Engineer
-818,D4,8,Multimedia,Jalur Prestasi,90.9,Power Plant Operator
-819,D3,4,"Matematika, Kimia, Pemrograman, Desain Animasi",Jalur Test Tulis,85.2,Full Stack Developer
-820,D4,8,"Desain Animasi, Fisika, Kimia",Jalur Prestasi,76.8,Power Plant Operator
-821,D4,8,"Desain Grafis, Desain Animasi",Jalur Tes Tulis,615.0,Energy Analyst
-822,D4,5,"Fisika, Elektronika",Jalur Tes Tulis,85.2,Robotics Engineer
-823,D4,5,"Teknologi Komputer Jaringan (TKJ), Multimedia",Jalur Prestasi,552.0,Automation Engineer
-824,D4,5,"Elektronika, Teknologi Komputer Jaringan (TKJ), Teknik Instalasi Tenaga Listrik (TITL), Pemrograman",Jalur Prestasi,67.3,Automation Engineer
-825,D4,4,"Pemrograman, Elektronika",Jalur Prestasi,73.9,Full Stack Developer
-826,D4,3,Statistika,Jalur Prestasi,86.8,Control Systems Engineer
-827,D3,2,Fisika,Jalur Tes Tulis,90.1,RF Engineer
-828,D4,4,"Elektronika, Teknologi Komputer Jaringan (TKJ)",Jalur Tes Tulis,70.9,Cybersecurity Analyst
-829,D4,4,"Elektronika, Fisika, Desain Animasi",Jalur Prestasi,67.6,Software Engineer
-830,D4,11,"Desain Animasi, Fisika, Pemrograman",Jalur Prestasi,87.7,Digital Content Creator
-831,D3,1,"Teknologi Komputer Jaringan (TKJ), Fisika, Statistika",Jalur Prestasi,72.6,Electrical Engineer
-832,D4,1,"Fisika, Elektronika, Statistika",Jalur Test Tulis,88.9,Electrical Engineer
-833,D4,5,"Elektronika, Statistika, Fisika, Pemrograman",Jalur Prestasi,90.2,Automation Engineer
-834,D4,2,Statistika,Jalur Test Tulis,599.0,Network Engineer
-835,D4,1,"Multimedia, Matematika, Elektronika",Jalur Prestasi,508.0,Electrical Engineer
-836,D4,10,"Pemrograman, Kimia",Jalur Tes Tulis,488.0,Cloud Engineer
-837,D3,2,"Statistika, Desain Grafis",Jalur Tes Tulis,90.4,RF Engineer
-838,D4,1,Multimedia,Jalur Test Tulis,462.0,Embedded Systems Engineer
-839,D4,8,Teknik Tenaga Listrik (TTL),Jalur Prestasi,69.4,Power Plant Operator
-840,D3,7,"Matematika, Teknik Tenaga Listrik (TTL)",Jalur Tes Tulis,674.0,Broadcast Engineer
-841,D4,8,"Desain Grafis, Fisika",Jalur Tes Tulis,472.0,Energy Analyst
-842,D4,11,"Matematika, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Prestasi,511.0,UI/UX Designer
-843,D4,9,"Fisika, Pemrograman, Teknik Instalasi Tenaga Listrik (TITL), Statistika",Jalur Prestasi,80.3,Game Developer
-844,D4,3,Pemrograman,Jalur Prestasi,68.3,Industrial Electrician
-845,D4,8,"Pemrograman, Teknik Instalasi Tenaga Listrik (TITL), Multimedia",Jalur Tes Tulis,86.3,Renewable Energy Engineer
-846,D4,2,"Statistika, Elektronika",Jalur Prestasi,562.0,Network Engineer
-847,D4,11,"Pemrograman, Multimedia",Jalur Tes Tulis,495.0,Digital Content Creator
-848,D4,12,Statistika,Jalur Prestasi,71.6,Business Intelligence Analyst
-849,D4,11,"Elektronika, Pemrograman, Desain Grafis, Teknik Tenaga Listrik (TTL)",Jalur Tes Tulis,68.3,UI/UX Designer
-850,D4,8,"Matematika, Teknologi Komputer Jaringan (TKJ), Teknik Tenaga Listrik (TTL)",Jalur Prestasi,726.0,Renewable Energy Engineer
-851,D4,4,"Fisika, Desain Animasi, Teknik Tenaga Listrik (TTL), Matematika",Jalur Prestasi,92.8,Software Engineer
-852,D3,2,Elektronika,Jalur Prestasi,712.0,Telecommunications Specialist
-853,D4,9,"Pemrograman, Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ)",SIMANDIRI,86.3,3D Modeler
-854,D4,6,"Teknik Tenaga Listrik (TTL), Fisika",Jalur Prestasi,631.0,System Administrator
-855,D4,10,Desain Animasi,Jalur Prestasi,81.8,Network Security Specialist
-856,D4,5,Elektronika,Jalur Prestasi,596.0,Robotics Engineer
-857,D4,6,"Desain Animasi, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Test Tulis,642.0,Computer Engineer
-858,D4,12,Teknik Instalasi Tenaga Listrik (TITL),Jalur Test Tulis,591.0,Machine Learning Engineer
-859,D4,11,"Multimedia, Fisika",Jalur Prestasi,77.2,Motion Graphics Artist
-860,D4,4,"Matematika, Elektronika",Jalur Test Tulis,636.0,Full Stack Developer
-861,D4,11,"Kimia, Matematika",SIMANDIRI,471.0,UI/UX Designer
-862,D3,7,"Teknologi Komputer Jaringan (TKJ), Matematika, Desain Animasi",Jalur Prestasi,66.4,Broadcast Engineer
-863,D4,12,"Teknologi Komputer Jaringan (TKJ), Desain Animasi",Jalur Test Tulis,67.4,Business Intelligence Analyst
-864,D4,12,"Pemrograman, Kimia",SIMANDIRI,87.8,Data Scientist
-865,D4,8,"Fisika, Kimia",Jalur Tes Tulis,83.5,Energy Analyst
-866,D4,10,"Matematika, Elektronika, Pemrograman, Kimia",Jalur Test Tulis,67.5,DevOps Engineer
-867,D4,9,"Desain Animasi, Pemrograman, Elektronika",SIMANDIRI,702.0,Game Designer
-868,D3,2,Desain Animasi,Jalur Prestasi,71.9,RF Engineer
-869,D3,7,"Multimedia, Teknik Tenaga Listrik (TTL)",Jalur Test Tulis,93.5,Broadcast Engineer
-870,D4,4,Teknik Tenaga Listrik (TTL),SIMANDIRI,89.4,Full Stack Developer
-871,D3,4,"Fisika, Matematika",Jalur Test Tulis,493.0,Software Engineer
-872,D4,2,"Pemrograman, Teknik Instalasi Tenaga Listrik (TITL), Statistika, Elektronika",Jalur Test Tulis,554.0,RF Engineer
-873,D3,7,"Fisika, Multimedia",Jalur Prestasi,667.0,Video Editor
-874,D3,4,"Teknik Instalasi Tenaga Listrik (TITL), Elektronika",Jalur Tes Tulis,622.0,Software Engineer
-875,D3,7,"Elektronika, Fisika",Jalur Test Tulis,73.7,Multimedia Designer
-876,D3,2,"Multimedia, Teknologi Komputer Jaringan (TKJ), Teknik Instalasi Tenaga Listrik (TITL), Pemrograman",Jalur Test Tulis,518.0,RF Engineer
-877,D4,12,Teknologi Komputer Jaringan (TKJ),Jalur Prestasi,639.0,Business Intelligence Analyst
-878,D4,9,"Desain Animasi, Statistika",Jalur Prestasi,85.5,3D Modeler
-879,D4,5,"Pemrograman, Multimedia, Statistika, Elektronika",Jalur Test Tulis,749.0,Automation Engineer
-880,D4,2,"Fisika, Kimia, Elektronika, Desain Grafis",Jalur Tes Tulis,677.0,RF Engineer
-881,D4,2,"Desain Animasi, Elektronika",Jalur Prestasi,73.5,Telecommunications Specialist
-882,D4,3,"Fisika, Teknik Instalasi Tenaga Listrik (TITL), Statistika, Teknik Tenaga Listrik (TTL)",Jalur Tes Tulis,93.9,Industrial Electrician
-883,D3,3,Elektronika,Jalur Prestasi,522.0,Automation Engineer
-884,D4,4,"Kimia, Fisika, Matematika",Jalur Prestasi,80.2,Full Stack Developer
-885,D4,10,"Kimia, Matematika, Elektronika, Desain Grafis",Jalur Test Tulis,656.0,DevOps Engineer
-886,D3,3,Multimedia,Jalur Prestasi,92.7,Automation Engineer
-887,D4,10,Fisika,Jalur Prestasi,75.4,DevOps Engineer
-888,D4,6,Desain Grafis,Jalur Prestasi,517.0,Computer Engineer
-889,D4,5,"Desain Animasi, Elektronika, Pemrograman, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Tes Tulis,72.0,Mechatronics Specialist
-890,D4,9,"Teknik Instalasi Tenaga Listrik (TITL), Elektronika",SIMANDIRI,84.2,Game Developer
-891,D4,10,"Pemrograman, Teknik Instalasi Tenaga Listrik (TITL), Teknik Tenaga Listrik (TTL), Multimedia",Jalur Prestasi,70.3,Cloud Engineer
-892,D4,1,"Fisika, Statistika, Kimia, Pemrograman",Jalur Tes Tulis,93.2,Embedded Systems Engineer
-893,D3,2,"Fisika, Multimedia, Pemrograman, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Prestasi,741.0,Network Engineer
-894,D3,3,"Pemrograman, Matematika, Desain Animasi, Multimedia",Jalur Prestasi,651.0,Industrial Electrician
-895,D4,10,"Matematika, Teknik Instalasi Tenaga Listrik (TITL), Statistika, Teknik Tenaga Listrik (TTL)",Jalur Test Tulis,590.0,DevOps Engineer
-896,D4,9,Kimia,Jalur Prestasi,632.0,3D Modeler
-897,D4,9,Statistika,Jalur Tes Tulis,85.4,3D Modeler
-898,D4,6,"Teknik Tenaga Listrik (TTL), Elektronika, Teknologi Komputer Jaringan (TKJ)",Jalur Prestasi,82.0,Computer Engineer
-899,D4,5,Statistika,Jalur Tes Tulis,715.0,Automation Engineer
-900,D4,11,"Multimedia, Desain Animasi",Jalur Prestasi,85.6,Motion Graphics Artist
-901,D4,8,Matematika,SIMANDIRI,66.8,Energy Analyst
-902,D4,2,Teknik Instalasi Tenaga Listrik (TITL),Jalur Prestasi,462.0,RF Engineer
-903,D4,3,"Desain Grafis, Fisika, Desain Animasi",Jalur Test Tulis,67.5,Control Systems Engineer
-904,D4,2,"Teknologi Komputer Jaringan (TKJ), Fisika, Teknik Instalasi Tenaga Listrik (TITL), Desain Animasi",Jalur Prestasi,94.6,Network Engineer
-905,D3,2,"Elektronika, Kimia, Pemrograman",Jalur Prestasi,732.0,Telecommunications Specialist
-906,D4,2,"Teknik Instalasi Tenaga Listrik (TITL), Desain Animasi, Pemrograman",Jalur Test Tulis,72.8,Network Engineer
-907,D4,8,"Pemrograman, Multimedia, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Tes Tulis,75.1,Renewable Energy Engineer
-908,D4,1,"Multimedia, Statistika, Desain Animasi, Elektronika",Jalur Tes Tulis,73.9,Electronics Technician
-909,D4,9,Teknologi Komputer Jaringan (TKJ),Jalur Tes Tulis,494.0,Game Developer
-910,D4,4,"Pemrograman, Multimedia, Kimia, Matematika",Jalur Prestasi,711.0,Cybersecurity Analyst
-911,D4,11,"Pemrograman, Kimia, Matematika",Jalur Tes Tulis,91.0,Motion Graphics Artist
-912,D4,9,"Teknik Tenaga Listrik (TTL), Fisika, Kimia",Jalur Test Tulis,453.0,Game Developer
-913,D4,3,"Pemrograman, Fisika, Elektronika",Jalur Prestasi,705.0,Control Systems Engineer
-914,D4,8,"Kimia, Desain Animasi, Teknologi Komputer Jaringan (TKJ)",Jalur Prestasi,72.2,Renewable Energy Engineer
-915,D4,12,"Multimedia, Elektronika, Fisika",Jalur Test Tulis,569.0,Data Scientist
-916,D4,10,"Elektronika, Desain Animasi, Teknologi Komputer Jaringan (TKJ), Matematika",Jalur Test Tulis,69.4,Network Security Specialist
-917,D4,3,"Statistika, Desain Grafis, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,457.0,Control Systems Engineer
-918,D4,11,"Teknik Tenaga Listrik (TTL), Statistika",Jalur Prestasi,71.2,UI/UX Designer
-919,D4,6,"Statistika, Teknologi Komputer Jaringan (TKJ), Kimia, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Test Tulis,721.0,System Administrator
-920,D4,8,Multimedia,Jalur Tes Tulis,704.0,Renewable Energy Engineer
-921,D4,8,"Statistika, Matematika",Jalur Tes Tulis,68.1,Energy Analyst
-922,D4,10,"Matematika, Teknologi Komputer Jaringan (TKJ), Statistika, Kimia",Jalur Tes Tulis,739.0,Cloud Engineer
-923,D3,2,"Pemrograman, Desain Grafis, Teknik Tenaga Listrik (TTL), Elektronika",SIMANDIRI,66.7,Network Engineer
-924,D3,7,"Desain Grafis, Elektronika, Statistika, Multimedia",Jalur Tes Tulis,600.0,Video Editor
-925,D4,3,"Teknik Tenaga Listrik (TTL), Kimia, Teknik Instalasi Tenaga Listrik (TITL), Matematika",Jalur Prestasi,84.5,Control Systems Engineer
-926,D4,10,"Teknik Instalasi Tenaga Listrik (TITL), Multimedia",Jalur Prestasi,77.2,DevOps Engineer
-927,D3,1,"Multimedia, Pemrograman",Jalur Tes Tulis,641.0,Electrical Engineer
-928,D4,1,"Teknik Tenaga Listrik (TTL), Fisika, Matematika, Multimedia",Jalur Tes Tulis,87.6,Electronics Technician
-929,D4,3,"Teknologi Komputer Jaringan (TKJ), Statistika, Teknik Tenaga Listrik (TTL)",SIMANDIRI,724.0,Industrial Electrician
-930,D4,8,Desain Grafis,Jalur Prestasi,66.6,Power Plant Operator
-931,D4,11,"Kimia, Statistika, Pemrograman",Jalur Tes Tulis,509.0,Digital Content Creator
-932,D3,7,Elektronika,Jalur Prestasi,94.0,Video Editor
-933,D4,12,"Kimia, Teknik Instalasi Tenaga Listrik (TITL), Multimedia, Teknologi Komputer Jaringan (TKJ)",Jalur Tes Tulis,69.3,Machine Learning Engineer
-934,D4,2,"Pemrograman, Teknik Instalasi Tenaga Listrik (TITL), Fisika",Jalur Prestasi,538.0,Telecommunications Specialist
-935,D4,6,Desain Grafis,Jalur Test Tulis,576.0,Computer Engineer
-936,D3,7,"Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ), Desain Grafis",Jalur Prestasi,73.5,Multimedia Designer
-937,D4,10,"Fisika, Pemrograman, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Tes Tulis,91.8,Cloud Engineer
-938,D4,5,"Desain Grafis, Elektronika, Matematika",Jalur Tes Tulis,85.8,Automation Engineer
-939,D4,12,"Matematika, Teknologi Komputer Jaringan (TKJ)",Jalur Test Tulis,85.3,Business Intelligence Analyst
-940,D4,10,"Teknik Instalasi Tenaga Listrik (TITL), Matematika",Jalur Prestasi,484.0,Cloud Engineer
-941,D4,1,"Statistika, Matematika",Jalur Prestasi,71.9,Electronics Technician
-942,D4,6,"Teknik Tenaga Listrik (TTL), Matematika, Pemrograman",Jalur Test Tulis,70.1,IT Support Specialist
-943,D4,12,"Teknik Instalasi Tenaga Listrik (TITL), Matematika",Jalur Tes Tulis,525.0,Data Scientist
-944,D4,5,"Multimedia, Teknik Tenaga Listrik (TTL), Pemrograman, Elektronika",Jalur Prestasi,77.4,Mechatronics Specialist
-945,D4,12,"Matematika, Teknologi Komputer Jaringan (TKJ), Kimia, Teknik Tenaga Listrik (TTL)",Jalur Prestasi,94.2,Business Intelligence Analyst
-946,D4,9,Kimia,Jalur Tes Tulis,572.0,3D Modeler
-947,D4,2,"Kimia, Multimedia, Desain Animasi",Jalur Prestasi,66.5,Network Engineer
-948,D4,5,"Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ)",Jalur Tes Tulis,83.6,Automation Engineer
-949,D4,12,"Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ), Desain Grafis",Jalur Tes Tulis,452.0,Data Scientist
-950,D3,3,Desain Animasi,Jalur Test Tulis,504.0,Control Systems Engineer
-951,D4,6,"Fisika, Desain Animasi",Jalur Prestasi,743.0,IT Support Specialist
-952,D4,3,"Teknik Tenaga Listrik (TTL), Desain Animasi, Fisika, Matematika",Jalur Test Tulis,75.0,Control Systems Engineer
-953,D4,10,"Kimia, Multimedia, Teknologi Komputer Jaringan (TKJ), Desain Grafis",Jalur Test Tulis,606.0,Cloud Engineer
-954,D4,10,"Statistika, Kimia, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Test Tulis,663.0,DevOps Engineer
-955,D3,3,"Multimedia, Desain Grafis, Kimia",Jalur Prestasi,516.0,Industrial Electrician
-956,D4,3,Desain Grafis,SIMANDIRI,72.7,Automation Engineer
-957,D4,9,"Statistika, Matematika, Desain Animasi",Jalur Prestasi,73.5,3D Modeler
-958,D4,3,"Elektronika, Multimedia",Jalur Prestasi,708.0,Automation Engineer
-959,D4,2,Fisika,Jalur Prestasi,711.0,RF Engineer
-960,D4,10,"Desain Animasi, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Test Tulis,92.8,DevOps Engineer
-961,D3,4,"Desain Grafis, Teknik Tenaga Listrik (TTL), Pemrograman",SIMANDIRI,713.0,Software Engineer
-962,D4,10,Teknik Instalasi Tenaga Listrik (TITL),Jalur Test Tulis,683.0,Network Security Specialist
-963,D4,10,Pemrograman,Jalur Test Tulis,73.9,Network Security Specialist
-964,D4,1,"Teknologi Komputer Jaringan (TKJ), Kimia, Desain Animasi",Jalur Prestasi,451.0,Electronics Technician
-965,D4,3,Teknik Instalasi Tenaga Listrik (TITL),Jalur Tes Tulis,559.0,Industrial Electrician
-966,D4,1,"Pemrograman, Matematika",Jalur Tes Tulis,83.2,Electronics Technician
-967,D4,6,"Desain Grafis, Teknologi Komputer Jaringan (TKJ), Teknik Tenaga Listrik (TTL)",SIMANDIRI,74.6,System Administrator
-968,D4,3,Pemrograman,Jalur Prestasi,483.0,Automation Engineer
-969,D3,7,"Teknik Tenaga Listrik (TTL), Matematika",SIMANDIRI,574.0,Broadcast Engineer
-970,D4,4,"Multimedia, Teknik Instalasi Tenaga Listrik (TITL), Fisika",Jalur Prestasi,564.0,Full Stack Developer
-971,D4,11,"Pemrograman, Statistika, Teknologi Komputer Jaringan (TKJ), Desain Grafis",Jalur Tes Tulis,79.3,Digital Content Creator
-972,D4,6,Teknologi Komputer Jaringan (TKJ),Jalur Prestasi,542.0,IT Support Specialist
-973,D4,8,"Teknik Instalasi Tenaga Listrik (TITL), Pemrograman",Jalur Prestasi,648.0,Power Plant Operator
-974,D4,8,"Teknik Instalasi Tenaga Listrik (TITL), Pemrograman, Desain Animasi",Jalur Prestasi,625.0,Power Plant Operator
-975,D3,7,"Elektronika, Fisika, Teknologi Komputer Jaringan (TKJ)",Jalur Tes Tulis,746.0,Broadcast Engineer
-976,D4,2,Pemrograman,Jalur Prestasi,94.8,Network Engineer
-977,D3,4,"Multimedia, Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL)",Jalur Tes Tulis,75.7,Full Stack Developer
-978,D4,6,"Fisika, Kimia",Jalur Tes Tulis,89.7,System Administrator
-979,D4,9,"Desain Animasi, Teknik Instalasi Tenaga Listrik (TITL), Desain Grafis, Pemrograman",Jalur Tes Tulis,723.0,Game Designer
-980,D4,8,"Teknik Instalasi Tenaga Listrik (TITL), Multimedia",Jalur Prestasi,710.0,Power Plant Operator
-981,D4,9,"Teknik Tenaga Listrik (TTL), Multimedia, Desain Grafis",Jalur Prestasi,81.3,3D Modeler
-982,D4,2,"Pemrograman, Desain Animasi",Jalur Prestasi,79.5,Network Engineer
-983,D4,6,"Kimia, Pemrograman, Multimedia, Statistika",Jalur Prestasi,85.3,System Administrator
-984,D4,11,"Matematika, Fisika",Jalur Prestasi,92.8,UI/UX Designer
-985,D3,4,"Fisika, Desain Animasi, Multimedia, Teknik Instalasi Tenaga Listrik (TITL)",Jalur Prestasi,71.0,Software Engineer
-986,D4,5,"Teknik Instalasi Tenaga Listrik (TITL), Kimia, Teknologi Komputer Jaringan (TKJ), Elektronika",Jalur Prestasi,452.0,Robotics Engineer
-987,D3,7,"Fisika, Multimedia, Teknologi Komputer Jaringan (TKJ)",Jalur Prestasi,65.8,Multimedia Designer
-988,D4,1,Matematika,Jalur Test Tulis,549.0,Electrical Engineer
-989,D4,8,"Teknik Instalasi Tenaga Listrik (TITL), Desain Animasi, Multimedia, Teknologi Komputer Jaringan (TKJ)",Jalur Test Tulis,493.0,Renewable Energy Engineer
-990,D3,3,Fisika,Jalur Prestasi,72.2,Control Systems Engineer
-991,D3,3,"Statistika, Desain Animasi",Jalur Prestasi,88.0,Control Systems Engineer
-992,D4,3,"Multimedia, Teknik Tenaga Listrik (TTL), Matematika, Elektronika",Jalur Tes Tulis,709.0,Automation Engineer
-993,D3,1,"Teknologi Komputer Jaringan (TKJ), Teknik Tenaga Listrik (TTL)",Jalur Tes Tulis,70.7,Electrical Engineer
-994,D3,7,Fisika,Jalur Test Tulis,550.0,Broadcast Engineer
-995,D3,1,Desain Grafis,Jalur Tes Tulis,739.0,Embedded Systems Engineer
-996,D3,7,"Multimedia, Kimia, Teknologi Komputer Jaringan (TKJ), Desain Animasi",Jalur Prestasi,455.0,Broadcast Engineer
-997,D4,6,"Elektronika, Fisika, Pemrograman",Jalur Prestasi,65.0,IT Support Specialist
-998,D4,12,"Teknik Tenaga Listrik (TTL), Kimia, Teknologi Komputer Jaringan (TKJ)",Jalur Tes Tulis,67.1,Machine Learning Engineer
-999,D4,9,"Teknik Instalasi Tenaga Listrik (TITL), Pemrograman, Multimedia, Statistika",Jalur Test Tulis,86.8,3D Modeler
-1000,D4,6,"Multimedia, Teknik Tenaga Listrik (TTL), Fisika",Jalur Prestasi,628.0,System Administrator
+﻿id;jenjang_pendidikan;minat_bakat;jalur_pendaftaran;rata_nilai;rencana_karir;prodi_rekomendasi_id
+1;D3;Fisika, Teknik Tenaga Listrik (TTL);Jalur Tes Tulis;830.0;Network Engineer;2
+2;D3;Kimia, Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;91.0;Broadcast Engineer;7
+3;D4;Pemrograman, Statistika, Teknologi Komputer Jaringan (TKJ), Desain Animasi;Jalur Prestasi;95.6;Machine Learning Engineer;12
+4;D4;Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ), Elektronika, Desain Animasi;Jalur Prestasi;86.1;Game Designer;9
+5;D4;Fisika, Matematika, Desain Animasi;Jalur Test Tulis;882.7;Digital Content Creator;11
+6;D4;Teknik Tenaga Listrik (TTL), Matematika, Multimedia;Jalur Prestasi;94.0;Machine Learning Engineer;12
+7;D4;Desain Animasi, Teknologi Komputer Jaringan (TKJ), Statistika, Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;708.0;Automation Engineer;5
+8;D4;Desain Grafis, Pemrograman, Fisika;Jalur Test Tulis;664.0;UI/UX Designer;11
+9;D4;Kimia;Jalur Tes Tulis;755.0;Computer Engineer;6
+10;D4;Desain Grafis, Kimia;Jalur Test Tulis;654.0;Digital Content Creator;11
+11;D4;Desain Grafis;Jalur Prestasi;87.5;Cloud Engineer;10
+12;D4;Elektronika;Jalur Test Tulis;839.5;Automation Engineer;3
+13;D4;Desain Animasi, Kimia, Statistika;SIMANDIRI;651.5;Business Intelligence Analyst;12
+14;D4;Statistika;Jalur Test Tulis;777.5;RF Engineer;2
+15;D4;Matematika;Jalur Prestasi;88.9;Embedded Systems Engineer;1
+16;D4;Desain Grafis, Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ), Multimedia;Jalur Test Tulis;774.2;IT Support Specialist;6
+17;D4;Multimedia, Desain Grafis, Desain Animasi;Jalur Prestasi;88.3;Network Security Specialist;10
+18;D4;Kimia, Desain Animasi, Desain Grafis, Teknik Tenaga Listrik (TTL);Jalur Test Tulis;833.3;Electrical Engineer;1
+19;D4;Fisika;Jalur Prestasi;99.0;Cybersecurity Analyst;4
+20;D3;Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL), Pemrograman;Jalur Prestasi;96.9;Full Stack Developer;4
+21;D4;Teknik Tenaga Listrik (TTL), Fisika, Teknik Instalasi Tenaga Listrik (TITL), Elektronika;Jalur Prestasi;93.3;IT Support Specialist;6
+22;D4;Kimia, Teknologi Komputer Jaringan (TKJ), Elektronika;Jalur Prestasi;87.0;Mechatronics Specialist;5
+23;D4;Multimedia, Teknologi Komputer Jaringan (TKJ), Kimia;Jalur Prestasi;86.4;Embedded Systems Engineer;1
+24;D4;Statistika, Pemrograman, Multimedia;Jalur Prestasi;88.4;Mechatronics Specialist;5
+25;D4;Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ), Matematika, Pemrograman;Jalur Prestasi;84.1;Game Designer;9
+26;D4;Kimia, Desain Grafis;Jalur Test Tulis;939.8;Motion Graphics Artist;11
+27;D3;Kimia;Jalur Tes Tulis;657.0;Network Engineer;2
+28;D4;Teknik Instalasi Tenaga Listrik (TITL), Desain Animasi;Jalur Test Tulis;945.5;Cloud Engineer;10
+29;D4;Fisika, Teknik Tenaga Listrik (TTL);Jalur Prestasi;91.0;3D Modeler;9
+30;D4;Elektronika, Multimedia, Desain Grafis;Jalur Tes Tulis;670.0;UI/UX Designer;11
+31;D4;Desain Grafis, Teknologi Komputer Jaringan (TKJ), Statistika;Jalur Tes Tulis;750.0;System Administrator;6
+32;D4;Statistika, Matematika;Jalur Prestasi;97.7;Business Intelligence Analyst;12
+33;D4;Desain Grafis, Pemrograman;SIMANDIRI;887.6;3D Modeler;9
+34;D3;Fisika;Jalur Prestasi;80.7;Full Stack Developer;4
+35;D4;Desain Animasi, Teknik Tenaga Listrik (TTL);Jalur Prestasi;85.0;Cybersecurity Analyst;4
+36;D4;Teknik Instalasi Tenaga Listrik (TITL), Elektronika, Matematika, Statistika;Jalur Prestasi;84.7;Energy Analyst;8
+37;D4;Statistika, Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;81.2;Full Stack Developer;4
+38;D3;Teknik Tenaga Listrik (TTL), Matematika, Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;90.0;Telecommunications Specialist;2
+39;D4;Elektronika;Jalur Prestasi;90.0;Mechatronics Specialist;5
+40;D4;Desain Grafis, Multimedia, Teknik Instalasi Tenaga Listrik (TITL), Kimia;Jalur Prestasi;98.8;Automation Engineer;3
+41;D4;Teknik Tenaga Listrik (TTL);Jalur Prestasi;88.8;Telecommunications Specialist;2
+42;D4;Elektronika;Jalur Prestasi;88.6;Automation Engineer;5
+43;D4;Fisika, Pemrograman, Statistika;Jalur Prestasi;85.0;Control Systems Engineer;3
+44;D4;Elektronika, Multimedia, Pemrograman;Jalur Prestasi;90.0;Digital Content Creator;11
+45;D4;Desain Animasi, Kimia, Multimedia;Jalur Prestasi;93.0;System Administrator;6
+46;D4;Statistika, Elektronika;Jalur Test Tulis;674.6;IT Support Specialist;6
+47;D4;Multimedia, Elektronika, Desain Grafis;SIMANDIRI;906.3;Control Systems Engineer;3
+48;D3;Fisika, Elektronika, Teknik Tenaga Listrik (TTL), Multimedia;Jalur Test Tulis;701.3;Network Engineer;2
+49;D4;Desain Grafis, Fisika, Kimia;Jalur Prestasi;97.0;Software Engineer;4
+50;D4;Fisika, Statistika, Desain Grafis, Teknik Tenaga Listrik (TTL);Jalur Test Tulis;811.8;Control Systems Engineer;3
+51;D4;Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;99.7;RF Engineer;2
+52;D4;Teknologi Komputer Jaringan (TKJ), Pemrograman, Teknik Instalasi Tenaga Listrik (TITL), Multimedia;Jalur Tes Tulis;904.0;IT Support Specialist;6
+53;D3;Fisika;SIMANDIRI;97.3;Broadcast Engineer;7
+54;D4;Elektronika, Multimedia;SIMANDIRI;833.0;3D Modeler;9
+55;D4;Multimedia, Matematika, Teknologi Komputer Jaringan (TKJ), Teknik Tenaga Listrik (TTL);Jalur Tes Tulis;730.0;Energy Analyst;8
+56;D4;Statistika;Jalur Test Tulis;870.0;Motion Graphics Artist;11
+57;D4;Multimedia, Matematika;Jalur Test Tulis;867.9;Computer Engineer;6
+58;D4;Fisika, Matematika, Desain Animasi;Jalur Tes Tulis;906.0;Digital Content Creator;11
+59;D3;Kimia, Pemrograman, Desain Grafis, Desain Animasi;Jalur Test Tulis;975.5;Video Editor;7
+60;D3;Kimia, Multimedia;Jalur Test Tulis;691.6;Video Editor;7
+61;D4;Teknik Tenaga Listrik (TTL), Statistika, Matematika, Desain Animasi;Jalur Prestasi;82.0;3D Modeler;9
+62;D4;Elektronika;Jalur Test Tulis;823.2;DevOps Engineer;10
+63;D4;Elektronika, Kimia;Jalur Prestasi;81.6;Automation Engineer;5
+64;D4;Fisika, Desain Animasi, Matematika, Teknik Tenaga Listrik (TTL);Jalur Prestasi;93.0;Network Security Specialist;10
+65;D4;Pemrograman, Statistika, Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;939.5;Game Designer;9
+66;D4;Desain Animasi, Fisika, Multimedia, Statistika;Jalur Tes Tulis;952.0;Computer Engineer;6
+67;D4;Pemrograman, Teknik Instalasi Tenaga Listrik (TITL), Matematika;Jalur Tes Tulis;994.0;Renewable Energy Engineer;8
+68;D4;Elektronika, Pemrograman;Jalur Prestasi;86.0;Data Scientist;12
+69;D4;Fisika;Jalur Test Tulis;961.6;Power Plant Operator;8
+70;D4;Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;688.6;Power Plant Operator;8
+71;D3;Desain Animasi, Teknologi Komputer Jaringan (TKJ), Desain Grafis;Jalur Tes Tulis;857.0;Video Editor;7
+72;D4;Teknik Tenaga Listrik (TTL), Desain Grafis;Jalur Prestasi;82.9;Power Plant Operator;8
+73;D3;Teknik Tenaga Listrik (TTL), Matematika;SIMANDIRI;85.6;Telecommunications Specialist;2
+74;D4;Statistika, Desain Animasi, Teknologi Komputer Jaringan (TKJ), Elektronika;Jalur Prestasi;99.4;Software Engineer;4
+75;D4;Teknik Instalasi Tenaga Listrik (TITL), Desain Grafis, Kimia, Teknik Tenaga Listrik (TTL);SIMANDIRI;718.0;Embedded Systems Engineer;1
+76;D4;Teknik Tenaga Listrik (TTL);Jalur Prestasi;80.6;Electronics Technician;1
+77;D4;Teknik Tenaga Listrik (TTL), Multimedia, Kimia;Jalur Prestasi;83.8;Digital Content Creator;11
+78;D4;Statistika, Desain Animasi, Pemrograman, Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;92.1;UI/UX Designer;11
+79;D4;Multimedia, Statistika, Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;908.8;UI/UX Designer;11
+80;D4;Statistika, Desain Grafis, Multimedia, Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;83.7;System Administrator;6
+81;D4;Fisika, Pemrograman, Kimia;SIMANDIRI;673.4;Cloud Engineer;10
+82;D4;Teknik Instalasi Tenaga Listrik (TITL), Desain Grafis;Jalur Tes Tulis;877.0;Cloud Engineer;10
+83;D4;Fisika, Desain Grafis, Teknik Tenaga Listrik (TTL);Jalur Test Tulis;928.0;Cybersecurity Analyst;4
+84;D4;Statistika, Teknik Tenaga Listrik (TTL);Jalur Prestasi;85.7;Cloud Engineer;10
+85;D4;Pemrograman;Jalur Prestasi;97.0;Electrical Engineer;1
+86;D4;Statistika, Matematika, Teknologi Komputer Jaringan (TKJ);Jalur Tes Tulis;691.0;Network Engineer;2
+87;D4;Teknik Instalasi Tenaga Listrik (TITL), Matematika, Pemrograman, Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;91.9;Motion Graphics Artist;11
+88;D3;Matematika;Jalur Test Tulis;887.8;Multimedia Designer;7
+89;D4;Fisika, Elektronika;Jalur Prestasi;90.5;Industrial Electrician;3
+90;D4;Matematika, Desain Grafis, Teknik Tenaga Listrik (TTL);Jalur Test Tulis;808.5;Automation Engineer;3
+91;D4;Multimedia, Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;99.2;Computer Engineer;6
+92;D4;Teknik Tenaga Listrik (TTL), Desain Animasi, Matematika;Jalur Prestasi;85.6;Automation Engineer;5
+93;D4;Teknik Tenaga Listrik (TTL), Matematika, Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;908.9;Game Designer;9
+94;D4;Multimedia;Jalur Test Tulis;801.3;Mechatronics Specialist;5
+95;D4;Pemrograman;Jalur Test Tulis;884.5;Mechatronics Specialist;5
+96;D4;Teknologi Komputer Jaringan (TKJ), Pemrograman, Desain Grafis, Matematika;Jalur Test Tulis;941.7;Network Security Specialist;10
+97;D4;Statistika, Teknik Instalasi Tenaga Listrik (TITL), Matematika;Jalur Tes Tulis;658.0;Energy Analyst;8
+98;D3;Matematika, Pemrograman;Jalur Test Tulis;728.0;Video Editor;7
+99;D4;Teknik Instalasi Tenaga Listrik (TITL), Elektronika, Kimia;Jalur Prestasi;94.0;IT Support Specialist;6
+100;D4;Elektronika, Desain Animasi, Teknik Instalasi Tenaga Listrik (TITL), Fisika;Jalur Test Tulis;700.8;3D Modeler;9
+101;D4;Elektronika, Multimedia, Pemrograman;Jalur Test Tulis;987.2;Telecommunications Specialist;2
+102;D4;Multimedia, Kimia, Fisika, Matematika;Jalur Prestasi;83.0;Software Engineer;4
+103;D3;Matematika, Pemrograman, Statistika, Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;843.1;Video Editor;7
+104;D4;Pemrograman, Elektronika, Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;698.1;Computer Engineer;6
+105;D4;Teknologi Komputer Jaringan (TKJ), Desain Grafis;Jalur Prestasi;88.1;Machine Learning Engineer;12
+106;D4;Elektronika, Teknik Instalasi Tenaga Listrik (TITL), Teknik Tenaga Listrik (TTL), Desain Animasi;Jalur Tes Tulis;723.0;Game Developer;9
+107;D4;Teknik Tenaga Listrik (TTL);Jalur Prestasi;97.0;Power Plant Operator;8
+108;D4;Desain Grafis;Jalur Tes Tulis;824.0;IT Support Specialist;6
+109;D4;Desain Animasi;Jalur Test Tulis;758.4;Game Developer;9
+110;D3;Elektronika, Statistika;Jalur Prestasi;84.0;Electrical Engineer;1
+111;D4;Fisika, Pemrograman;Jalur Test Tulis;961.4;Data Scientist;12
+112;D4;Statistika, Elektronika, Teknik Instalasi Tenaga Listrik (TITL), Matematika;Jalur Prestasi;81.2;Robotics Engineer;5
+113;D4;Teknologi Komputer Jaringan (TKJ), Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;928.9;Game Designer;9
+114;D4;Multimedia, Fisika, Pemrograman;Jalur Tes Tulis;921.0;Robotics Engineer;5
+115;D4;Teknik Tenaga Listrik (TTL), Elektronika;Jalur Test Tulis;816.0;Game Designer;9
+116;D4;Teknik Tenaga Listrik (TTL), Statistika, Matematika;Jalur Test Tulis;908.1;Motion Graphics Artist;11
+117;D4;Teknik Tenaga Listrik (TTL), Multimedia, Desain Grafis;Jalur Tes Tulis;952.0;Machine Learning Engineer;12
+118;D3;Teknologi Komputer Jaringan (TKJ), Desain Grafis, Pemrograman, Matematika;Jalur Prestasi;83.1;Broadcast Engineer;7
+119;D4;Teknologi Komputer Jaringan (TKJ), Statistika;Jalur Prestasi;88.9;Renewable Energy Engineer;8
+120;D3;Teknologi Komputer Jaringan (TKJ), Elektronika;Jalur Test Tulis;814.4;Multimedia Designer;7
+121;D4;Desain Grafis, Kimia;Jalur Prestasi;80.0;UI/UX Designer;11
+122;D3;Desain Grafis, Elektronika, Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;80.5;Electrical Engineer;1
+123;D4;Fisika, Kimia, Multimedia, Pemrograman;SIMANDIRI;710.7;Network Engineer;2
+124;D4;Elektronika, Fisika, Desain Animasi, Teknologi Komputer Jaringan (TKJ);Jalur Tes Tulis;736.0;3D Modeler;9
+125;D4;Multimedia, Elektronika;Jalur Test Tulis;665.2;System Administrator;6
+126;D3;Teknik Tenaga Listrik (TTL), Matematika, Desain Animasi, Elektronika;Jalur Prestasi;94.2;Electronics Technician;1
+127;D4;Desain Grafis, Teknologi Komputer Jaringan (TKJ), Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL);Jalur Tes Tulis;689.0;Data Scientist;12
+128;D3;Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;99.0;Control Systems Engineer;3
+129;D4;Matematika;Jalur Test Tulis;686.0;Automation Engineer;5
+130;D3;Teknologi Komputer Jaringan (TKJ), Fisika, Matematika, Elektronika;Jalur Tes Tulis;762.0;Full Stack Developer;4
+131;D4;Desain Animasi, Teknik Tenaga Listrik (TTL);Jalur Prestasi;83.2;Automation Engineer;3
+132;D4;Teknik Tenaga Listrik (TTL), Kimia;Jalur Prestasi;87.8;Digital Content Creator;11
+133;D4;Statistika, Elektronika, Fisika;Jalur Prestasi;81.0;Data Scientist;12
+134;D4;Pemrograman, Fisika, Desain Grafis, Multimedia;Jalur Prestasi;91.8;Game Developer;9
+135;D4;Desain Animasi, Statistika, Teknik Instalasi Tenaga Listrik (TITL), Desain Grafis;Jalur Tes Tulis;662.0;Automation Engineer;3
+136;D4;Teknologi Komputer Jaringan (TKJ), Desain Animasi, Multimedia;Jalur Prestasi;97.3;Business Intelligence Analyst;12
+137;D4;Matematika;Jalur Test Tulis;771.8;Renewable Energy Engineer;8
+138;D3;Elektronika;Jalur Tes Tulis;878.0;Full Stack Developer;4
+139;D4;Desain Grafis, Matematika;Jalur Test Tulis;906.2;Network Security Specialist;10
+140;D3;Statistika;Jalur Test Tulis;760.6;Video Editor;7
+141;D4;Matematika;Jalur Tes Tulis;765.0;Game Designer;9
+142;D4;Pemrograman;Jalur Prestasi;84.8;Game Designer;9
+143;D4;Statistika;Jalur Prestasi;84.7;System Administrator;6
+144;D3;Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;697.8;Electrical Engineer;1
+145;D3;Desain Animasi, Teknologi Komputer Jaringan (TKJ), Multimedia, Matematika;Jalur Prestasi;86.0;Multimedia Designer;7
+146;D4;Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ), Matematika, Desain Animasi;Jalur Tes Tulis;921.0;3D Modeler;9
+147;D4;Elektronika, Teknologi Komputer Jaringan (TKJ), Pemrograman, Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;87.0;Robotics Engineer;5
+148;D4;Matematika;Jalur Prestasi;89.7;Power Plant Operator;8
+149;D3;Teknik Instalasi Tenaga Listrik (TITL), Statistika, Elektronika;Jalur Test Tulis;790.0;Broadcast Engineer;7
+150;D4;Teknik Tenaga Listrik (TTL);Jalur Prestasi;85.9;Computer Engineer;6
+151;D3;Elektronika, Teknik Tenaga Listrik (TTL), Multimedia, Teknologi Komputer Jaringan (TKJ);Jalur Tes Tulis;755.0;Telecommunications Specialist;2
+152;D4;Desain Grafis, Multimedia;SIMANDIRI;652.9;Cloud Engineer;10
+153;D3;Kimia;Jalur Test Tulis;678.0;Cybersecurity Analyst;4
+154;D3;Kimia, Fisika, Teknologi Komputer Jaringan (TKJ);SIMANDIRI;741.0;Video Editor;7
+155;D4;Desain Animasi, Teknik Tenaga Listrik (TTL);Jalur Tes Tulis;686.0;DevOps Engineer;10
+156;D4;Teknik Instalasi Tenaga Listrik (TITL), Pemrograman, Fisika, Desain Grafis;Jalur Prestasi;96.4;Renewable Energy Engineer;8
+157;D4;Teknik Tenaga Listrik (TTL), Pemrograman, Desain Animasi;Jalur Prestasi;97.2;Robotics Engineer;5
+158;D4;Kimia;Jalur Prestasi;84.5;Cloud Engineer;10
+159;D3;Teknik Instalasi Tenaga Listrik (TITL);SIMANDIRI;84.9;Industrial Electrician;3
+160;D4;Teknik Instalasi Tenaga Listrik (TITL), Desain Grafis;Jalur Tes Tulis;884.0;Energy Analyst;8
+161;D4;Desain Animasi, Kimia, Teknologi Komputer Jaringan (TKJ), Elektronika;Jalur Tes Tulis;674.0;Automation Engineer;5
+162;D4;Kimia, Matematika, Desain Animasi, Teknik Tenaga Listrik (TTL);Jalur Test Tulis;760.5;3D Modeler;9
+163;D3;Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;738.9;Full Stack Developer;4
+164;D4;Fisika, Elektronika, Desain Grafis, Matematika;Jalur Test Tulis;707.9;DevOps Engineer;10
+165;D4;Teknologi Komputer Jaringan (TKJ), Multimedia, Pemrograman, Desain Grafis;Jalur Prestasi;98.0;Computer Engineer;6
+166;D3;Fisika;Jalur Tes Tulis;730.0;Industrial Electrician;3
+167;D4;Desain Grafis, Matematika, Pemrograman;Jalur Tes Tulis;952.0;UI/UX Designer;11
+168;D4;Elektronika;Jalur Test Tulis;683.5;Electronics Technician;1
+169;D4;Teknik Instalasi Tenaga Listrik (TITL), Statistika, Teknologi Komputer Jaringan (TKJ), Matematika;SIMANDIRI;887.4;Cybersecurity Analyst;4
+170;D4;Pemrograman, Matematika, Kimia, Desain Animasi;SIMANDIRI;98.7;UI/UX Designer;11
+171;D4;Teknologi Komputer Jaringan (TKJ), Multimedia, Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;97.0;DevOps Engineer;10
+172;D4;Kimia, Fisika, Multimedia;Jalur Prestasi;93.2;Cloud Engineer;10
+173;D4;Elektronika, Desain Grafis, Fisika, Matematika;Jalur Test Tulis;809.5;Digital Content Creator;11
+174;D4;Desain Animasi, Pemrograman, Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;745.0;Machine Learning Engineer;12
+175;D3;Teknik Tenaga Listrik (TTL), Kimia;Jalur Prestasi;90.3;Control Systems Engineer;3
+176;D4;Elektronika, Teknik Tenaga Listrik (TTL), Desain Grafis, Teknik Instalasi Tenaga Listrik (TITL);Jalur Tes Tulis;813.0;Electronics Technician;1
+177;D4;Desain Animasi, Kimia, Desain Grafis;Jalur Test Tulis;732.2;Embedded Systems Engineer;1
+178;D4;Statistika, Matematika, Desain Grafis;Jalur Tes Tulis;853.0;DevOps Engineer;10
+179;D4;Desain Grafis, Teknik Tenaga Listrik (TTL);Jalur Test Tulis;824.0;Power Plant Operator;8
+180;D4;Pemrograman, Fisika;Jalur Prestasi;93.7;Robotics Engineer;5
+181;D4;Multimedia;Jalur Prestasi;93.7;Machine Learning Engineer;12
+182;D3;Teknologi Komputer Jaringan (TKJ), Elektronika;Jalur Tes Tulis;725.0;Multimedia Designer;7
+183;D4;Desain Grafis;Jalur Test Tulis;656.7;Game Developer;9
+184;D4;Kimia;Jalur Test Tulis;657.0;Automation Engineer;3
+185;D4;Desain Animasi, Matematika, Multimedia, Teknik Tenaga Listrik (TTL);Jalur Prestasi;89.2;Mechatronics Specialist;5
+186;D4;Statistika, Teknik Tenaga Listrik (TTL), Matematika, Kimia;Jalur Prestasi;98.0;Machine Learning Engineer;12
+187;D4;Teknik Instalasi Tenaga Listrik (TITL), Desain Grafis, Kimia, Multimedia;Jalur Prestasi;86.6;Renewable Energy Engineer;8
+188;D4;Matematika, Teknik Tenaga Listrik (TTL), Statistika;Jalur Prestasi;87.6;IT Support Specialist;6
+189;D4;Desain Animasi, Statistika;SIMANDIRI;837.7;Power Plant Operator;8
+190;D3;Pemrograman, Matematika, Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;92.0;Industrial Electrician;3
+191;D4;Statistika, Desain Grafis;Jalur Prestasi;89.0;IT Support Specialist;6
+192;D3;Kimia, Pemrograman, Teknik Tenaga Listrik (TTL);Jalur Test Tulis;809.1;Electronics Technician;1
+193;D3;Desain Grafis, Statistika, Elektronika, Matematika;Jalur Prestasi;99.5;Video Editor;7
+194;D4;Teknologi Komputer Jaringan (TKJ), Matematika, Desain Animasi, Teknik Tenaga Listrik (TTL);Jalur Prestasi;85.0;Business Intelligence Analyst;12
+195;D3;Multimedia;Jalur Tes Tulis;950.0;Control Systems Engineer;3
+196;D4;Kimia, Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;889.8;Cloud Engineer;10
+197;D4;Fisika;Jalur Test Tulis;651.0;Motion Graphics Artist;11
+198;D4;Teknik Tenaga Listrik (TTL), Matematika, Fisika;Jalur Test Tulis;846.8;Motion Graphics Artist;11
+199;D4;Teknik Tenaga Listrik (TTL);Jalur Prestasi;84.0;Renewable Energy Engineer;8
+200;D4;Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;83.0;Network Engineer;2
+201;D3;Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;93.5;Electronics Technician;1
+202;D4;Desain Animasi;Jalur Prestasi;84.3;Industrial Electrician;3
+203;D3;Kimia, Fisika, Statistika, Multimedia;Jalur Tes Tulis;925.0;Video Editor;7
+204;D4;Multimedia, Teknik Tenaga Listrik (TTL), Kimia;Jalur Tes Tulis;706.0;Automation Engineer;3
+205;D4;Desain Grafis, Elektronika, Pemrograman;SIMANDIRI;90.9;Motion Graphics Artist;11
+206;D4;Statistika, Matematika, Kimia;Jalur Tes Tulis;684.0;Renewable Energy Engineer;8
+207;D4;Elektronika, Kimia;Jalur Prestasi;93.2;Telecommunications Specialist;2
+208;D3;Desain Grafis, Statistika, Desain Animasi, Elektronika;Jalur Test Tulis;903.0;Multimedia Designer;7
+209;D4;Teknik Instalasi Tenaga Listrik (TITL), Pemrograman;Jalur Tes Tulis;789.0;IT Support Specialist;6
+210;D4;Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ), Elektronika;Jalur Test Tulis;704.0;UI/UX Designer;11
+211;D4;Desain Animasi;Jalur Test Tulis;709.0;Cybersecurity Analyst;4
+212;D4;Multimedia, Kimia, Teknologi Komputer Jaringan (TKJ), Matematika;Jalur Test Tulis;925.4;IT Support Specialist;6
+213;D3;Fisika, Teknologi Komputer Jaringan (TKJ), Pemrograman, Desain Grafis;Jalur Tes Tulis;790.0;Full Stack Developer;4
+214;D4;Matematika;Jalur Prestasi;82.1;Power Plant Operator;8
+215;D3;Kimia, Multimedia, Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;690.0;Broadcast Engineer;7
+216;D4;Pemrograman;Jalur Prestasi;85.0;3D Modeler;9
+217;D3;Pemrograman;Jalur Tes Tulis;772.0;Video Editor;7
+218;D4;Pemrograman, Desain Animasi, Matematika;Jalur Tes Tulis;998.0;Renewable Energy Engineer;8
+219;D4;Desain Animasi, Elektronika, Statistika;Jalur Tes Tulis;791.0;Robotics Engineer;5
+220;D3;Desain Grafis, Fisika, Teknik Tenaga Listrik (TTL), Pemrograman;Jalur Tes Tulis;665.0;Embedded Systems Engineer;1
+221;D4;Pemrograman, Kimia, Statistika;Jalur Prestasi;98.6;Mechatronics Specialist;5
+222;D4;Fisika, Desain Grafis, Matematika;Jalur Prestasi;87.0;Mechatronics Specialist;5
+223;D4;Teknologi Komputer Jaringan (TKJ), Matematika, Pemrograman, Kimia;Jalur Test Tulis;933.0;Control Systems Engineer;3
+224;D3;Desain Animasi, Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;98.9;Broadcast Engineer;7
+225;D4;Teknologi Komputer Jaringan (TKJ);Jalur Tes Tulis;668.0;Game Designer;9
+226;D4;Multimedia, Pemrograman, Desain Grafis;SIMANDIRI;973.1;Telecommunications Specialist;2
+227;D4;Desain Grafis, Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL), Kimia;Jalur Prestasi;93.1;Game Developer;9
+228;D4;Teknik Instalasi Tenaga Listrik (TITL), Pemrograman, Teknik Tenaga Listrik (TTL), Fisika;Jalur Prestasi;95.8;Game Designer;9
+229;D4;Pemrograman, Desain Grafis, Desain Animasi, Multimedia;Jalur Test Tulis;743.1;Game Designer;9
+230;D4;Elektronika, Desain Animasi;Jalur Tes Tulis;966.0;Machine Learning Engineer;12
+231;D4;Teknik Tenaga Listrik (TTL);Jalur Prestasi;98.0;Telecommunications Specialist;2
+232;D3;Desain Grafis, Matematika, Multimedia, Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;94.3;RF Engineer;2
+233;D4;Pemrograman, Fisika, Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;706.7;System Administrator;6
+234;D3;Teknik Tenaga Listrik (TTL), Desain Animasi, Kimia;Jalur Prestasi;86.0;Video Editor;7
+235;D3;Fisika, Desain Grafis, Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;83.5;Industrial Electrician;3
+236;D4;Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;84.0;Motion Graphics Artist;11
+237;D4;Statistika;Jalur Test Tulis;656.9;Network Engineer;2
+238;D4;Elektronika;Jalur Test Tulis;746.5;Energy Analyst;8
+239;D4;Teknik Tenaga Listrik (TTL), Multimedia, Pemrograman;Jalur Prestasi;91.7;Computer Engineer;6
+240;D4;Matematika;SIMANDIRI;659.0;Automation Engineer;5
+241;D4;Teknik Tenaga Listrik (TTL);Jalur Prestasi;81.6;IT Support Specialist;6
+242;D4;Fisika, Teknik Tenaga Listrik (TTL);Jalur Prestasi;98.5;Game Developer;9
+243;D4;Elektronika;Jalur Prestasi;96.3;System Administrator;6
+244;D4;Teknik Instalasi Tenaga Listrik (TITL), Multimedia;Jalur Test Tulis;849.2;Automation Engineer;3
+245;D4;Kimia, Elektronika;Jalur Test Tulis;979.4;Software Engineer;4
+246;D4;Pemrograman, Fisika, Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;87.8;Digital Content Creator;11
+247;D4;Desain Animasi, Statistika, Fisika;Jalur Prestasi;93.7;3D Modeler;9
+248;D4;Multimedia, Teknik Instalasi Tenaga Listrik (TITL), Desain Animasi;Jalur Tes Tulis;952.0;Automation Engineer;3
+249;D4;Matematika, Multimedia, Fisika, Desain Animasi;Jalur Tes Tulis;966.0;Electrical Engineer;1
+250;D3;Teknik Instalasi Tenaga Listrik (TITL), Kimia, Matematika;SIMANDIRI;87.2;RF Engineer;2
+251;D4;Fisika, Teknologi Komputer Jaringan (TKJ);Jalur Tes Tulis;855.0;Automation Engineer;5
+252;D3;Statistika, Fisika, Multimedia, Kimia;Jalur Tes Tulis;707.0;Electrical Engineer;1
+253;D3;Elektronika, Teknik Tenaga Listrik (TTL), Pemrograman;Jalur Prestasi;92.1;Multimedia Designer;7
+254;D4;Multimedia, Statistika, Teknik Tenaga Listrik (TTL);SIMANDIRI;85.9;Renewable Energy Engineer;8
+255;D4;Multimedia;Jalur Tes Tulis;972.0;Game Developer;9
+256;D4;Teknologi Komputer Jaringan (TKJ);SIMANDIRI;727.0;Network Engineer;2
+257;D4;Fisika, Desain Grafis, Pemrograman;Jalur Tes Tulis;751.0;Telecommunications Specialist;2
+258;D3;Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;80.4;RF Engineer;2
+259;D4;Fisika;Jalur Tes Tulis;783.0;Digital Content Creator;11
+260;D4;Matematika;Jalur Prestasi;81.9;Industrial Electrician;3
+261;D4;Desain Grafis, Multimedia, Pemrograman;Jalur Prestasi;90.5;Electrical Engineer;1
+262;D4;Fisika, Desain Grafis, Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;91.7;DevOps Engineer;10
+263;D4;Matematika, Elektronika;Jalur Tes Tulis;654.0;Energy Analyst;8
+264;D3;Matematika;SIMANDIRI;96.7;Network Engineer;2
+265;D3;Statistika, Matematika, Desain Animasi, Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;807.5;Electrical Engineer;1
+266;D4;Multimedia;Jalur Test Tulis;951.6;Machine Learning Engineer;12
+267;D4;Teknologi Komputer Jaringan (TKJ), Multimedia;Jalur Prestasi;93.0;Embedded Systems Engineer;1
+268;D4;Statistika, Kimia, Teknik Instalasi Tenaga Listrik (TITL);Jalur Tes Tulis;918.0;Electrical Engineer;1
+269;D4;Fisika, Pemrograman, Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;85.0;Energy Analyst;8
+270;D4;Pemrograman;Jalur Test Tulis;755.1;Automation Engineer;5
+271;D3;Statistika, Fisika;Jalur Test Tulis;654.0;Industrial Electrician;3
+272;D4;Multimedia, Desain Animasi, Teknik Tenaga Listrik (TTL), Fisika;Jalur Tes Tulis;851.0;Control Systems Engineer;3
+273;D3;Kimia;Jalur Tes Tulis;695.0;Cybersecurity Analyst;4
+274;D4;Matematika, Teknik Instalasi Tenaga Listrik (TITL), Statistika, Teknik Tenaga Listrik (TTL);Jalur Tes Tulis;661.0;Data Scientist;12
+275;D3;Multimedia, Desain Grafis;Jalur Prestasi;82.7;Full Stack Developer;4
+276;D4;Multimedia, Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;96.0;Motion Graphics Artist;11
+277;D3;Teknik Instalasi Tenaga Listrik (TITL), Desain Animasi, Matematika, Statistika;Jalur Tes Tulis;693.0;Video Editor;7
+278;D4;Kimia;Jalur Test Tulis;793.9;Data Scientist;12
+279;D4;Kimia, Multimedia;Jalur Prestasi;93.0;Telecommunications Specialist;2
+280;D4;Matematika, Teknik Tenaga Listrik (TTL), Elektronika;Jalur Prestasi;91.2;Data Scientist;12
+281;D4;Statistika, Teknik Tenaga Listrik (TTL);Jalur Prestasi;83.0;Embedded Systems Engineer;1
+282;D4;Desain Animasi, Teknik Instalasi Tenaga Listrik (TITL), Matematika, Desain Grafis;Jalur Test Tulis;915.2;Network Security Specialist;10
+283;D4;Teknologi Komputer Jaringan (TKJ), Desain Grafis;SIMANDIRI;836.5;DevOps Engineer;10
+284;D4;Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ), Statistika;Jalur Prestasi;91.1;Cloud Engineer;10
+285;D3;Pemrograman, Elektronika, Desain Animasi;Jalur Test Tulis;865.1;Industrial Electrician;3
+286;D4;Fisika, Pemrograman, Teknik Tenaga Listrik (TTL);Jalur Test Tulis;844.9;Motion Graphics Artist;11
+287;D4;Desain Grafis;Jalur Prestasi;83.0;Renewable Energy Engineer;8
+288;D4;Desain Animasi, Teknik Tenaga Listrik (TTL), Kimia;Jalur Test Tulis;815.8;Cloud Engineer;10
+289;D4;Statistika, Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ), Kimia;Jalur Test Tulis;891.0;Robotics Engineer;5
+290;D4;Teknik Instalasi Tenaga Listrik (TITL);SIMANDIRI;903.6;RF Engineer;2
+291;D3;Fisika, Statistika, Desain Animasi, Matematika;Jalur Test Tulis;753.3;Video Editor;7
+292;D4;Matematika, Pemrograman;Jalur Prestasi;91.7;Computer Engineer;6
+293;D4;Teknik Instalasi Tenaga Listrik (TITL), Matematika, Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;680.0;Digital Content Creator;11
+294;D4;Desain Animasi, Kimia, Desain Grafis, Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;91.0;Computer Engineer;6
+295;D4;Elektronika, Fisika, Pemrograman;Jalur Prestasi;87.8;RF Engineer;2
+296;D3;Pemrograman, Fisika, Teknologi Komputer Jaringan (TKJ), Desain Grafis;Jalur Tes Tulis;931.0;Electronics Technician;1
+297;D4;Statistika;Jalur Prestasi;82.2;3D Modeler;9
+298;D3;Statistika, Multimedia, Elektronika, Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;95.9;Multimedia Designer;7
+299;D3;Multimedia, Desain Grafis, Matematika;Jalur Test Tulis;938.9;Automation Engineer;3
+300;D4;Pemrograman, Kimia;Jalur Test Tulis;884.2;Network Security Specialist;10
+301;D4;Pemrograman, Statistika, Kimia, Elektronika;Jalur Test Tulis;734.0;RF Engineer;2
+302;D3;Elektronika, Multimedia;SIMANDIRI;835.6;Electronics Technician;1
+303;D3;Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;969.5;Multimedia Designer;7
+304;D4;Matematika;SIMANDIRI;95.6;UI/UX Designer;11
+305;D4;Matematika, Statistika, Teknik Instalasi Tenaga Listrik (TITL);SIMANDIRI;975.8;Network Security Specialist;10
+306;D4;Pemrograman, Elektronika, Matematika;Jalur Prestasi;94.0;Robotics Engineer;5
+307;D3;Teknologi Komputer Jaringan (TKJ), Statistika;SIMANDIRI;712.0;Industrial Electrician;3
+308;D4;Teknik Instalasi Tenaga Listrik (TITL), Multimedia, Teknik Tenaga Listrik (TTL);Jalur Prestasi;80.6;Business Intelligence Analyst;12
+309;D4;Fisika;Jalur Prestasi;93.1;Game Developer;9
+310;D4;Desain Animasi, Teknik Tenaga Listrik (TTL), Fisika, Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;92.4;3D Modeler;9
+311;D4;Teknik Tenaga Listrik (TTL), Statistika, Desain Animasi;Jalur Tes Tulis;688.0;Robotics Engineer;5
+312;D4;Fisika, Desain Animasi, Statistika, Kimia;Jalur Prestasi;90.4;Automation Engineer;5
+313;D3;Desain Animasi, Elektronika, Kimia;Jalur Prestasi;94.7;Broadcast Engineer;7
+314;D4;Pemrograman, Desain Grafis, Statistika;Jalur Tes Tulis;862.0;Digital Content Creator;11
+315;D4;Teknik Tenaga Listrik (TTL);Jalur Prestasi;84.0;Business Intelligence Analyst;12
+316;D4;Matematika, Elektronika;Jalur Test Tulis;980.1;Cybersecurity Analyst;4
+317;D4;Desain Animasi, Teknik Tenaga Listrik (TTL), Statistika;Jalur Test Tulis;675.5;Machine Learning Engineer;12
+318;D4;Teknologi Komputer Jaringan (TKJ), Teknik Tenaga Listrik (TTL);Jalur Tes Tulis;660.0;Computer Engineer;6
+319;D4;Pemrograman;Jalur Tes Tulis;737.0;Digital Content Creator;11
+320;D4;Teknologi Komputer Jaringan (TKJ), Elektronika;Jalur Prestasi;91.6;Data Scientist;12
+321;D4;Teknik Tenaga Listrik (TTL), Fisika, Elektronika, Matematika;Jalur Prestasi;90.0;DevOps Engineer;10
+322;D4;Pemrograman;Jalur Test Tulis;695.7;IT Support Specialist;6
+323;D4;Statistika, Desain Grafis, Pemrograman, Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;791.1;Cloud Engineer;10
+324;D4;Teknik Tenaga Listrik (TTL), Desain Grafis, Kimia;Jalur Tes Tulis;851.0;Game Designer;9
+325;D4;Kimia;Jalur Prestasi;91.0;IT Support Specialist;6
+326;D3;Desain Animasi;Jalur Test Tulis;725.0;Electronics Technician;1
+327;D4;Desain Grafis;Jalur Test Tulis;745.0;DevOps Engineer;10
+328;D4;Desain Grafis, Teknik Tenaga Listrik (TTL);Jalur Prestasi;89.0;Control Systems Engineer;3
+329;D4;Matematika;Jalur Test Tulis;843.0;Network Security Specialist;10
+330;D3;Desain Grafis, Statistika;Jalur Prestasi;98.2;Automation Engineer;3
+331;D4;Desain Animasi, Teknik Tenaga Listrik (TTL);Jalur Test Tulis;684.6;Renewable Energy Engineer;8
+332;D3;Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ), Desain Animasi, Teknik Tenaga Listrik (TTL);Jalur Tes Tulis;844.0;Full Stack Developer;4
+333;D4;Pemrograman;Jalur Prestasi;90.1;3D Modeler;9
+334;D4;Desain Animasi, Multimedia, Elektronika;Jalur Tes Tulis;956.0;Robotics Engineer;5
+335;D4;Teknologi Komputer Jaringan (TKJ), Desain Grafis, Elektronika;Jalur Prestasi;85.0;Digital Content Creator;11
+336;D4;Multimedia;Jalur Prestasi;94.7;Game Developer;9
+337;D4;Fisika, Pemrograman, Desain Animasi, Multimedia;Jalur Test Tulis;841.0;Game Designer;9
+338;D4;Teknik Tenaga Listrik (TTL);Jalur Prestasi;91.2;Power Plant Operator;8
+339;D4;Statistika, Fisika, Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;741.1;Cloud Engineer;10
+340;D4;Fisika, Teknik Tenaga Listrik (TTL);Jalur Test Tulis;824.6;Electrical Engineer;1
+341;D4;Desain Grafis, Matematika;Jalur Prestasi;85.3;UI/UX Designer;11
+342;D4;Desain Grafis, Teknologi Komputer Jaringan (TKJ), Fisika, Matematika;Jalur Prestasi;90.7;Full Stack Developer;4
+343;D3;Pemrograman, Teknik Tenaga Listrik (TTL), Kimia;Jalur Prestasi;88.0;Embedded Systems Engineer;1
+344;D4;Elektronika, Teknik Instalasi Tenaga Listrik (TITL), Desain Animasi;Jalur Prestasi;99.0;Digital Content Creator;11
+345;D3;Teknik Tenaga Listrik (TTL), Pemrograman, Elektronika, Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;952.0;Industrial Electrician;3
+346;D4;Teknik Tenaga Listrik (TTL), Multimedia;Jalur Prestasi;97.7;Motion Graphics Artist;11
+347;D3;Kimia, Statistika;SIMANDIRI;909.8;Broadcast Engineer;7
+348;D4;Teknik Tenaga Listrik (TTL), Kimia;Jalur Prestasi;90.9;Automation Engineer;3
+349;D4;Elektronika, Desain Grafis, Fisika, Multimedia;SIMANDIRI;777.2;Network Engineer;2
+350;D3;Desain Grafis, Teknologi Komputer Jaringan (TKJ), Elektronika;Jalur Test Tulis;722.0;Telecommunications Specialist;2
+351;D3;Matematika, Multimedia, Kimia;Jalur Prestasi;86.5;Full Stack Developer;4
+352;D3;Multimedia, Kimia, Pemrograman;Jalur Test Tulis;660.0;Broadcast Engineer;7
+353;D4;Multimedia;Jalur Prestasi;82.7;Game Developer;9
+354;D4;Elektronika, Multimedia, Teknologi Komputer Jaringan (TKJ), Desain Animasi;Jalur Tes Tulis;993.0;Energy Analyst;8
+355;D4;Desain Animasi;Jalur Tes Tulis;716.0;Game Designer;9
+356;D4;Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;825.2;Business Intelligence Analyst;12
+357;D4;Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL), Statistika;Jalur Test Tulis;732.4;Power Plant Operator;8
+358;D4;Multimedia;Jalur Tes Tulis;811.0;Electrical Engineer;1
+359;D4;Matematika, Teknik Tenaga Listrik (TTL), Fisika;Jalur Prestasi;93.2;Control Systems Engineer;3
+360;D4;Teknik Instalasi Tenaga Listrik (TITL), Multimedia, Desain Grafis;Jalur Prestasi;90.2;Embedded Systems Engineer;1
+361;D4;Desain Grafis, Teknik Tenaga Listrik (TTL);Jalur Tes Tulis;667.0;Robotics Engineer;5
+362;D3;Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ), Elektronika;Jalur Prestasi;84.0;Full Stack Developer;4
+363;D4;Desain Animasi, Fisika, Teknologi Komputer Jaringan (TKJ), Multimedia;Jalur Prestasi;81.6;Digital Content Creator;11
+364;D4;Teknologi Komputer Jaringan (TKJ);Jalur Tes Tulis;997.0;Embedded Systems Engineer;1
+365;D4;Matematika, Desain Animasi;Jalur Prestasi;86.2;Game Developer;9
+366;D4;Teknik Instalasi Tenaga Listrik (TITL), Multimedia, Desain Animasi;Jalur Prestasi;81.1;Business Intelligence Analyst;12
+367;D4;Desain Animasi, Kimia;Jalur Prestasi;89.0;Business Intelligence Analyst;12
+368;D4;Multimedia, Teknik Instalasi Tenaga Listrik (TITL), Fisika;Jalur Tes Tulis;676.0;Control Systems Engineer;3
+369;D3;Fisika, Multimedia, Desain Grafis, Kimia;SIMANDIRI;767.0;Full Stack Developer;4
+370;D4;Fisika, Pemrograman;Jalur Tes Tulis;706.0;Digital Content Creator;11
+371;D4;Kimia;Jalur Prestasi;97.0;Motion Graphics Artist;11
+372;D4;Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ);Jalur Tes Tulis;851.0;3D Modeler;9
+373;D3;Multimedia, Fisika, Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;719.0;Embedded Systems Engineer;1
+374;D4;Statistika, Multimedia, Pemrograman, Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;768.1;Energy Analyst;8
+375;D4;Elektronika;Jalur Tes Tulis;904.0;Game Developer;9
+376;D3;Statistika, Multimedia, Teknik Instalasi Tenaga Listrik (TITL), Pemrograman;Jalur Tes Tulis;945.0;Automation Engineer;3
+377;D4;Kimia, Fisika, Multimedia;SIMANDIRI;745.0;Automation Engineer;3
+378;D3;Multimedia, Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;82.3;RF Engineer;2
+379;D4;Teknik Instalasi Tenaga Listrik (TITL), Desain Animasi;Jalur Prestasi;83.0;Computer Engineer;6
+380;D4;Multimedia;Jalur Prestasi;84.2;Machine Learning Engineer;12
+381;D4;Statistika, Fisika, Teknologi Komputer Jaringan (TKJ), Teknik Tenaga Listrik (TTL);Jalur Prestasi;85.8;Network Security Specialist;10
+382;D4;Pemrograman, Teknik Instalasi Tenaga Listrik (TITL), Fisika, Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;688.9;Machine Learning Engineer;12
+383;D4;Fisika, Teknologi Komputer Jaringan (TKJ), Teknik Instalasi Tenaga Listrik (TITL), Kimia;Jalur Tes Tulis;667.0;Embedded Systems Engineer;1
+384;D4;Pemrograman, Fisika;Jalur Tes Tulis;714.0;Robotics Engineer;5
+385;D4;Statistika, Kimia;Jalur Prestasi;83.5;UI/UX Designer;11
+386;D4;Fisika;Jalur Prestasi;97.1;Computer Engineer;6
+387;D3;Teknik Tenaga Listrik (TTL), Desain Animasi;SIMANDIRI;732.2;RF Engineer;2
+388;D3;Fisika, Elektronika;Jalur Tes Tulis;651.0;Automation Engineer;3
+389;D3;Statistika;Jalur Tes Tulis;735.0;Automation Engineer;3
+390;D4;Statistika, Multimedia, Teknologi Komputer Jaringan (TKJ);Jalur Tes Tulis;728.0;Business Intelligence Analyst;12
+391;D4;Fisika, Multimedia, Desain Animasi;Jalur Test Tulis;743.0;Power Plant Operator;8
+392;D4;Teknik Instalasi Tenaga Listrik (TITL), Matematika;Jalur Prestasi;93.1;Data Scientist;12
+393;D3;Elektronika, Teknik Tenaga Listrik (TTL);Jalur Test Tulis;667.0;RF Engineer;2
+394;D4;Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;664.5;Power Plant Operator;8
+395;D4;Teknologi Komputer Jaringan (TKJ), Kimia, Statistika, Pemrograman;Jalur Prestasi;90.7;Control Systems Engineer;3
+396;D4;Desain Animasi;Jalur Prestasi;89.1;Network Security Specialist;10
+397;D4;Desain Grafis, Teknologi Komputer Jaringan (TKJ);SIMANDIRI;84.6;UI/UX Designer;11
+398;D4;Multimedia, Statistika, Matematika, Elektronika;Jalur Prestasi;84.0;Game Developer;9
+399;D4;Fisika;Jalur Prestasi;83.6;Cybersecurity Analyst;4
+400;D3;Desain Grafis, Multimedia;Jalur Test Tulis;655.0;Control Systems Engineer;3
+401;D4;Kimia;Jalur Tes Tulis;904.0;Power Plant Operator;8
+402;D4;Fisika, Matematika, Desain Grafis;Jalur Prestasi;92.3;3D Modeler;9
+403;D4;Desain Animasi, Elektronika;Jalur Prestasi;91.0;Network Engineer;2
+404;D4;Elektronika, Pemrograman, Matematika;Jalur Tes Tulis;950.0;Full Stack Developer;4
+405;D4;Matematika;Jalur Prestasi;80.3;Renewable Energy Engineer;8
+406;D4;Elektronika;Jalur Prestasi;99.4;Electrical Engineer;1
+407;D3;Desain Animasi;Jalur Prestasi;81.9;Embedded Systems Engineer;1
+408;D3;Matematika, Pemrograman, Elektronika, Fisika;Jalur Prestasi;85.0;Industrial Electrician;3
+409;D4;Matematika, Teknologi Komputer Jaringan (TKJ), Fisika;Jalur Prestasi;87.0;Game Designer;9
+410;D4;Pemrograman;Jalur Prestasi;83.5;Data Scientist;12
+411;D3;Desain Grafis, Teknologi Komputer Jaringan (TKJ), Kimia, Pemrograman;Jalur Tes Tulis;914.0;Multimedia Designer;7
+412;D4;Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ), Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;953.2;Software Engineer;4
+413;D4;Teknik Instalasi Tenaga Listrik (TITL), Fisika;Jalur Prestasi;86.4;Motion Graphics Artist;11
+414;D4;Kimia, Teknologi Komputer Jaringan (TKJ), Teknik Tenaga Listrik (TTL), Desain Animasi;Jalur Prestasi;81.5;Automation Engineer;5
+415;D4;Desain Animasi, Multimedia, Teknik Tenaga Listrik (TTL);Jalur Prestasi;80.0;System Administrator;6
+416;D4;Desain Grafis, Pemrograman, Statistika, Fisika;Jalur Prestasi;87.0;IT Support Specialist;6
+417;D4;Desain Grafis, Pemrograman;Jalur Prestasi;96.4;Cloud Engineer;10
+418;D4;Teknologi Komputer Jaringan (TKJ), Multimedia;Jalur Prestasi;85.2;Cloud Engineer;10
+419;D4;Teknik Tenaga Listrik (TTL), Fisika, Desain Animasi;Jalur Test Tulis;741.5;Software Engineer;4
+420;D4;Elektronika, Desain Animasi;Jalur Prestasi;87.7;DevOps Engineer;10
+421;D3;Statistika, Teknologi Komputer Jaringan (TKJ), Elektronika;Jalur Test Tulis;674.3;Video Editor;7
+422;D4;Desain Animasi, Teknologi Komputer Jaringan (TKJ), Kimia;SIMANDIRI;694.3;Computer Engineer;6
+423;D3;Desain Grafis, Statistika, Pemrograman;Jalur Test Tulis;932.4;Video Editor;7
+424;D4;Teknologi Komputer Jaringan (TKJ), Elektronika;Jalur Test Tulis;942.3;Cloud Engineer;10
+425;D4;Matematika, Teknologi Komputer Jaringan (TKJ), Fisika;Jalur Tes Tulis;962.0;Digital Content Creator;11
+426;D4;Pemrograman, Desain Animasi, Teknik Tenaga Listrik (TTL);Jalur Tes Tulis;668.0;Renewable Energy Engineer;8
+427;D4;Multimedia, Pemrograman, Teknologi Komputer Jaringan (TKJ), Desain Animasi;Jalur Prestasi;96.0;IT Support Specialist;6
+428;D3;Teknik Instalasi Tenaga Listrik (TITL), Multimedia, Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;920.4;Cybersecurity Analyst;4
+429;D4;Teknik Tenaga Listrik (TTL), Multimedia, Desain Grafis, Statistika;Jalur Prestasi;85.5;Automation Engineer;5
+430;D4;Matematika, Multimedia, Teknik Tenaga Listrik (TTL), Desain Grafis;Jalur Prestasi;95.0;Motion Graphics Artist;11
+431;D4;Matematika;Jalur Test Tulis;772.7;Software Engineer;4
+432;D4;Desain Grafis;Jalur Tes Tulis;940.0;Automation Engineer;5
+433;D3;Teknik Tenaga Listrik (TTL), Fisika, Kimia, Multimedia;Jalur Test Tulis;751.3;Broadcast Engineer;7
+434;D4;Kimia, Desain Grafis, Desain Animasi, Statistika;Jalur Prestasi;90.0;Automation Engineer;3
+435;D4;Teknik Tenaga Listrik (TTL), Elektronika;Jalur Tes Tulis;734.0;Automation Engineer;5
+436;D4;Kimia, Multimedia;Jalur Prestasi;89.0;Network Security Specialist;10
+437;D3;Teknologi Komputer Jaringan (TKJ), Teknik Instalasi Tenaga Listrik (TITL), Teknik Tenaga Listrik (TTL), Pemrograman;Jalur Prestasi;98.0;RF Engineer;2
+438;D3;Kimia, Desain Grafis, Fisika;Jalur Tes Tulis;732.0;Multimedia Designer;7
+439;D4;Matematika, Elektronika;Jalur Tes Tulis;846.0;Network Engineer;2
+440;D4;Desain Animasi, Statistika, Teknik Instalasi Tenaga Listrik (TITL), Teknik Tenaga Listrik (TTL);Jalur Test Tulis;985.3;Embedded Systems Engineer;1
+441;D4;Desain Grafis, Matematika, Elektronika;Jalur Test Tulis;711.0;Telecommunications Specialist;2
+442;D4;Fisika, Teknik Instalasi Tenaga Listrik (TITL), Desain Grafis, Matematika;Jalur Prestasi;93.9;Industrial Electrician;3
+443;D4;Desain Grafis, Teknologi Komputer Jaringan (TKJ);Jalur Tes Tulis;771.0;Energy Analyst;8
+444;D4;Multimedia, Pemrograman;Jalur Prestasi;99.0;DevOps Engineer;10
+445;D4;Desain Grafis, Fisika, Teknik Instalasi Tenaga Listrik (TITL);Jalur Tes Tulis;680.0;Energy Analyst;8
+446;D3;Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;80.2;Software Engineer;4
+447;D4;Teknik Instalasi Tenaga Listrik (TITL);SIMANDIRI;752.3;DevOps Engineer;10
+448;D4;Teknik Tenaga Listrik (TTL), Desain Animasi, Multimedia;Jalur Prestasi;90.0;Game Designer;9
+449;D4;Pemrograman, Elektronika, Matematika, Fisika;Jalur Prestasi;85.0;Motion Graphics Artist;11
+450;D4;Desain Grafis, Pemrograman, Teknik Tenaga Listrik (TTL);Jalur Prestasi;96.6;Game Developer;9
+451;D4;Multimedia, Elektronika, Matematika, Desain Animasi;Jalur Test Tulis;702.7;Renewable Energy Engineer;8
+452;D4;Matematika, Fisika, Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;81.0;System Administrator;6
+453;D4;Desain Animasi;Jalur Tes Tulis;714.0;Power Plant Operator;8
+454;D4;Multimedia, Kimia, Matematika;Jalur Tes Tulis;669.0;Business Intelligence Analyst;12
+455;D4;Matematika;Jalur Test Tulis;989.3;Digital Content Creator;11
+456;D4;Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;91.4;Game Designer;9
+457;D4;Matematika, Statistika, Teknik Instalasi Tenaga Listrik (TITL), Multimedia;Jalur Prestasi;81.9;RF Engineer;2
+458;D4;Teknik Tenaga Listrik (TTL);Jalur Prestasi;97.0;RF Engineer;2
+459;D4;Multimedia, Fisika, Teknologi Komputer Jaringan (TKJ), Desain Grafis;Jalur Tes Tulis;705.0;Cloud Engineer;10
+460;D4;Matematika, Elektronika, Teknik Tenaga Listrik (TTL);Jalur Prestasi;88.0;Power Plant Operator;8
+461;D4;Teknik Tenaga Listrik (TTL), Matematika, Pemrograman, Elektronika;Jalur Test Tulis;933.0;Full Stack Developer;4
+462;D4;Desain Grafis, Fisika;Jalur Prestasi;81.0;UI/UX Designer;11
+463;D4;Fisika;Jalur Prestasi;84.3;Game Designer;9
+464;D4;Statistika, Pemrograman, Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;902.1;Game Designer;9
+465;D4;Elektronika;Jalur Prestasi;90.3;Robotics Engineer;5
+466;D4;Teknik Tenaga Listrik (TTL), Matematika, Fisika;Jalur Tes Tulis;911.0;Software Engineer;4
+467;D3;Multimedia, Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;768.6;Video Editor;7
+468;D4;Matematika;Jalur Test Tulis;715.5;Control Systems Engineer;3
+469;D4;Desain Animasi, Matematika;Jalur Prestasi;92.0;Motion Graphics Artist;11
+470;D4;Statistika, Multimedia;Jalur Prestasi;80.6;Digital Content Creator;11
+471;D4;Kimia, Desain Animasi, Teknik Tenaga Listrik (TTL), Multimedia;Jalur Prestasi;91.7;Control Systems Engineer;3
+472;D4;Multimedia, Matematika;Jalur Prestasi;88.1;IT Support Specialist;6
+473;D4;Teknik Instalasi Tenaga Listrik (TITL), Multimedia, Statistika, Desain Grafis;Jalur Prestasi;91.9;Network Engineer;2
+474;D3;Teknologi Komputer Jaringan (TKJ), Statistika, Multimedia;Jalur Tes Tulis;872.0;Video Editor;7
+475;D4;Matematika, Desain Animasi;Jalur Tes Tulis;792.0;Robotics Engineer;5
+476;D4;Desain Grafis;Jalur Prestasi;97.0;RF Engineer;2
+477;D3;Multimedia, Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ), Elektronika;Jalur Prestasi;93.6;Multimedia Designer;7
+478;D4;Elektronika;Jalur Test Tulis;782.4;Power Plant Operator;8
+479;D4;Statistika, Multimedia;Jalur Prestasi;83.0;Business Intelligence Analyst;12
+480;D4;Teknologi Komputer Jaringan (TKJ), Elektronika, Pemrograman;Jalur Tes Tulis;684.0;Software Engineer;4
+481;D4;Statistika;SIMANDIRI;97.6;3D Modeler;9
+482;D4;Statistika, Pemrograman, Elektronika, Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;94.7;Automation Engineer;3
+483;D3;Teknik Tenaga Listrik (TTL), Pemrograman;Jalur Test Tulis;725.3;Control Systems Engineer;3
+484;D3;Statistika, Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ), Pemrograman;Jalur Tes Tulis;820.0;Broadcast Engineer;7
+485;D4;Matematika;Jalur Tes Tulis;715.0;Telecommunications Specialist;2
+486;D4;Teknik Tenaga Listrik (TTL);Jalur Test Tulis;913.6;Game Designer;9
+487;D4;Fisika, Kimia, Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;99.1;Control Systems Engineer;3
+488;D4;Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;88.0;Software Engineer;4
+489;D3;Multimedia, Desain Grafis, Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;934.1;Multimedia Designer;7
+490;D4;Multimedia, Matematika;SIMANDIRI;81.4;Machine Learning Engineer;12
+491;D4;Matematika;Jalur Test Tulis;860.2;Cloud Engineer;10
+492;D4;Matematika, Teknologi Komputer Jaringan (TKJ), Teknik Tenaga Listrik (TTL);Jalur Prestasi;94.2;Energy Analyst;8
+493;D4;Kimia;Jalur Prestasi;91.5;Game Developer;9
+494;D4;Teknik Tenaga Listrik (TTL), Elektronika, Teknik Instalasi Tenaga Listrik (TITL), Matematika;Jalur Prestasi;94.9;Network Security Specialist;10
+495;D3;Teknik Tenaga Listrik (TTL), Multimedia, Matematika;Jalur Prestasi;93.0;Electrical Engineer;1
+496;D4;Kimia, Teknik Tenaga Listrik (TTL);Jalur Prestasi;86.3;Robotics Engineer;5
+497;D4;Pemrograman;Jalur Tes Tulis;981.0;Automation Engineer;3
+498;D3;Elektronika, Fisika, Matematika;Jalur Prestasi;84.8;Software Engineer;4
+499;D4;Matematika, Kimia, Desain Animasi, Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;84.2;Network Security Specialist;10
+500;D4;Teknologi Komputer Jaringan (TKJ), Desain Grafis, Kimia, Matematika;Jalur Prestasi;83.0;Business Intelligence Analyst;12
+501;D4;Teknik Instalasi Tenaga Listrik (TITL), Fisika, Teknologi Komputer Jaringan (TKJ), Multimedia;Jalur Test Tulis;934.6;Energy Analyst;8
+502;D4;Pemrograman, Teknik Instalasi Tenaga Listrik (TITL), Fisika, Statistika;SIMANDIRI;874.0;Motion Graphics Artist;11
+503;D4;Teknologi Komputer Jaringan (TKJ), Multimedia, Matematika;Jalur Test Tulis;938.9;Network Security Specialist;10
+504;D4;Multimedia;Jalur Tes Tulis;847.0;RF Engineer;2
+505;D4;Multimedia, Kimia, Teknologi Komputer Jaringan (TKJ), Desain Grafis;Jalur Test Tulis;899.9;Business Intelligence Analyst;12
+506;D3;Kimia, Teknologi Komputer Jaringan (TKJ);Jalur Tes Tulis;898.0;Broadcast Engineer;7
+507;D3;Pemrograman, Kimia;Jalur Tes Tulis;786.0;Multimedia Designer;7
+508;D4;Desain Grafis, Kimia, Multimedia;Jalur Prestasi;92.4;Industrial Electrician;3
+509;D4;Statistika, Matematika, Kimia, Fisika;Jalur Prestasi;80.9;Game Developer;9
+510;D4;Multimedia, Desain Grafis, Teknik Tenaga Listrik (TTL);Jalur Prestasi;81.4;UI/UX Designer;11
+511;D4;Statistika, Matematika, Pemrograman;Jalur Prestasi;85.2;Network Security Specialist;10
+512;D4;Multimedia, Matematika, Elektronika, Desain Grafis;Jalur Tes Tulis;746.0;Game Developer;9
+513;D3;Multimedia, Kimia, Teknik Instalasi Tenaga Listrik (TITL), Desain Grafis;Jalur Test Tulis;804.5;Industrial Electrician;3
+514;D4;Desain Grafis, Teknik Tenaga Listrik (TTL), Multimedia;SIMANDIRI;700.9;Cybersecurity Analyst;4
+515;D4;Kimia, Multimedia, Teknologi Komputer Jaringan (TKJ), Statistika;Jalur Test Tulis;660.9;Control Systems Engineer;3
+516;D4;Fisika, Pemrograman, Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;82.1;Game Developer;9
+517;D4;Teknik Instalasi Tenaga Listrik (TITL), Statistika;Jalur Prestasi;93.3;Automation Engineer;5
+518;D4;Kimia, Matematika, Desain Animasi, Statistika;Jalur Test Tulis;808.8;Digital Content Creator;11
+519;D4;Multimedia, Matematika;Jalur Test Tulis;884.9;Renewable Energy Engineer;8
+520;D4;Desain Animasi, Pemrograman, Desain Grafis;Jalur Prestasi;89.4;Industrial Electrician;3
+521;D3;Desain Animasi;Jalur Prestasi;98.0;Industrial Electrician;3
+522;D4;Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;89.6;Renewable Energy Engineer;8
+523;D3;Matematika;Jalur Test Tulis;859.3;RF Engineer;2
+524;D3;Elektronika, Desain Grafis, Teknologi Komputer Jaringan (TKJ);Jalur Tes Tulis;991.0;Industrial Electrician;3
+525;D4;Kimia, Teknologi Komputer Jaringan (TKJ);SIMANDIRI;929.2;Power Plant Operator;8
+526;D4;Teknologi Komputer Jaringan (TKJ), Matematika;Jalur Prestasi;97.7;Motion Graphics Artist;11
+527;D4;Multimedia, Matematika, Elektronika;Jalur Test Tulis;705.4;Cybersecurity Analyst;4
+528;D4;Teknik Instalasi Tenaga Listrik (TITL), Matematika, Teknik Tenaga Listrik (TTL), Desain Animasi;Jalur Tes Tulis;843.0;Energy Analyst;8
+529;D4;Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;98.0;Network Engineer;2
+530;D3;Matematika, Statistika, Pemrograman;Jalur Prestasi;81.6;Control Systems Engineer;3
+531;D4;Teknik Instalasi Tenaga Listrik (TITL), Teknik Tenaga Listrik (TTL);Jalur Prestasi;84.2;Motion Graphics Artist;11
+532;D4;Fisika, Elektronika, Matematika, Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;88.8;Automation Engineer;5
+533;D3;Fisika, Multimedia, Elektronika;Jalur Prestasi;94.0;Software Engineer;4
+534;D4;Matematika;Jalur Prestasi;94.2;Power Plant Operator;8
+535;D4;Fisika, Desain Animasi;SIMANDIRI;97.0;Game Developer;9
+536;D4;Desain Animasi, Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;86.6;Network Security Specialist;10
+537;D3;Statistika, Matematika, Teknik Tenaga Listrik (TTL);Jalur Prestasi;94.8;Full Stack Developer;4
+538;D4;Elektronika, Fisika, Statistika, Desain Animasi;Jalur Tes Tulis;691.0;Robotics Engineer;5
+539;D4;Elektronika, Kimia, Teknik Instalasi Tenaga Listrik (TITL), Statistika;Jalur Prestasi;84.7;Mechatronics Specialist;5
+540;D4;Statistika;SIMANDIRI;93.9;Electrical Engineer;1
+541;D4;Kimia, Fisika, Pemrograman, Desain Animasi;Jalur Tes Tulis;708.0;Robotics Engineer;5
+542;D4;Desain Grafis, Matematika;Jalur Prestasi;91.0;3D Modeler;9
+543;D4;Multimedia, Desain Grafis, Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;935.8;UI/UX Designer;11
+544;D3;Matematika, Desain Animasi, Pemrograman, Statistika;Jalur Prestasi;93.0;Industrial Electrician;3
+545;D4;Elektronika, Desain Animasi;Jalur Prestasi;96.0;Software Engineer;4
+546;D3;Teknik Instalasi Tenaga Listrik (TITL), Matematika;Jalur Tes Tulis;713.0;Electrical Engineer;1
+547;D4;Elektronika, Desain Grafis;SIMANDIRI;92.2;Data Scientist;12
+548;D4;Kimia, Teknik Tenaga Listrik (TTL);Jalur Test Tulis;979.5;Game Developer;9
+549;D4;Fisika, Matematika;Jalur Prestasi;90.6;Automation Engineer;5
+550;D4;Fisika;Jalur Prestasi;87.0;Computer Engineer;6
+551;D4;Statistika, Fisika, Matematika, Desain Animasi;Jalur Test Tulis;726.0;3D Modeler;9
+552;D4;Teknologi Komputer Jaringan (TKJ), Multimedia;SIMANDIRI;931.3;Software Engineer;4
+553;D4;Matematika, Pemrograman;Jalur Prestasi;85.7;Power Plant Operator;8
+554;D4;Desain Animasi, Multimedia;Jalur Test Tulis;913.2;Computer Engineer;6
+555;D3;Teknologi Komputer Jaringan (TKJ), Kimia, Desain Animasi, Statistika;Jalur Tes Tulis;849.0;Control Systems Engineer;3
+556;D4;Pemrograman, Fisika, Teknik Tenaga Listrik (TTL);Jalur Test Tulis;763.2;IT Support Specialist;6
+557;D3;Teknik Instalasi Tenaga Listrik (TITL), Multimedia;Jalur Prestasi;87.9;Multimedia Designer;7
+558;D4;Multimedia, Desain Grafis;Jalur Prestasi;89.2;Telecommunications Specialist;2
+559;D4;Statistika, Matematika;Jalur Tes Tulis;892.0;Power Plant Operator;8
+560;D3;Pemrograman;Jalur Tes Tulis;734.0;Multimedia Designer;7
+561;D3;Desain Grafis, Pemrograman, Desain Animasi;Jalur Prestasi;96.3;Software Engineer;4
+562;D4;Pemrograman, Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;85.6;Game Designer;9
+563;D3;Fisika, Matematika;Jalur Prestasi;87.4;Video Editor;7
+564;D4;Matematika, Multimedia, Teknik Instalasi Tenaga Listrik (TITL);Jalur Tes Tulis;880.0;Full Stack Developer;4
+565;D4;Desain Animasi, Kimia;SIMANDIRI;844.6;Machine Learning Engineer;12
+566;D4;Elektronika, Pemrograman, Teknik Instalasi Tenaga Listrik (TITL), Multimedia;Jalur Prestasi;92.3;System Administrator;6
+567;D4;Statistika, Desain Animasi, Kimia;Jalur Tes Tulis;846.0;Full Stack Developer;4
+568;D4;Pemrograman;Jalur Prestasi;86.6;Data Scientist;12
+569;D4;Desain Animasi;Jalur Prestasi;98.3;3D Modeler;9
+570;D3;Desain Grafis, Teknologi Komputer Jaringan (TKJ), Desain Animasi;Jalur Prestasi;87.5;Embedded Systems Engineer;1
+571;D4;Kimia;Jalur Prestasi;99.0;Game Designer;9
+572;D3;Teknologi Komputer Jaringan (TKJ);SIMANDIRI;86.7;Multimedia Designer;7
+573;D4;Teknik Tenaga Listrik (TTL);Jalur Tes Tulis;694.0;UI/UX Designer;11
+574;D3;Teknik Tenaga Listrik (TTL), Elektronika, Desain Animasi;Jalur Prestasi;82.0;Broadcast Engineer;7
+575;D4;Desain Grafis, Multimedia, Desain Animasi, Statistika;Jalur Prestasi;96.9;Network Security Specialist;10
+576;D4;Matematika;Jalur Prestasi;90.2;Robotics Engineer;5
+577;D4;Teknik Instalasi Tenaga Listrik (TITL);Jalur Tes Tulis;770.0;Data Scientist;12
+578;D4;Desain Animasi, Teknik Instalasi Tenaga Listrik (TITL), Pemrograman;Jalur Tes Tulis;662.0;Power Plant Operator;8
+579;D4;Teknologi Komputer Jaringan (TKJ);Jalur Tes Tulis;914.0;Game Developer;9
+580;D3;Teknik Instalasi Tenaga Listrik (TITL), Elektronika, Statistika, Matematika;Jalur Tes Tulis;824.0;Control Systems Engineer;3
+581;D3;Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;82.6;Embedded Systems Engineer;1
+582;D4;Teknik Instalasi Tenaga Listrik (TITL), Fisika, Matematika, Teknik Tenaga Listrik (TTL);Jalur Test Tulis;970.9;3D Modeler;9
+583;D3;Desain Grafis;Jalur Prestasi;84.0;Embedded Systems Engineer;1
+584;D4;Multimedia, Teknik Tenaga Listrik (TTL);Jalur Prestasi;97.9;Machine Learning Engineer;12
+585;D4;Matematika;Jalur Prestasi;87.0;Mechatronics Specialist;5
+586;D4;Teknologi Komputer Jaringan (TKJ), Teknik Tenaga Listrik (TTL), Kimia;Jalur Prestasi;87.4;Control Systems Engineer;3
+587;D4;Teknik Instalasi Tenaga Listrik (TITL), Desain Animasi, Teknik Tenaga Listrik (TTL);Jalur Test Tulis;823.7;Energy Analyst;8
+588;D4;Matematika, Pemrograman, Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;85.0;Data Scientist;12
+589;D4;Fisika;Jalur Test Tulis;850.2;Game Developer;9
+590;D3;Elektronika;Jalur Tes Tulis;710.0;Multimedia Designer;7
+591;D4;Teknologi Komputer Jaringan (TKJ);Jalur Tes Tulis;878.0;Machine Learning Engineer;12
+592;D4;Teknik Instalasi Tenaga Listrik (TITL), Elektronika, Teknik Tenaga Listrik (TTL);Jalur Test Tulis;746.8;Business Intelligence Analyst;12
+593;D4;Desain Animasi, Kimia, Fisika;Jalur Test Tulis;666.3;Embedded Systems Engineer;1
+594;D3;Elektronika, Fisika, Pemrograman;Jalur Prestasi;96.0;Broadcast Engineer;7
+595;D4;Kimia, Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;98.2;UI/UX Designer;11
+596;D4;Multimedia, Teknik Instalasi Tenaga Listrik (TITL), Pemrograman;Jalur Prestasi;99.0;Cloud Engineer;10
+597;D3;Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;695.0;Control Systems Engineer;3
+598;D4;Teknik Tenaga Listrik (TTL), Matematika;Jalur Prestasi;93.0;Embedded Systems Engineer;1
+599;D3;Kimia, Statistika;Jalur Prestasi;83.0;Electronics Technician;1
+600;D4;Desain Animasi, Kimia, Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;87.7;Game Developer;9
+601;D4;Desain Animasi, Matematika;Jalur Prestasi;81.9;Automation Engineer;5
+602;D4;Teknologi Komputer Jaringan (TKJ), Fisika, Teknik Tenaga Listrik (TTL);Jalur Prestasi;81.4;Full Stack Developer;4
+603;D4;Matematika, Teknik Tenaga Listrik (TTL);Jalur Test Tulis;691.0;Electrical Engineer;1
+604;D3;Statistika, Desain Animasi;Jalur Test Tulis;814.1;Telecommunications Specialist;2
+605;D4;Matematika, Teknik Instalasi Tenaga Listrik (TITL), Multimedia, Desain Animasi;Jalur Prestasi;83.3;Machine Learning Engineer;12
+606;D3;Matematika, Fisika;Jalur Prestasi;87.8;Industrial Electrician;3
+607;D4;Teknik Instalasi Tenaga Listrik (TITL), Teknik Tenaga Listrik (TTL), Fisika, Multimedia;Jalur Prestasi;82.2;IT Support Specialist;6
+608;D4;Desain Animasi, Kimia;Jalur Prestasi;89.5;Power Plant Operator;8
+609;D4;Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;81.2;Full Stack Developer;4
+610;D3;Kimia;Jalur Test Tulis;784.0;Multimedia Designer;7
+611;D4;Matematika, Kimia, Fisika, Elektronika;SIMANDIRI;835.0;System Administrator;6
+612;D3;Fisika, Teknologi Komputer Jaringan (TKJ), Teknik Instalasi Tenaga Listrik (TITL), Desain Animasi;SIMANDIRI;951.7;Full Stack Developer;4
+613;D4;Matematika;Jalur Test Tulis;798.1;Renewable Energy Engineer;8
+614;D4;Teknik Instalasi Tenaga Listrik (TITL), Statistika, Desain Animasi;Jalur Prestasi;93.0;Renewable Energy Engineer;8
+615;D4;Kimia;Jalur Prestasi;93.4;Embedded Systems Engineer;1
+616;D4;Desain Grafis, Elektronika;Jalur Test Tulis;922.9;Cloud Engineer;10
+617;D4;Pemrograman, Teknik Tenaga Listrik (TTL);Jalur Prestasi;85.2;Power Plant Operator;8
+618;D3;Pemrograman, Teknologi Komputer Jaringan (TKJ), Desain Animasi, Statistika;Jalur Test Tulis;977.4;Control Systems Engineer;3
+619;D4;Matematika;Jalur Test Tulis;672.8;Computer Engineer;6
+620;D4;Teknik Instalasi Tenaga Listrik (TITL), Statistika, Elektronika;Jalur Tes Tulis;651.0;Motion Graphics Artist;11
+621;D4;Fisika, Teknik Instalasi Tenaga Listrik (TITL), Matematika;Jalur Prestasi;86.3;Computer Engineer;6
+622;D4;Teknologi Komputer Jaringan (TKJ), Pemrograman, Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;791.0;3D Modeler;9
+623;D4;Pemrograman, Multimedia, Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;837.8;Motion Graphics Artist;11
+624;D4;Fisika;Jalur Tes Tulis;992.0;Motion Graphics Artist;11
+625;D4;Desain Animasi, Statistika, Fisika;SIMANDIRI;727.7;Digital Content Creator;11
+626;D4;Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;90.7;Software Engineer;4
+627;D4;Teknik Tenaga Listrik (TTL), Fisika, Statistika;SIMANDIRI;687.0;Electrical Engineer;1
+628;D4;Pemrograman, Desain Grafis;Jalur Prestasi;94.6;Industrial Electrician;3
+629;D3;Desain Animasi, Teknologi Komputer Jaringan (TKJ), Fisika;Jalur Prestasi;98.0;RF Engineer;2
+630;D4;Statistika, Desain Animasi;Jalur Prestasi;80.1;IT Support Specialist;6
+631;D3;Statistika;Jalur Prestasi;81.2;Electronics Technician;1
+632;D4;Teknik Tenaga Listrik (TTL);Jalur Test Tulis;864.7;Full Stack Developer;4
+633;D4;Pemrograman, Statistika, Teknik Instalasi Tenaga Listrik (TITL);SIMANDIRI;915.3;Motion Graphics Artist;11
+634;D4;Desain Animasi;Jalur Test Tulis;681.0;DevOps Engineer;10
+635;D4;Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL), Matematika, Pemrograman;Jalur Tes Tulis;867.0;Game Designer;9
+636;D4;Elektronika, Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ), Fisika;Jalur Prestasi;82.1;System Administrator;6
+637;D4;Kimia;Jalur Prestasi;93.0;Game Developer;9
+638;D4;Teknik Instalasi Tenaga Listrik (TITL), Fisika;Jalur Prestasi;84.0;Telecommunications Specialist;2
+639;D3;Desain Grafis, Statistika, Matematika;Jalur Tes Tulis;951.0;Embedded Systems Engineer;1
+640;D3;Desain Grafis, Teknik Tenaga Listrik (TTL);Jalur Prestasi;89.6;Network Engineer;2
+641;D4;Desain Animasi, Statistika, Pemrograman;SIMANDIRI;722.2;Cloud Engineer;10
+642;D4;Multimedia, Pemrograman;Jalur Test Tulis;744.0;Business Intelligence Analyst;12
+643;D4;Pemrograman;Jalur Tes Tulis;688.0;RF Engineer;2
+644;D4;Statistika;Jalur Test Tulis;730.0;Digital Content Creator;11
+645;D4;Teknik Tenaga Listrik (TTL), Desain Animasi, Desain Grafis, Teknologi Komputer Jaringan (TKJ);Jalur Tes Tulis;994.0;Cloud Engineer;10
+646;D4;Kimia, Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;96.4;Telecommunications Specialist;2
+647;D4;Desain Grafis, Pemrograman;Jalur Tes Tulis;725.0;Digital Content Creator;11
+648;D4;Multimedia;Jalur Tes Tulis;723.0;Cybersecurity Analyst;4
+649;D4;Desain Animasi, Pemrograman;Jalur Prestasi;85.3;Mechatronics Specialist;5
+650;D3;Fisika;Jalur Prestasi;85.2;Software Engineer;4
+651;D4;Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL), Pemrograman, Kimia;Jalur Test Tulis;694.0;Full Stack Developer;4
+652;D4;Elektronika, Fisika, Desain Grafis;Jalur Test Tulis;894.8;Control Systems Engineer;3
+653;D3;Teknologi Komputer Jaringan (TKJ), Fisika;Jalur Test Tulis;662.0;Broadcast Engineer;7
+654;D4;Statistika;Jalur Tes Tulis;678.0;RF Engineer;2
+655;D4;Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;89.0;Renewable Energy Engineer;8
+656;D4;Teknologi Komputer Jaringan (TKJ), Kimia, Desain Grafis;Jalur Test Tulis;843.9;Machine Learning Engineer;12
+657;D4;Matematika, Pemrograman;Jalur Tes Tulis;925.0;Game Developer;9
+658;D3;Matematika;Jalur Tes Tulis;930.0;Video Editor;7
+659;D4;Pemrograman, Desain Grafis;Jalur Prestasi;89.9;Cloud Engineer;10
+660;D4;Pemrograman, Desain Animasi, Fisika;Jalur Tes Tulis;852.0;RF Engineer;2
+661;D3;Fisika;Jalur Prestasi;89.4;Cybersecurity Analyst;4
+662;D4;Desain Animasi, Desain Grafis;Jalur Prestasi;84.9;Robotics Engineer;5
+663;D3;Matematika, Elektronika, Desain Animasi, Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;83.9;Full Stack Developer;4
+664;D4;Teknologi Komputer Jaringan (TKJ), Teknik Instalasi Tenaga Listrik (TITL), Pemrograman, Fisika;Jalur Prestasi;82.0;Game Designer;9
+665;D4;Kimia, Multimedia, Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;93.3;Renewable Energy Engineer;8
+666;D4;Multimedia, Pemrograman, Matematika;Jalur Prestasi;82.5;Electronics Technician;1
+667;D3;Multimedia;Jalur Prestasi;85.5;Telecommunications Specialist;2
+668;D4;Matematika;Jalur Prestasi;99.0;RF Engineer;2
+669;D3;Matematika, Elektronika, Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;739.0;Broadcast Engineer;7
+670;D3;Teknik Instalasi Tenaga Listrik (TITL), Elektronika;Jalur Prestasi;80.4;Video Editor;7
+671;D4;Kimia, Elektronika;Jalur Test Tulis;763.6;Network Engineer;2
+672;D3;Desain Grafis, Pemrograman, Teknik Tenaga Listrik (TTL);Jalur Prestasi;96.0;Multimedia Designer;7
+673;D4;Teknik Tenaga Listrik (TTL), Desain Grafis;Jalur Test Tulis;896.1;Power Plant Operator;8
+674;D4;Teknik Tenaga Listrik (TTL);Jalur Tes Tulis;986.0;Game Designer;9
+675;D4;Multimedia, Desain Grafis, Teknik Tenaga Listrik (TTL), Kimia;Jalur Prestasi;99.9;Automation Engineer;3
+676;D3;Teknik Instalasi Tenaga Listrik (TITL), Fisika, Teknologi Komputer Jaringan (TKJ);SIMANDIRI;977.3;Automation Engineer;3
+677;D4;Matematika, Teknologi Komputer Jaringan (TKJ), Fisika, Elektronika;Jalur Prestasi;96.8;Energy Analyst;8
+678;D4;Kimia, Teknologi Komputer Jaringan (TKJ);Jalur Tes Tulis;860.0;Industrial Electrician;3
+679;D4;Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;799.4;Energy Analyst;8
+680;D4;Teknik Tenaga Listrik (TTL);SIMANDIRI;83.9;Cloud Engineer;10
+681;D4;Multimedia, Elektronika;Jalur Tes Tulis;908.0;System Administrator;6
+682;D4;Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;87.0;Automation Engineer;3
+683;D3;Desain Animasi, Elektronika;Jalur Prestasi;81.3;Broadcast Engineer;7
+684;D4;Kimia, Teknik Tenaga Listrik (TTL);Jalur Test Tulis;674.0;Renewable Energy Engineer;8
+685;D4;Teknologi Komputer Jaringan (TKJ), Statistika;Jalur Prestasi;88.1;Robotics Engineer;5
+686;D3;Teknologi Komputer Jaringan (TKJ), Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;964.2;Electrical Engineer;1
+687;D4;Desain Animasi, Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;80.3;Digital Content Creator;11
+688;D4;Kimia, Elektronika;Jalur Prestasi;85.5;Network Security Specialist;10
+689;D4;Pemrograman, Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;89.0;Robotics Engineer;5
+690;D4;Pemrograman, Teknik Instalasi Tenaga Listrik (TITL), Teknik Tenaga Listrik (TTL);Jalur Test Tulis;818.8;Network Engineer;2
+691;D4;Teknologi Komputer Jaringan (TKJ), Desain Animasi;Jalur Prestasi;88.0;Energy Analyst;8
+692;D4;Multimedia, Teknik Tenaga Listrik (TTL), Statistika, Fisika;Jalur Prestasi;89.1;Data Scientist;12
+693;D4;Desain Animasi, Matematika, Kimia;Jalur Test Tulis;985.7;Game Designer;9
+694;D4;Desain Grafis;Jalur Test Tulis;689.1;Game Designer;9
+695;D4;Statistika, Matematika, Pemrograman;Jalur Prestasi;97.5;Cloud Engineer;10
+696;D4;Pemrograman, Fisika;Jalur Test Tulis;945.1;Renewable Energy Engineer;8
+697;D4;Statistika, Matematika;SIMANDIRI;91.6;Game Designer;9
+698;D4;Statistika, Matematika;SIMANDIRI;845.3;Power Plant Operator;8
+699;D3;Fisika;Jalur Test Tulis;667.0;Full Stack Developer;4
+700;D4;Pemrograman, Desain Grafis, Teknik Instalasi Tenaga Listrik (TITL);SIMANDIRI;856.8;Automation Engineer;5
+701;D4;Teknik Instalasi Tenaga Listrik (TITL), Multimedia, Teknik Tenaga Listrik (TTL), Kimia;Jalur Test Tulis;959.9;Network Security Specialist;10
+702;D4;Elektronika, Matematika, Pemrograman, Statistika;Jalur Prestasi;82.6;Power Plant Operator;8
+703;D4;Teknik Tenaga Listrik (TTL), Kimia;Jalur Prestasi;95.0;Business Intelligence Analyst;12
+704;D4;Multimedia;Jalur Test Tulis;731.4;Energy Analyst;8
+705;D4;Teknik Instalasi Tenaga Listrik (TITL), Kimia, Desain Animasi;Jalur Test Tulis;771.2;Power Plant Operator;8
+706;D4;Teknologi Komputer Jaringan (TKJ), Desain Animasi, Statistika;Jalur Tes Tulis;718.0;Energy Analyst;8
+707;D4;Multimedia, Desain Animasi, Elektronika;Jalur Prestasi;84.3;Digital Content Creator;11
+708;D4;Fisika;Jalur Test Tulis;851.2;3D Modeler;9
+709;D4;Teknik Tenaga Listrik (TTL), Kimia, Teknik Instalasi Tenaga Listrik (TITL), Pemrograman;Jalur Prestasi;96.1;Mechatronics Specialist;5
+710;D4;Teknologi Komputer Jaringan (TKJ), Teknik Tenaga Listrik (TTL), Desain Animasi, Desain Grafis;SIMANDIRI;693.7;Electrical Engineer;1
+711;D3;Kimia;Jalur Test Tulis;850.2;RF Engineer;2
+712;D4;Matematika, Pemrograman, Teknik Instalasi Tenaga Listrik (TITL);Jalur Tes Tulis;654.0;Renewable Energy Engineer;8
+713;D4;Teknik Tenaga Listrik (TTL);SIMANDIRI;97.0;Game Designer;9
+714;D4;Desain Grafis, Multimedia;Jalur Prestasi;95.0;DevOps Engineer;10
+715;D3;Desain Grafis;Jalur Tes Tulis;708.0;Video Editor;7
+716;D4;Teknologi Komputer Jaringan (TKJ), Multimedia;Jalur Prestasi;93.0;Machine Learning Engineer;12
+717;D4;Kimia;SIMANDIRI;98.0;Cybersecurity Analyst;4
+718;D4;Statistika, Teknologi Komputer Jaringan (TKJ), Elektronika;Jalur Test Tulis;916.2;Power Plant Operator;8
+719;D4;Statistika;Jalur Prestasi;87.7;Control Systems Engineer;3
+720;D4;Fisika, Kimia;Jalur Test Tulis;801.6;Game Developer;9
+721;D4;Kimia;Jalur Prestasi;89.4;Renewable Energy Engineer;8
+722;D4;Matematika;Jalur Tes Tulis;749.0;Power Plant Operator;8
+723;D4;Fisika;Jalur Prestasi;91.5;Mechatronics Specialist;5
+724;D4;Teknik Tenaga Listrik (TTL);Jalur Test Tulis;925.1;IT Support Specialist;6
+725;D4;Teknik Tenaga Listrik (TTL);Jalur Prestasi;98.7;Embedded Systems Engineer;1
+726;D4;Desain Grafis, Kimia, Statistika;Jalur Prestasi;89.0;Game Designer;9
+727;D4;Fisika, Desain Animasi, Teknik Tenaga Listrik (TTL), Desain Grafis;Jalur Prestasi;86.5;Game Developer;9
+728;D4;Desain Grafis, Multimedia, Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;948.6;Machine Learning Engineer;12
+729;D4;Teknik Tenaga Listrik (TTL), Fisika, Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;765.5;Embedded Systems Engineer;1
+730;D3;Multimedia, Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ), Matematika;Jalur Prestasi;84.0;Broadcast Engineer;7
+731;D4;Fisika, Desain Grafis, Teknik Tenaga Listrik (TTL), Kimia;Jalur Prestasi;84.2;Electrical Engineer;1
+732;D3;Statistika, Matematika;SIMANDIRI;688.2;Electrical Engineer;1
+733;D4;Statistika, Teknologi Komputer Jaringan (TKJ), Teknik Tenaga Listrik (TTL), Kimia;SIMANDIRI;944.6;System Administrator;6
+734;D4;Desain Grafis, Teknologi Komputer Jaringan (TKJ), Multimedia;Jalur Prestasi;91.4;Machine Learning Engineer;12
+735;D4;Teknik Instalasi Tenaga Listrik (TITL), Desain Grafis, Kimia, Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;96.2;Digital Content Creator;11
+736;D4;Teknologi Komputer Jaringan (TKJ), Desain Grafis, Multimedia;Jalur Prestasi;93.0;Power Plant Operator;8
+737;D3;Teknik Tenaga Listrik (TTL), Pemrograman, Teknologi Komputer Jaringan (TKJ), Matematika;Jalur Prestasi;81.1;Control Systems Engineer;3
+738;D4;Statistika;Jalur Prestasi;96.6;Game Developer;9
+739;D3;Elektronika;Jalur Tes Tulis;710.0;Industrial Electrician;3
+740;D3;Pemrograman, Teknik Instalasi Tenaga Listrik (TITL), Matematika;Jalur Test Tulis;706.0;Video Editor;7
+741;D3;Statistika;Jalur Prestasi;88.3;Broadcast Engineer;7
+742;D4;Multimedia, Matematika;Jalur Prestasi;85.2;System Administrator;6
+743;D3;Desain Animasi, Matematika, Multimedia;Jalur Prestasi;92.6;Video Editor;7
+744;D4;Teknik Tenaga Listrik (TTL), Pemrograman, Statistika, Matematika;SIMANDIRI;716.5;DevOps Engineer;10
+745;D4;Elektronika, Matematika, Pemrograman, Fisika;Jalur Test Tulis;958.7;RF Engineer;2
+746;D3;Fisika, Desain Animasi, Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;783.6;Video Editor;7
+747;D4;Multimedia, Desain Animasi, Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;970.6;Data Scientist;12
+748;D4;Desain Animasi, Kimia;Jalur Prestasi;83.5;Computer Engineer;6
+749;D4;Desain Animasi, Multimedia, Teknik Tenaga Listrik (TTL);Jalur Prestasi;82.0;Embedded Systems Engineer;1
+750;D4;Matematika, Elektronika;SIMANDIRI;700.0;Cybersecurity Analyst;4
+751;D3;Elektronika;Jalur Test Tulis;935.2;Automation Engineer;3
+752;D4;Teknik Tenaga Listrik (TTL), Multimedia, Pemrograman;Jalur Test Tulis;668.1;Motion Graphics Artist;11
+753;D4;Desain Animasi, Fisika, Multimedia, Matematika;Jalur Prestasi;86.9;IT Support Specialist;6
+754;D4;Desain Animasi, Teknologi Komputer Jaringan (TKJ), Statistika, Pemrograman;Jalur Test Tulis;934.6;3D Modeler;9
+755;D4;Elektronika, Teknik Instalasi Tenaga Listrik (TITL), Pemrograman, Fisika;Jalur Prestasi;91.2;Automation Engineer;5
+756;D4;Desain Grafis, Fisika, Multimedia, Pemrograman;Jalur Prestasi;97.0;Network Security Specialist;10
+757;D4;Fisika, Pemrograman;Jalur Prestasi;90.5;Energy Analyst;8
+758;D4;Statistika, Desain Grafis, Teknik Tenaga Listrik (TTL);Jalur Prestasi;83.0;Digital Content Creator;11
+759;D4;Pemrograman, Teknik Tenaga Listrik (TTL), Desain Grafis, Matematika;Jalur Test Tulis;658.0;Telecommunications Specialist;2
+760;D3;Desain Animasi, Teknik Instalasi Tenaga Listrik (TITL), Pemrograman;Jalur Prestasi;82.0;Telecommunications Specialist;2
+761;D4;Matematika;Jalur Test Tulis;795.4;Motion Graphics Artist;11
+762;D3;Desain Grafis;Jalur Tes Tulis;809.0;Automation Engineer;3
+763;D4;Matematika, Teknologi Komputer Jaringan (TKJ), Multimedia, Pemrograman;Jalur Tes Tulis;880.0;Digital Content Creator;11
+764;D4;Elektronika, Desain Animasi;Jalur Prestasi;80.1;Game Developer;9
+765;D4;Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ), Elektronika, Desain Animasi;Jalur Tes Tulis;721.0;UI/UX Designer;11
+766;D4;Elektronika, Teknik Instalasi Tenaga Listrik (TITL), Kimia;Jalur Prestasi;94.0;Business Intelligence Analyst;12
+767;D4;Statistika, Elektronika, Teknologi Komputer Jaringan (TKJ);Jalur Tes Tulis;663.0;Network Engineer;2
+768;D4;Teknik Instalasi Tenaga Listrik (TITL), Kimia, Multimedia;Jalur Test Tulis;877.6;Renewable Energy Engineer;8
+769;D4;Fisika;Jalur Prestasi;92.6;Game Developer;9
+770;D4;Desain Grafis, Fisika, Kimia, Statistika;Jalur Prestasi;85.0;Machine Learning Engineer;12
+771;D4;Multimedia;Jalur Prestasi;84.1;Cloud Engineer;10
+772;D4;Kimia;SIMANDIRI;98.7;Digital Content Creator;11
+773;D4;Elektronika, Matematika;Jalur Prestasi;97.8;Automation Engineer;5
+774;D4;Desain Animasi, Multimedia, Elektronika;Jalur Prestasi;81.0;Network Security Specialist;10
+775;D4;Kimia, Elektronika;Jalur Test Tulis;950.0;Motion Graphics Artist;11
+776;D4;Teknik Tenaga Listrik (TTL);SIMANDIRI;82.9;Network Security Specialist;10
+777;D4;Fisika;Jalur Test Tulis;824.2;Mechatronics Specialist;5
+778;D4;Kimia, Elektronika, Matematika, Pemrograman;Jalur Test Tulis;932.8;Digital Content Creator;11
+779;D4;Statistika, Multimedia;Jalur Test Tulis;874.3;Game Developer;9
+780;D4;Kimia, Statistika, Teknik Tenaga Listrik (TTL);Jalur Tes Tulis;715.0;Game Developer;9
+781;D4;Fisika, Pemrograman, Teknologi Komputer Jaringan (TKJ), Desain Grafis;Jalur Tes Tulis;826.0;Energy Analyst;8
+782;D4;Statistika, Desain Animasi;Jalur Test Tulis;690.0;Power Plant Operator;8
+783;D4;Matematika;Jalur Tes Tulis;924.0;Electronics Technician;1
+784;D4;Desain Animasi, Pemrograman, Statistika;Jalur Test Tulis;749.0;UI/UX Designer;11
+785;D3;Teknologi Komputer Jaringan (TKJ), Multimedia, Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;987.1;Software Engineer;4
+786;D4;Fisika, Multimedia, Matematika, Desain Grafis;Jalur Prestasi;84.8;Computer Engineer;6
+787;D4;Fisika, Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;675.5;Automation Engineer;5
+788;D4;Teknologi Komputer Jaringan (TKJ), Teknik Instalasi Tenaga Listrik (TITL), Multimedia;Jalur Test Tulis;979.4;Power Plant Operator;8
+789;D3;Statistika, Pemrograman, Fisika;Jalur Test Tulis;704.0;Cybersecurity Analyst;4
+790;D4;Multimedia, Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ), Elektronika;Jalur Prestasi;86.6;UI/UX Designer;11
+791;D4;Teknik Tenaga Listrik (TTL), Elektronika, Pemrograman;Jalur Prestasi;82.1;Robotics Engineer;5
+792;D4;Statistika, Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;970.3;Mechatronics Specialist;5
+793;D4;Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ);SIMANDIRI;712.0;Renewable Energy Engineer;8
+794;D4;Fisika, Desain Grafis, Matematika, Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;964.8;Control Systems Engineer;3
+795;D3;Teknik Tenaga Listrik (TTL), Statistika;Jalur Test Tulis;708.8;Software Engineer;4
+796;D3;Kimia;Jalur Prestasi;99.0;RF Engineer;2
+797;D4;Multimedia, Teknik Tenaga Listrik (TTL), Statistika;Jalur Prestasi;99.3;Automation Engineer;5
+798;D4;Multimedia, Teknologi Komputer Jaringan (TKJ), Fisika;SIMANDIRI;707.0;Motion Graphics Artist;11
+799;D3;Matematika, Kimia;Jalur Tes Tulis;878.0;Video Editor;7
+800;D4;Kimia, Matematika, Statistika;Jalur Tes Tulis;978.0;Control Systems Engineer;3
+801;D4;Statistika, Matematika, Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;84.0;Game Designer;9
+802;D3;Fisika, Teknik Instalasi Tenaga Listrik (TITL), Desain Grafis, Pemrograman;SIMANDIRI;931.6;Embedded Systems Engineer;1
+803;D4;Kimia, Desain Animasi, Fisika;Jalur Tes Tulis;699.0;System Administrator;6
+804;D4;Kimia, Fisika, Matematika, Elektronika;SIMANDIRI;776.4;Telecommunications Specialist;2
+805;D4;Elektronika, Pemrograman, Teknik Tenaga Listrik (TTL);SIMANDIRI;847.5;Game Developer;9
+806;D3;Kimia, Pemrograman, Statistika, Desain Animasi;Jalur Test Tulis;661.0;Broadcast Engineer;7
+807;D4;Desain Animasi, Kimia, Desain Grafis;SIMANDIRI;88.3;Network Security Specialist;10
+808;D4;Multimedia, Statistika;Jalur Prestasi;91.4;Computer Engineer;6
+809;D4;Desain Grafis;Jalur Tes Tulis;713.0;UI/UX Designer;11
+810;D4;Desain Animasi, Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ), Statistika;Jalur Prestasi;94.0;DevOps Engineer;10
+811;D4;Elektronika;Jalur Prestasi;91.0;Mechatronics Specialist;5
+812;D4;Kimia, Desain Grafis;Jalur Prestasi;83.0;RF Engineer;2
+813;D4;Kimia;Jalur Tes Tulis;674.0;Full Stack Developer;4
+814;D3;Matematika, Pemrograman;Jalur Test Tulis;907.9;Control Systems Engineer;3
+815;D3;Multimedia, Desain Grafis, Pemrograman, Kimia;Jalur Tes Tulis;882.0;Cybersecurity Analyst;4
+816;D4;Pemrograman, Matematika, Multimedia, Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;751.2;Network Engineer;2
+817;D4;Fisika, Teknik Instalasi Tenaga Listrik (TITL);Jalur Tes Tulis;739.0;Machine Learning Engineer;12
+818;D4;Multimedia;Jalur Prestasi;90.9;Power Plant Operator;8
+819;D3;Matematika, Kimia, Pemrograman, Desain Animasi;Jalur Test Tulis;959.6;Full Stack Developer;4
+820;D4;Desain Animasi, Fisika, Kimia;Jalur Prestasi;88.0;Power Plant Operator;8
+821;D4;Desain Grafis, Desain Animasi;Jalur Tes Tulis;699.0;Energy Analyst;8
+822;D4;Fisika, Elektronika;Jalur Tes Tulis;780.0;Robotics Engineer;5
+823;D4;Teknologi Komputer Jaringan (TKJ), Multimedia;Jalur Prestasi;96.7;Automation Engineer;5
+824;D4;Elektronika, Teknologi Komputer Jaringan (TKJ), Teknik Instalasi Tenaga Listrik (TITL), Pemrograman;Jalur Prestasi;89.0;Automation Engineer;5
+825;D4;Pemrograman, Elektronika;Jalur Prestasi;85.0;Full Stack Developer;4
+826;D4;Statistika;Jalur Prestasi;86.8;Control Systems Engineer;3
+827;D3;Fisika;Jalur Tes Tulis;910.0;RF Engineer;2
+828;D4;Elektronika, Teknologi Komputer Jaringan (TKJ);Jalur Tes Tulis;754.0;Cybersecurity Analyst;4
+829;D4;Elektronika, Fisika, Desain Animasi;Jalur Prestasi;87.0;Software Engineer;4
+830;D4;Desain Animasi, Fisika, Pemrograman;Jalur Prestasi;87.7;Digital Content Creator;11
+831;D3;Teknologi Komputer Jaringan (TKJ), Fisika, Statistika;Jalur Prestasi;97.0;Electrical Engineer;1
+832;D4;Fisika, Elektronika, Statistika;Jalur Test Tulis;965.0;Electrical Engineer;1
+833;D4;Elektronika, Statistika, Fisika, Pemrograman;Jalur Prestasi;90.2;Automation Engineer;5
+834;D4;Statistika;Jalur Test Tulis;789.6;Network Engineer;2
+835;D4;Multimedia, Matematika, Elektronika;Jalur Prestasi;96.1;Electrical Engineer;1
+836;D4;Pemrograman, Kimia;Jalur Tes Tulis;655.0;Cloud Engineer;10
+837;D3;Statistika, Desain Grafis;Jalur Tes Tulis;653.0;RF Engineer;2
+838;D4;Multimedia;Jalur Test Tulis;811.2;Embedded Systems Engineer;1
+839;D4;Teknik Tenaga Listrik (TTL);Jalur Prestasi;83.0;Power Plant Operator;8
+840;D3;Matematika, Teknik Tenaga Listrik (TTL);Jalur Tes Tulis;674.0;Broadcast Engineer;7
+841;D4;Desain Grafis, Fisika;Jalur Tes Tulis;697.0;Energy Analyst;8
+842;D4;Matematika, Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;89.1;UI/UX Designer;11
+843;D4;Fisika, Pemrograman, Teknik Instalasi Tenaga Listrik (TITL), Statistika;Jalur Prestasi;80.3;Game Developer;9
+844;D4;Pemrograman;Jalur Prestasi;99.0;Industrial Electrician;3
+845;D4;Pemrograman, Teknik Instalasi Tenaga Listrik (TITL), Multimedia;Jalur Tes Tulis;821.0;Renewable Energy Engineer;8
+846;D4;Statistika, Elektronika;Jalur Prestasi;90.8;Network Engineer;2
+847;D4;Pemrograman, Multimedia;Jalur Tes Tulis;721.0;Digital Content Creator;11
+848;D4;Statistika;Jalur Prestasi;86.0;Business Intelligence Analyst;12
+849;D4;Elektronika, Pemrograman, Desain Grafis, Teknik Tenaga Listrik (TTL);Jalur Tes Tulis;886.0;UI/UX Designer;11
+850;D4;Matematika, Teknologi Komputer Jaringan (TKJ), Teknik Tenaga Listrik (TTL);Jalur Prestasi;84.5;Renewable Energy Engineer;8
+851;D4;Fisika, Desain Animasi, Teknik Tenaga Listrik (TTL), Matematika;Jalur Prestasi;92.8;Software Engineer;4
+852;D3;Elektronika;Jalur Prestasi;96.3;Telecommunications Specialist;2
+853;D4;Pemrograman, Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ);SIMANDIRI;739.0;3D Modeler;9
+854;D4;Teknik Tenaga Listrik (TTL), Fisika;Jalur Prestasi;98.6;System Administrator;6
+855;D4;Desain Animasi;Jalur Prestasi;81.8;Network Security Specialist;10
+856;D4;Elektronika;Jalur Prestasi;82.4;Robotics Engineer;5
+857;D4;Desain Animasi, Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;705.2;Computer Engineer;6
+858;D4;Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;799.7;Machine Learning Engineer;12
+859;D4;Multimedia, Fisika;Jalur Prestasi;89.0;Motion Graphics Artist;11
+860;D4;Matematika, Elektronika;Jalur Test Tulis;902.3;Full Stack Developer;4
+861;D4;Kimia, Matematika;SIMANDIRI;714.6;UI/UX Designer;11
+862;D3;Teknologi Komputer Jaringan (TKJ), Matematika, Desain Animasi;Jalur Prestasi;88.0;Broadcast Engineer;7
+863;D4;Teknologi Komputer Jaringan (TKJ), Desain Animasi;Jalur Test Tulis;689.3;Business Intelligence Analyst;12
+864;D4;Pemrograman, Kimia;SIMANDIRI;777.4;Data Scientist;12
+865;D4;Fisika, Kimia;Jalur Tes Tulis;967.0;Energy Analyst;8
+866;D4;Matematika, Elektronika, Pemrograman, Kimia;Jalur Test Tulis;932.2;DevOps Engineer;10
+867;D4;Desain Animasi, Pemrograman, Elektronika;SIMANDIRI;702.0;Game Designer;9
+868;D3;Desain Animasi;Jalur Prestasi;81.0;RF Engineer;2
+869;D3;Multimedia, Teknik Tenaga Listrik (TTL);Jalur Test Tulis;846.3;Broadcast Engineer;7
+870;D4;Teknik Tenaga Listrik (TTL);SIMANDIRI;735.0;Full Stack Developer;4
+871;D3;Fisika, Matematika;Jalur Test Tulis;680.2;Software Engineer;4
+872;D4;Pemrograman, Teknik Instalasi Tenaga Listrik (TITL), Statistika, Elektronika;Jalur Test Tulis;805.4;RF Engineer;2
+873;D3;Fisika, Multimedia;Jalur Prestasi;85.4;Video Editor;7
+874;D3;Teknik Instalasi Tenaga Listrik (TITL), Elektronika;Jalur Tes Tulis;833.0;Software Engineer;4
+875;D3;Elektronika, Fisika;Jalur Test Tulis;977.6;Multimedia Designer;7
+876;D3;Multimedia, Teknologi Komputer Jaringan (TKJ), Teknik Instalasi Tenaga Listrik (TITL), Pemrograman;Jalur Test Tulis;692.4;RF Engineer;2
+877;D4;Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;93.0;Business Intelligence Analyst;12
+878;D4;Desain Animasi, Statistika;Jalur Prestasi;85.5;3D Modeler;9
+879;D4;Pemrograman, Multimedia, Statistika, Elektronika;Jalur Test Tulis;749.0;Automation Engineer;5
+880;D4;Fisika, Kimia, Elektronika, Desain Grafis;Jalur Tes Tulis;677.0;RF Engineer;2
+881;D4;Desain Animasi, Elektronika;Jalur Prestasi;84.0;Telecommunications Specialist;2
+882;D4;Fisika, Teknik Instalasi Tenaga Listrik (TITL), Statistika, Teknik Tenaga Listrik (TTL);Jalur Tes Tulis;923.0;Industrial Electrician;3
+883;D3;Elektronika;Jalur Prestasi;90.2;Automation Engineer;3
+884;D4;Kimia, Fisika, Matematika;Jalur Prestasi;80.2;Full Stack Developer;4
+885;D4;Kimia, Matematika, Elektronika, Desain Grafis;Jalur Test Tulis;656.0;DevOps Engineer;10
+886;D3;Multimedia;Jalur Prestasi;92.7;Automation Engineer;3
+887;D4;Fisika;Jalur Prestasi;99.0;DevOps Engineer;10
+888;D4;Desain Grafis;Jalur Prestasi;99.9;Computer Engineer;6
+889;D4;Desain Animasi, Elektronika, Pemrograman, Teknik Instalasi Tenaga Listrik (TITL);Jalur Tes Tulis;662.0;Mechatronics Specialist;5
+890;D4;Teknik Instalasi Tenaga Listrik (TITL), Elektronika;SIMANDIRI;980.4;Game Developer;9
+891;D4;Pemrograman, Teknik Instalasi Tenaga Listrik (TITL), Teknik Tenaga Listrik (TTL), Multimedia;Jalur Prestasi;93.0;Cloud Engineer;10
+892;D4;Fisika, Statistika, Kimia, Pemrograman;Jalur Tes Tulis;995.0;Embedded Systems Engineer;1
+893;D3;Fisika, Multimedia, Pemrograman, Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;81.6;Network Engineer;2
+894;D3;Pemrograman, Matematika, Desain Animasi, Multimedia;Jalur Prestasi;82.7;Industrial Electrician;3
+895;D4;Matematika, Teknik Instalasi Tenaga Listrik (TITL), Statistika, Teknik Tenaga Listrik (TTL);Jalur Test Tulis;719.9;DevOps Engineer;10
+896;D4;Kimia;Jalur Prestasi;82.3;3D Modeler;9
+897;D4;Statistika;Jalur Tes Tulis;844.0;3D Modeler;9
+898;D4;Teknik Tenaga Listrik (TTL), Elektronika, Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;82.0;Computer Engineer;6
+899;D4;Statistika;Jalur Tes Tulis;715.0;Automation Engineer;5
+900;D4;Multimedia, Desain Animasi;Jalur Prestasi;85.6;Motion Graphics Artist;11
+901;D4;Matematika;SIMANDIRI;99.0;Energy Analyst;8
+902;D4;Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;86.6;RF Engineer;2
+903;D4;Desain Grafis, Fisika, Desain Animasi;Jalur Test Tulis;678.3;Control Systems Engineer;3
+904;D4;Teknologi Komputer Jaringan (TKJ), Fisika, Teknik Instalasi Tenaga Listrik (TITL), Desain Animasi;Jalur Prestasi;94.6;Network Engineer;2
+905;D3;Elektronika, Kimia, Pemrograman;Jalur Prestasi;95.3;Telecommunications Specialist;2
+906;D4;Teknik Instalasi Tenaga Listrik (TITL), Desain Animasi, Pemrograman;Jalur Test Tulis;828.6;Network Engineer;2
+907;D4;Pemrograman, Multimedia, Teknik Instalasi Tenaga Listrik (TITL);Jalur Tes Tulis;987.0;Renewable Energy Engineer;8
+908;D4;Multimedia, Statistika, Desain Animasi, Elektronika;Jalur Tes Tulis;968.0;Electronics Technician;1
+909;D4;Teknologi Komputer Jaringan (TKJ);Jalur Tes Tulis;980.0;Game Developer;9
+910;D4;Pemrograman, Multimedia, Kimia, Matematika;Jalur Prestasi;81.4;Cybersecurity Analyst;4
+911;D4;Pemrograman, Kimia, Matematika;Jalur Tes Tulis;867.0;Motion Graphics Artist;11
+912;D4;Teknik Tenaga Listrik (TTL), Fisika, Kimia;Jalur Test Tulis;865.9;Game Developer;9
+913;D4;Pemrograman, Fisika, Elektronika;Jalur Prestasi;89.3;Control Systems Engineer;3
+914;D4;Kimia, Desain Animasi, Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;93.0;Renewable Energy Engineer;8
+915;D4;Multimedia, Elektronika, Fisika;Jalur Test Tulis;957.2;Data Scientist;12
+916;D4;Elektronika, Desain Animasi, Teknologi Komputer Jaringan (TKJ), Matematika;Jalur Test Tulis;899.0;Network Security Specialist;10
+917;D4;Statistika, Desain Grafis, Teknik Tenaga Listrik (TTL);Jalur Prestasi;92.9;Control Systems Engineer;3
+918;D4;Teknik Tenaga Listrik (TTL), Statistika;Jalur Prestasi;83.0;UI/UX Designer;11
+919;D4;Statistika, Teknologi Komputer Jaringan (TKJ), Kimia, Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;721.0;System Administrator;6
+920;D4;Multimedia;Jalur Tes Tulis;704.0;Renewable Energy Engineer;8
+921;D4;Statistika, Matematika;Jalur Tes Tulis;849.0;Energy Analyst;8
+922;D4;Matematika, Teknologi Komputer Jaringan (TKJ), Statistika, Kimia;Jalur Tes Tulis;739.0;Cloud Engineer;10
+923;D3;Pemrograman, Desain Grafis, Teknik Tenaga Listrik (TTL), Elektronika;SIMANDIRI;92.4;Network Engineer;2
+924;D3;Desain Grafis, Elektronika, Statistika, Multimedia;Jalur Tes Tulis;739.0;Video Editor;7
+925;D4;Teknik Tenaga Listrik (TTL), Kimia, Teknik Instalasi Tenaga Listrik (TITL), Matematika;Jalur Prestasi;84.5;Control Systems Engineer;3
+926;D4;Teknik Instalasi Tenaga Listrik (TITL), Multimedia;Jalur Prestasi;88.0;DevOps Engineer;10
+927;D3;Multimedia, Pemrograman;Jalur Tes Tulis;856.0;Electrical Engineer;1
+928;D4;Teknik Tenaga Listrik (TTL), Fisika, Matematika, Multimedia;Jalur Tes Tulis;710.0;Electronics Technician;1
+929;D4;Teknologi Komputer Jaringan (TKJ), Statistika, Teknik Tenaga Listrik (TTL);SIMANDIRI;724.0;Industrial Electrician;3
+930;D4;Desain Grafis;Jalur Prestasi;91.0;Power Plant Operator;8
+931;D4;Kimia, Statistika, Pemrograman;Jalur Tes Tulis;798.0;Digital Content Creator;11
+932;D3;Elektronika;Jalur Prestasi;94.0;Video Editor;7
+933;D4;Kimia, Teknik Instalasi Tenaga Listrik (TITL), Multimedia, Teknologi Komputer Jaringan (TKJ);Jalur Tes Tulis;941.0;Machine Learning Engineer;12
+934;D4;Pemrograman, Teknik Instalasi Tenaga Listrik (TITL), Fisika;Jalur Prestasi;84.6;Telecommunications Specialist;2
+935;D4;Desain Grafis;Jalur Test Tulis;748.1;Computer Engineer;6
+936;D3;Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ), Desain Grafis;Jalur Prestasi;83.0;Multimedia Designer;7
+937;D4;Fisika, Pemrograman, Teknik Instalasi Tenaga Listrik (TITL);Jalur Tes Tulis;763.0;Cloud Engineer;10
+938;D4;Desain Grafis, Elektronika, Matematika;Jalur Tes Tulis;702.0;Automation Engineer;5
+939;D4;Matematika, Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;726.5;Business Intelligence Analyst;12
+940;D4;Teknik Instalasi Tenaga Listrik (TITL), Matematika;Jalur Prestasi;81.6;Cloud Engineer;10
+941;D4;Statistika, Matematika;Jalur Prestasi;82.0;Electronics Technician;1
+942;D4;Teknik Tenaga Listrik (TTL), Matematika, Pemrograman;Jalur Test Tulis;755.0;IT Support Specialist;6
+943;D4;Teknik Instalasi Tenaga Listrik (TITL), Matematika;Jalur Tes Tulis;858.0;Data Scientist;12
+944;D4;Multimedia, Teknik Tenaga Listrik (TTL), Pemrograman, Elektronika;Jalur Prestasi;96.0;Mechatronics Specialist;5
+945;D4;Matematika, Teknologi Komputer Jaringan (TKJ), Kimia, Teknik Tenaga Listrik (TTL);Jalur Prestasi;94.2;Business Intelligence Analyst;12
+946;D4;Kimia;Jalur Tes Tulis;976.0;3D Modeler;9
+947;D4;Kimia, Multimedia, Desain Animasi;Jalur Prestasi;86.0;Network Engineer;2
+948;D4;Teknik Instalasi Tenaga Listrik (TITL), Teknologi Komputer Jaringan (TKJ);Jalur Tes Tulis;911.0;Automation Engineer;5
+949;D4;Teknik Tenaga Listrik (TTL), Teknologi Komputer Jaringan (TKJ), Desain Grafis;Jalur Tes Tulis;682.0;Data Scientist;12
+950;D3;Desain Animasi;Jalur Test Tulis;730.4;Control Systems Engineer;3
+951;D4;Fisika, Desain Animasi;Jalur Prestasi;97.1;IT Support Specialist;6
+952;D4;Teknik Tenaga Listrik (TTL), Desain Animasi, Fisika, Matematika;Jalur Test Tulis;768.8;Control Systems Engineer;3
+953;D4;Kimia, Multimedia, Teknologi Komputer Jaringan (TKJ), Desain Grafis;Jalur Test Tulis;911.0;Cloud Engineer;10
+954;D4;Statistika, Kimia, Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;663.0;DevOps Engineer;10
+955;D3;Multimedia, Desain Grafis, Kimia;Jalur Prestasi;99.4;Industrial Electrician;3
+956;D4;Desain Grafis;SIMANDIRI;92.2;Automation Engineer;3
+957;D4;Statistika, Matematika, Desain Animasi;Jalur Prestasi;92.0;3D Modeler;9
+958;D4;Elektronika, Multimedia;Jalur Prestasi;92.8;Automation Engineer;3
+959;D4;Fisika;Jalur Prestasi;100.0;RF Engineer;2
+960;D4;Desain Animasi, Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;969.9;DevOps Engineer;10
+961;D3;Desain Grafis, Teknik Tenaga Listrik (TTL), Pemrograman;SIMANDIRI;713.0;Software Engineer;4
+962;D4;Teknik Instalasi Tenaga Listrik (TITL);Jalur Test Tulis;683.0;Network Security Specialist;10
+963;D4;Pemrograman;Jalur Test Tulis;899.1;Network Security Specialist;10
+964;D4;Teknologi Komputer Jaringan (TKJ), Kimia, Desain Animasi;Jalur Prestasi;98.9;Electronics Technician;1
+965;D4;Teknik Instalasi Tenaga Listrik (TITL);Jalur Tes Tulis;695.0;Industrial Electrician;3
+966;D4;Pemrograman, Matematika;Jalur Tes Tulis;821.0;Electronics Technician;1
+967;D4;Desain Grafis, Teknologi Komputer Jaringan (TKJ), Teknik Tenaga Listrik (TTL);SIMANDIRI;91.4;System Administrator;6
+968;D4;Pemrograman;Jalur Prestasi;90.3;Automation Engineer;3
+969;D3;Teknik Tenaga Listrik (TTL), Matematika;SIMANDIRI;971.5;Broadcast Engineer;7
+970;D4;Multimedia, Teknik Instalasi Tenaga Listrik (TITL), Fisika;Jalur Prestasi;94.0;Full Stack Developer;4
+971;D4;Pemrograman, Statistika, Teknologi Komputer Jaringan (TKJ), Desain Grafis;Jalur Tes Tulis;666.0;Digital Content Creator;11
+972;D4;Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;89.3;IT Support Specialist;6
+973;D4;Teknik Instalasi Tenaga Listrik (TITL), Pemrograman;Jalur Prestasi;94.7;Power Plant Operator;8
+974;D4;Teknik Instalasi Tenaga Listrik (TITL), Pemrograman, Desain Animasi;Jalur Prestasi;83.6;Power Plant Operator;8
+975;D3;Elektronika, Fisika, Teknologi Komputer Jaringan (TKJ);Jalur Tes Tulis;746.0;Broadcast Engineer;7
+976;D4;Pemrograman;Jalur Prestasi;94.8;Network Engineer;2
+977;D3;Multimedia, Teknik Tenaga Listrik (TTL), Teknik Instalasi Tenaga Listrik (TITL);Jalur Tes Tulis;789.0;Full Stack Developer;4
+978;D4;Fisika, Kimia;Jalur Tes Tulis;979.0;System Administrator;6
+979;D4;Desain Animasi, Teknik Instalasi Tenaga Listrik (TITL), Desain Grafis, Pemrograman;Jalur Tes Tulis;723.0;Game Designer;9
+980;D4;Teknik Instalasi Tenaga Listrik (TITL), Multimedia;Jalur Prestasi;91.1;Power Plant Operator;8
+981;D4;Teknik Tenaga Listrik (TTL), Multimedia, Desain Grafis;Jalur Prestasi;81.3;3D Modeler;9
+982;D4;Pemrograman, Desain Animasi;Jalur Prestasi;90.0;Network Engineer;2
+983;D4;Kimia, Pemrograman, Multimedia, Statistika;Jalur Prestasi;85.3;System Administrator;6
+984;D4;Matematika, Fisika;Jalur Prestasi;92.8;UI/UX Designer;11
+985;D3;Fisika, Desain Animasi, Multimedia, Teknik Instalasi Tenaga Listrik (TITL);Jalur Prestasi;82.0;Software Engineer;4
+986;D4;Teknik Instalasi Tenaga Listrik (TITL), Kimia, Teknologi Komputer Jaringan (TKJ), Elektronika;Jalur Prestasi;94.8;Robotics Engineer;5
+987;D3;Fisika, Multimedia, Teknologi Komputer Jaringan (TKJ);Jalur Prestasi;84.0;Multimedia Designer;7
+988;D4;Matematika;Jalur Test Tulis;728.2;Electrical Engineer;1
+989;D4;Teknik Instalasi Tenaga Listrik (TITL), Desain Animasi, Multimedia, Teknologi Komputer Jaringan (TKJ);Jalur Test Tulis;893.5;Renewable Energy Engineer;8
+990;D3;Fisika;Jalur Prestasi;85.0;Control Systems Engineer;3
+991;D3;Statistika, Desain Animasi;Jalur Prestasi;88.0;Control Systems Engineer;3
+992;D4;Multimedia, Teknik Tenaga Listrik (TTL), Matematika, Elektronika;Jalur Tes Tulis;709.0;Automation Engineer;3
+993;D3;Teknologi Komputer Jaringan (TKJ), Teknik Tenaga Listrik (TTL);Jalur Tes Tulis;721.0;Electrical Engineer;1
+994;D3;Fisika;Jalur Test Tulis;880.4;Broadcast Engineer;7
+995;D3;Desain Grafis;Jalur Tes Tulis;739.0;Embedded Systems Engineer;1
+996;D3;Multimedia, Kimia, Teknologi Komputer Jaringan (TKJ), Desain Animasi;Jalur Prestasi;89.8;Broadcast Engineer;7
+997;D4;Elektronika, Fisika, Pemrograman;Jalur Prestasi;98.0;IT Support Specialist;6
+998;D4;Teknik Tenaga Listrik (TTL), Kimia, Teknologi Komputer Jaringan (TKJ);Jalur Tes Tulis;842.0;Machine Learning Engineer;12
+999;D4;Teknik Instalasi Tenaga Listrik (TITL), Pemrograman, Multimedia, Statistika;Jalur Test Tulis;857.2;3D Modeler;9
+1000;D4;Multimedia, Teknik Tenaga Listrik (TTL), Fisika;Jalur Prestasi;87.6;System Administrator;6
