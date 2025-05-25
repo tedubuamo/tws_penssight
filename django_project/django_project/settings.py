@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'PENSight_db',
         'USER': 'postgres',
-        'PASSWORD': 'bismillah',
+        'PASSWORD': 'ardiansyah29',
         'HOST': 'localhost',
         'PORT': '5432',
     }

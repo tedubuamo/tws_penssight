@@ -240,35 +240,62 @@
         });
 
         // Form validation
-    function validateForm() {
-        const nilai = parseFloat(document.getElementById('nilai').value);
-        const jalur = document.getElementById('jalurMasuk').value;
+        document.addEventListener('DOMContentLoaded', function () {
+            const nilaiInput = document.getElementById('nilai');
+            const jalurSelect = document.getElementById('jalurMasuk');
 
-        if (isNaN(nilai)) {
-            alert('Harap masukkan nilai yang valid!');
-            return false;
-        }
+            // Event listener ketika dropdown jalur berubah
+            jalurSelect.addEventListener('change', function () {
+            const jalur = this.value;
 
-        if (jalur === 'Jalur Prestasi') {
-            if (nilai < 80 || nilai > 100) {
+            if (jalur === 'Jalur Prestasi') {
+                nilaiInput.min = 80;
+                nilaiInput.max = 100;
+                nilaiInput.placeholder = 'Contoh: 88 (SNBP)';
+            } else if (jalur === 'Jalur Tes Tulis') {
+                nilaiInput.min = 400;
+                nilaiInput.max = 1000;
+                nilaiInput.placeholder = 'Contoh: 750 (SNBT)';
+            } else {
+                nilaiInput.min = 80;
+                nilaiInput.max = 1000;
+                nilaiInput.placeholder = 'Contoh: 88 / 750 (SIMANDIRI)';
+            }
+
+            // Reset nilai input agar sesuai dengan batas baru
+            nilaiInput.value = '';
+            });
+
+            // Fungsi validasi form
+            window.validateForm = function () {
+            const nilai = parseFloat(nilaiInput.value);
+            const jalur = jalurSelect.value;
+
+            if (isNaN(nilai)) {
+                alert('Harap masukkan nilai yang valid!');
+                return false;
+            }
+
+            if (jalur === 'Jalur Prestasi') {
+                if (nilai < 80 || nilai > 100) {
                 alert('Untuk jalur SNMPN, nilai harus antara 80 dan 100!');
                 return false;
-            }
-        } else if (jalur === 'Jalur Tes Tulis') {
-            if (nilai < 400 || nilai > 1000) {
+                }
+            } else if (jalur === 'Jalur Tes Tulis') {
+                if (nilai < 400 || nilai > 1000) {
                 alert('Untuk jalur SBMPN, nilai harus antara 400 dan 1000!');
                 return false;
-            }
-        } else {
-            // Validasi umum (missal SNMPTN/SBMPTN atau lainnya)
-            if (nilai < 80 || nilai > 1000) {
+                }
+            } else {
+                if (nilai < 80 || nilai > 1000) {
                 alert('Nilai harus antara 80 dan 1000!');
                 return false;
+                }
             }
-        }
 
-        return true;
-    }
+            return true;
+            };
+        });
 
         // Sidebar toggle
         function toggleSidebar() {
@@ -289,44 +316,44 @@
         }
     </script>
 
-<script>
-function kirimData() {
-    if (!validateForm()) {
-        return false; // Batalkan pengiriman jika validasi gagal
-    }
-    
-    const data = {
-        Jenjang_Pendidikan: document.getElementById("jenjangPendidikan").value,
-        Minat_dan_Bakat: Array.from(document.getElementById("minatBakat").selectedOptions).map(opt => opt.value),
-        Jalur_Pendaftaran_PENS: document.getElementById("jalurMasuk").value,
-        Rencana_Karir: document.getElementById("rencanaKarir").value,
-        Rata_rata_Nilai_Masuk_PENS: parseFloat(document.getElementById("nilai").value)
-    };
+    <script>
+        function kirimData() {
+            if (!validateForm()) {
+                return false; // Batalkan pengiriman jika validasi gagal
+            }
+            
+            const data = {
+                jenjang_pendidikan: document.getElementById("jenjangPendidikan").value,
+                minat_bakat: Array.from(document.getElementById("minatBakat").selectedOptions).map(opt => opt.value),
+                jalur_pendaftaran: document.getElementById("jalurMasuk").value,
+                rata_nilai: parseFloat(document.getElementById("nilai").value),
+                rencana_karir: document.getElementById("rencanaKarir").value
+            };
 
-    console.log(data);
+            console.log(data);
 
-    fetch("http://127.0.0.1:8000/api/rekomendasi_prodi", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(data)
-    })
-    .then(res => res.json())
-    .then(response => {
-        console.log("Hasil dari backend:", response);
-        // Simpan hasil ke localStorage
-        localStorage.setItem("hasilRekomendasi", JSON.stringify(response));
-        // Pindah ke halaman hasil
-        window.location.href = "/result_page/";
-    })
-    .catch(error => {
-        console.error("Error:", error);
-        alert("Terjadi kesalahan saat mengambil rekomendasi.");
-    });
+            fetch("http://127.0.0.1:8000/api/rekomendasi_prodi", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(data)
+            })
+            .then(res => res.json())
+            .then(response => {
+                console.log("Hasil dari backend:", response);
+                // Simpan hasil ke localStorage
+                localStorage.setItem("hasilRekomendasi", JSON.stringify(response));
+                // Pindah ke halaman hasil
+                window.location.href = "/result_page/";
+            })
+            .catch(error => {
+                console.error("Error:", error);
+                alert("Terjadi kesalahan saat mengambil rekomendasi.");
+            });
 
-    return false; // Mencegah reload form
-}
+            return false; // Mencegah reload form
+        }
 </script>
 
 

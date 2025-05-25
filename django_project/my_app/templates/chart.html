@@ -51,16 +51,7 @@
 
     <!-- Grafik -->
     <main class="max-w-5xl mx-auto w-full px-6 py-12">
-        <h2 class="text-2xl font-bold mb-4 text-center">Grafik Hasil Rekomendasi Program Studi</h2>
-
-        <div class="mb-6 flex justify-center items-center gap-4">
-            <label class="font-semibold">Filter Tanggal:</label>
-            <input type="number" id="day" placeholder="Hari" min="1" max="31" class="w-24 px-2 py-1 border border-blue-300 rounded">
-            <input type="number" id="month" placeholder="Bulan" min="1" max="12" class="w-24 px-2 py-1 border border-blue-300 rounded">
-            <input type="number" id="year" placeholder="Tahun" min="2000" max="2100" class="w-32 px-2 py-1 border border-blue-300 rounded">
-            <button onclick="filterByDate()" class="ml-2 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">Terapkan</button>
-        </div>
-
+        <h2 class="text-2xl font-bold mb-6 text-center">Grafik Hasil Rekomendasi Program Studi</h2>
         <canvas id="barChart" height="400"></canvas>
     </main>
 
@@ -76,7 +67,6 @@
     }
 
     const ctx = document.getElementById('barChart').getContext('2d');
-
     let barChart = new Chart(ctx, {
         type: 'bar',
         data: {
@@ -103,9 +93,7 @@
                 },
                 y: {
                     title: { display: true, text: 'Program Studi' }
-                        },
-                    // barPercentage: 0.8,
-                    // categoryPercentage: 0.9
+                }
             }
         }
     });
@@ -118,47 +106,23 @@
         return Array.from({ length: count }, (_, i) => palette[i % palette.length]);
     }
 
-    function filterByDate() {
-        const day = document.getElementById("day").value.padStart(2, '0');
-        const month = document.getElementById("month").value.padStart(2, '0');
-        const year = document.getElementById("year").value;
+    // Ambil semua data dari API
+    fetch("http://127.0.0.1:8000/api/grafik_rekomendasi")
+        .then(response => response.json())
+        .then(result => {
+            const labels = Object.keys(result);
+            const data = Object.values(result);
+            const colors = generateColors(labels.length);
 
-        if (!day || !month || !year) {
-            alert("Harap isi semua kolom tanggal.");
-            return;
-        }
-
-        const url = `http://127.0.0.1:8000/api/grafik_rekomendasi?day=${day}&month=${month}&year=${year}`;
-
-        fetch(url)
-            .then(response => {
-                return response.text();
-            })
-            .then(text => {
-                console.log("Raw response:", text); 
-                const result = JSON.parse(text); 
-                const dateKey = `${year}-${month}-${day}`;
-                const rekomendasiData = result[dateKey]; 
-
-                if (!rekomendasiData || Object.keys(rekomendasiData).length === 0) {
-                    alert("Data tidak ditemukan untuk tanggal tersebut.");
-                    return;
-                }
-
-                const labels = Object.keys(rekomendasiData);
-                const data = Object.values(rekomendasiData);
-                const colors = generateColors(labels.length);
-
-                barChart.data.labels = labels;
-                barChart.data.datasets[0].data = data;
-                barChart.data.datasets[0].backgroundColor = colors;
-                barChart.update();
-            })
-            .catch(error => {
-                console.error("Gagal mengambil data:", error);
-                alert("Terjadi kesalahan saat mengambil data.");
-            });
-    }
+            barChart.data.labels = labels;
+            barChart.data.datasets[0].data = data;
+            barChart.data.datasets[0].backgroundColor = colors;
+            barChart.update();
+        })
+        .catch(error => {
+            console.error("Gagal mengambil data:", error);
+            alert("Terjadi kesalahan saat mengambil data.");
+        });
 </script>
 
 </body>

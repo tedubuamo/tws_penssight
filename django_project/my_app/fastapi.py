@@ -25,11 +25,11 @@ metadata_path = os.path.join(BASE_DIR, "metadata.pkl")
 
 # Skema input
 class InputData(BaseModel):
-    Jenjang_Pendidikan: str
-    Minat_dan_Bakat: list[str]
-    Jalur_Pendaftaran_PENS: str
-    Rencana_Karir: str
-    Rata_rata_Nilai_Masuk_PENS: float
+    jenjang_pendidikan: str
+    minat_bakat: list[str]
+    jalur_pendaftaran: str
+    rata_nilai: float
+    rencana_karir: str
 
 rekomendasi_cache = {}
 
@@ -42,19 +42,15 @@ async def rekomendasi(data_user: InputData):
 
         minat_bakat_columns = metadata['minat_bakat_columns']
         X_columns = metadata['X_columns']
-        reverse_mapping = metadata['reverse_mapping']
 
         # Buat DataFrame dari input
         data_df = pd.DataFrame([{
-            'jalur_pendaftaran': data_user.Jalur_Pendaftaran_PENS,
-            'jenjang_pendidikan': data_user.Jenjang_Pendidikan,
-            'minat_bakat': ', '.join(data_user.Minat_dan_Bakat or []),
-            'rata_nilai': data_user.Rata_rata_Nilai_Masuk_PENS,
-            'rencana_karir': data_user.Rencana_Karir
+            'jalur_pendaftaran': data_user.jalur_pendaftaran,
+            'jenjang_pendidikan': data_user.jenjang_pendidikan,
+            'minat_bakat': ', '.join(data_user.minat_bakat or []),
+            'rata_nilai': data_user.rata_nilai,
+            'rencana_karir': data_user.rencana_karir,
         }])
-
-        # Cegah error jika minat kosong
-        data_df['minat_bakat'] = data_df['minat_bakat'].fillna('')
 
         # Proses minat dan bakat (one-hot encoding)
         minat_bakat_dummies = data_df['minat_bakat'].str.get_dummies(sep=', ')
@@ -69,33 +65,24 @@ async def rekomendasi(data_user: InputData):
         data_baru_final = data_baru_final.reindex(columns=X_columns, fill_value=0)
 
         # Prediksi
-        prediksi = model.predict(data_baru_final)[0]
-
-        # Tentukan hasil prediksi akhir dalam bentuk nama prodi
-        if isinstance(prediksi, str):
-            hasil = prediksi  # model sudah hasilkan nama prodi
-        elif isinstance(prediksi, (int, float)):
-            hasil = reverse_mapping.get(prediksi, "Tidak Diketahui")
-        else:
-            raise ValueError("Hasil prediksi model tidak valid (bukan numerik atau string)")
-
-        prodi = data_user.Jenjang_Pendidikan
+        hasil_prediksi = model.predict(data_baru_final)[0]
+        logging.info(f"Hasil prediksi model: {hasil_prediksi}")
 
         # Cache jika dibutuhkan
-        rekomendasi_cache["hasil"], rekomendasi_cache["prodi"] = hasil, prodi
-
+        rekomendasi_cache["hasil"], rekomendasi_cache["prodi"] = hasil_prediksi, data_user.jenjang_pendidikan
+        logging.info(f"hasil_rekomendasi:{rekomendasi_cache}")
         # Simpan ke database
         await sync_to_async(History_Rekomendasi.objects.create)(
-            jenjang_pendidikan=data_user.Jenjang_Pendidikan,
-            minat_dan_bakat=', '.join(data_user.Minat_dan_Bakat or []),
-            jalur_pendaftaran_pens=data_user.Jalur_Pendaftaran_PENS,
-            rencana_karir=data_user.Rencana_Karir,
-            rata_rata_nilai_masuk_pens=data_user.Rata_rata_Nilai_Masuk_PENS,
-            hasil_rekomendasi=hasil,
+            jenjang_pendidikan=data_user.jenjang_pendidikan,
+            minat_dan_bakat=', '.join(data_user.minat_bakat or []),
+            jalur_pendaftaran=data_user.jalur_pendaftaran,
+            rencana_karir=data_user.rencana_karir,
+            rata_rata_nilai_masuk_pens=data_user.rata_nilai,
+            hasil_rekomendasi=hasil_prediksi,
             tanggal=date.today()
         )
 
-        return {"Program Studi": hasil, "Jenjang Pendidikan": prodi}
+        return {"Program Studi": hasil_prediksi, "Jenjang Pendidikan": data_user.jenjang_pendidikan}
 
     except Exception as e:
         logging.error(f"Terjadi error saat prediksi program studi: {e}")
@@ -109,8 +96,9 @@ async def rekomendasi(data_user: InputData):
 async def hasil():
     hasil_prodi = rekomendasi_cache.get("hasil")
     hasil_jenjang = rekomendasi_cache.get("prodi")
-    prodi = await sync_to_async(InfoProdi.objects.get)(prodi=hasil_prodi)
-    matkul = await sync_to_async(Matkul.objects.get)(id=prodi.id_prodi)
+    prodi = await sync_to_async(InfoProdi.objects.get)(prodi__iexact=hasil_prodi)
+    logging.info(f"Hasil Prodi: {prodi}")
+    matkul = await sync_to_async(Matkul.objects.get)(id_prodi=prodi.id_prodi)
 
     # Define each variable
     nama_prodi = prodi.prodi
@@ -163,25 +151,13 @@ async def hasil():
         }
 
 @app.get("/grafik_rekomendasi")
-async def grafik(day: Optional[str] = Query(None), month: Optional[str] = Query(None), year: Optional[str] = Query(None)):
+async def grafik():
     queryset = await sync_to_async(list)(History_Rekomendasi.objects.values())
 
-    # Filter berdasarkan tanggal jika diberikan
-    if day and month and year:
-        try:
-            filter_date = f"{year.zfill(4)}-{month.zfill(2)}-{day.zfill(2)}"
-            queryset = [item for item in queryset if item['tanggal'].strftime('%Y-%m-%d') == filter_date]
-        except Exception as e:
-            return {"error": f"Format tanggal tidak valid: {e}"}
-
-    # Buat struktur {"2025-05-19": {"Sains Data Terapan": 2}, ...}
-    result = defaultdict(lambda: defaultdict(int))
+    # Hitung jumlah masing-masing hasil rekomendasi
+    result = defaultdict(int)
     for item in queryset:
-        tanggal_str = item['tanggal'].strftime('%Y-%m-%d')  # Ubah objek tanggal ke string
-        rekomendasi = item['hasil_rekomendasi']
-        result[tanggal_str][rekomendasi] += 1
+        hasil = item['hasil_rekomendasi']
+        result[hasil] += 1
 
-    # Konversi nested defaultdict ke dict biasa agar bisa diubah jadi JSON
-    final_result = {tanggal: dict(rekom) for tanggal, rekom in result.items()}
-
-    return final_result
+    return dict(result)
